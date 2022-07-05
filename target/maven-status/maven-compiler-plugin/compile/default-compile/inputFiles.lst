@@ -1,0 +1,11 @@
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/BookFlightResponse.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/ConnectionInfo.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/DateAdapter.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/bean/FlightCustomerInfo.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/processor/CreateFlightCustomerGetListRequest.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/FlightInfo.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/ConnectionInfoTable.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/BookFlightRequest.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/route/SapRoute.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/processor/ReturnFlightCustomerInfo.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/Application.java

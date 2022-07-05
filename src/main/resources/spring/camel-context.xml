@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring       https://camel.apache.org/schema/spring/camel-spring-2.23.3.xsd">
+    <bean
+        class="org.fusesource.camel.component.sap.SapConnectionConfiguration" id="sap-configuration">
+        <property name="destinationDataStore">
+            <map>
+                <entry key="quickDestination">
+                    <bean class="org.fusesource.camel.component.sap.model.rfc.impl.DestinationDataImpl">
+                        <property name="ashost" value="192.168.117.167"/>
+                        <property name="authType" value="CONFIGURED_USER"/>
+                        <property name="client" value="300"/>
+                        <property name="denyInitialPassword" value="0"/>
+                        <property name="lang" value="IT"/>
+                        <property name="passwd" value="Andreiiz93"/>
+                        <property name="password" value="Andreiiz93"/>
+                        <property name="pingOnCreate" value="false"/>
+                        <property name="poolCapacity" value="1"/>
+                        <property name="sysnr" value="11"/>
+                        <property name="userName" value="ADASKA"/>
+                        <property name="user" value="ADASKA"/>
+                    </bean>
+                </entry>
+            </map>
+        </property>
+        <property name="serverDataStore">
+            <map/>
+        </property>
+    </bean>
+    <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring"/>
+</beans>

@@ -1,0 +1,2621 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.6.4
+Implementation-Title: com.sap.conn.jco
+Implementation-Version: 20220520 2359 [3.1.6 (2022-05-18)]
+Specification-Vendor: SAP SE, Walldorf
+Specification-Title: SAP Java Connector v3
+Implementation-Vendor-Id: com.sap
+Created-By: 8.1.002 25.11-b02 (SAP AG)
+Specification-Version: 3.1.6
+Implementation-Vendor: SAP SE, Walldorf
+Main-Class: com.sap.conn.jco.About
+
+Name: com/sap/conn/rfc/engine/cbrfc/receiveStream/CbRfcReceiveStream.c
+ lass
+SHA-256-Digest: zQjFbEDULCvt1nfcJ295WhK5F3h2retKW3SxVmujYvE=
+
+Name: com/sap/conn/jco/rt/AbapFunctionUnit.class
+SHA-256-Digest: F+ZhB9oFn7cwej7yh8FMQAhV8HFbZpYEwrqZD0+NZJ4=
+
+Name: com/sap/i18n/decfloat/DecFloatType.class
+SHA-256-Digest: M0vzXXkekp6xyG/hopoXzfzPN1NdP/N6Fp697pNh2dA=
+
+Name: com/sap/tc/logging/EventDispatcher.class
+SHA-256-Digest: +7xoaa+lU14s+hbNtFVGx++ajsf78Usli6qZylxbxFI=
+
+Name: com/sap/conn/rfc/engine/cbrfc/serialize/CbRfcTypeWriter.class
+SHA-256-Digest: dPaButuljz8I0cSvK/s5HWSQRt0I1xXKiI/8/SJtmAo=
+
+Name: com/sap/tc/logging/exceptions/DataException.class
+SHA-256-Digest: UWmsgSTKeRJbWk4TZp6ku6s32H1QTFFKztjXBgDeOQY=
+
+Name: com/sap/conn/jco/rt/DefaultRequest.class
+SHA-256-Digest: sb+vehEUK2sBgr2DgXCGX5wWAEbiNPhcJi0KjPkCTPA=
+
+Name: com/sap/conn/jco/rt/json/JSonFunctionTemplateReader$Direction.cl
+ ass
+SHA-256-Digest: lrsNZ5VKxaEPIazgCApB0IeL6nmU2aRSK6WKTpxip3w=
+
+Name: com/sap/tc/logging/reader/FileReadFilter.class
+SHA-256-Digest: QOlygM3Wag/CLGaf5aQr3zqN+jujdguW5m4voGZPbn8=
+
+Name: com/sap/conn/rfc/engine/RfcGetData_Input.class
+SHA-256-Digest: KWy7wophToamDGp8WsashCRD+E3PT47ayIsVNHKzGMs=
+
+Name: com/sap/conn/jco/ext/ServerPassportManager.class
+SHA-256-Digest: Lg8mrfKNQ4HBOlGLn0XFGXy9Z5Pnz44xzu2qOCNJAKQ=
+
+Name: com/sap/conn/jco/server/DefaultServerHandlerFactory.class
+SHA-256-Digest: Z5qUrRYycCnOYxwYBlzT7QW5q4I0sLid6q6KAmjvZV8=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker$CallbackHandlerImpl.cla
+ ss
+SHA-256-Digest: mAeQQDtHIh3IRxZQ0jNT5MR1XWxBaaALM0ml+LKi73Q=
+
+Name: com/sap/conn/jco/rt/WebSocketServerManager$WebSocketServerFactor
+ y.class
+SHA-256-Digest: vIfCAjZNznLQMl71pyANvYp1HQ5hqGpwcpzcCLf11u4=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcTypeReader.class
+SHA-256-Digest: LwZED2u22GzgX9ve90je9SVHw6gsiSoK5oiZ8JrWLho=
+
+Name: com/sap/conn/jco/rt/DestinationBack.class
+SHA-256-Digest: RUzrArhSuQy6dSMnvv4Q0RTRPb3PulBUbkchIIqPFHE=
+
+Name: com/sap/conn/jco/support/SimpleDataProviderImpl.class
+SHA-256-Digest: dfJMUcLaczhLS0rSHqAzBjPG+sXactHL8fk1H6J/KpI=
+
+Name: com/sap/conn/rfc/engine/RfcCall.class
+SHA-256-Digest: oT9qlWgnmwM7YqK80mc2hno+bLrQWKnBu4L1gc3orkw=
+
+Name: com/sap/conn/rfc/engine/cbrfc/receiveStream/CbRfcMetaData$CbRfcC
+ olumnMetaData.class
+SHA-256-Digest: 2Viuh5svJtmz0zGUwWFANflVQU2x3TI78SttWjLxiwI=
+
+Name: com/sap/conn/jco/util/AboutDialog$Picture.class
+SHA-256-Digest: VHusmbYWed6IjKMRYlybDnyaH3XkxYaQp+fLkbO4Jrc=
+
+Name: com/sap/conn/jco/rt/AbstractServerConnection$DispatchException.c
+ lass
+SHA-256-Digest: NEiXvmJykr12vwM4/D0D6yEgNQSgzf31Bq802hYwbjc=
+
+Name: com/sap/conn/rfc/api/RfcRegisterInfo.class
+SHA-256-Digest: sHaK+8D5CnktG99EnZ3Km7L7Ktzi9S9Ikilghz+1Gb8=
+
+Name: com/sap/conn/rfc/sysfunc/RfcDocu.class
+SHA-256-Digest: WLUmvtQf1PzAhCNdHA2/valudqOV6dr0WGFtf1V0V4I=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$PCTokenType.class
+SHA-256-Digest: tKN0Zr4gsYYtjzzi+zx4o97jhLJSo1qvHkUywIHhg4k=
+
+Name: com/sap/conn/jco/JCoClassMetaData.class
+SHA-256-Digest: OOt9/XTpQUERjSCCj8vER2wPHWaPEKc9lJxDc3yo+Qk=
+
+Name: com/sap/conn/rfc/engine/cbrfc/CbRfcException.class
+SHA-256-Digest: yiYI1nq1VsPu/uCjVAy1RmdB6G9rP/Q+Yuhi+3UMFiE=
+
+Name: com/sap/tc/logging/Token.class
+SHA-256-Digest: aVWm7W/MdztZTsRKlJ8Nsil3amsD65HqpBTcDbldeoE=
+
+Name: com/sap/tc/logging/ListFormatter.class
+SHA-256-Digest: 7NldkKIZ3ybpq5OMMh2pv03tNdyk/5Z26pY12C7/1ps=
+
+Name: com/sap/conn/rfc/engine/cbrfc/serialize/CbRfcSerializerColumnBas
+ e.class
+SHA-256-Digest: 6izqHgGbluY6bSe1wzmJv7saykWoBpjRJIzdqxrQ6YQ=
+
+Name: com/sap/i18n/decfloat/DecFloat.class
+SHA-256-Digest: E6iQIWNSk3ywvMXlOiWxd4MA06D6KqUqKcBzlfANypA=
+
+Name: com/sap/conn/jco/rt/ClientConnectionConstants.class
+SHA-256-Digest: 6bCaEXnzHtwSDoTPW0+oiCBF3aczluRGJj5NJjjyCqE=
+
+Name: com/sap/conn/jco/rt/IFactoryServerManager.class
+SHA-256-Digest: gcn0Xofz1HxOFmsPrQ5PRfLFFG47EA3dzJX6wJaX7Js=
+
+Name: com/sap/conn/jco/support/JRfcTest$1.class
+SHA-256-Digest: pyyfeBAhDm9G/2PFUJ3WImmEx2OSnAMcN+XgXMA4v2k=
+
+Name: com/sap/conn/jco/util/BasXMLTokens.class
+SHA-256-Digest: yYUbqg6kZIgbny83TbKjVkG3dXbjKK95DpXvba4fYRk=
+
+Name: com/sap/tc/logging/OverwriteLogfileEvent.class
+SHA-256-Digest: HygAu6y50XK+Mh2hRMO0YH/wSoJ8RA2/tLafg4113Sk=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$FormatterEntry.class
+SHA-256-Digest: nnVUhfOYCz6lXKGGyMaPdM8HnNSzY6Z8y/PbfKpvwWw=
+
+Name: com/sap/conn/jco/JCoRequest.class
+SHA-256-Digest: 2le3q9jOllVvIOIiWnvA4yXppA/gg4daeNPzD9weie8=
+
+Name: com/sap/conn/rfc/exceptions/RfcGetException.class
+SHA-256-Digest: sYSK0oNS5qYe4rSEImH9n2ObGrxFBZ1e+QrzHJjTJbk=
+
+Name: com/sap/conn/jco/support/RepoUtil.class
+SHA-256-Digest: r5uivskvIOFU84lyTZayiqr9rKcaPWjxpYLw8/wUrCs=
+
+Name: com/sap/conn/jco/rt/DefaultJCoRuntime$OS.class
+SHA-256-Digest: ZLw0M96U/K6sgV4bEWu5idJV/vtsJQCpTPxaKKPNVcQ=
+
+Name: com/sap/conn/jco/session/JCoConnectionState.class
+SHA-256-Digest: SYEWRsOlELes7uy/Xa7EgyH5B+n9zdKhsPuAvaxp62s=
+
+Name: com/sap/conn/jco/rt/GatewayEntry.class
+SHA-256-Digest: w+aknbc693QssW8+fXdLN0gGCh+JJIMgh5fFbNf6PmU=
+
+Name: com/sap/conn/jco/util/Jarm$1.class
+SHA-256-Digest: lPxDeuGb1VxurJlzBO6UtX7RQ7dXjTQUIeu7GRxQ540=
+
+Name: com/sap/conn/jco/util/UtcTypes$Cday.class
+SHA-256-Digest: SVNHkUy7a7N1WJLpD1pa9mPAZK2qEPVKZ0rHX1ViuqA=
+
+Name: com/sap/conn/rfc/engine/BgRfcRecorderInfo.class
+SHA-256-Digest: X5R0rbrzngO2FhfWk8M8XtPEbNZ9pahM21UTb8Xhag4=
+
+Name: com/sap/conn/jco/rt/Obfuscator$MAP.class
+SHA-256-Digest: 6DBI1/E9bYoL/mbvaP9cvydaURrK98hUDmX6YOTAyUU=
+
+Name: com/sap/conn/jco/rt/Obfuscator$1.class
+SHA-256-Digest: 1URSJlq1H2i+ykhAG0c3M0tFg0ve7BQP44uy1C1EWtU=
+
+Name: com/sap/tc/logging/SimpleLogger.class
+SHA-256-Digest: smyq0wXO3ceOTmNlU2ruG4yTV1sd+6OgvFgCJxvCl6c=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$SeverityAttr.class
+SHA-256-Digest: YhdcacKij2bEGGSuX7XBlz+rWToEf2GGfO5ziROn0ec=
+
+Name: com/sap/conn/jco/rt/json/JSonParameterListMetaDataWriter.class
+SHA-256-Digest: WT5HqaKKpEWwZKat4InJbpXtBiN76VQhsLT0j+4ZWBQ=
+
+Name: com/sap/conn/jco/rt/ComplexStructureParameter.class
+SHA-256-Digest: QQB+YhjqWadlo+zi8ftK1lbalsyir4ctzCJ/wFlJ/cs=
+
+Name: com/sap/conn/rfc/engine/BgRfcUnit$1.class
+SHA-256-Digest: APbTd94T2w+jVrjBZOw07Nzkfq+w4Q0RDsF6P+08mtg=
+
+Name: com/sap/conn/jco/rt/json/CacheIterator.class
+SHA-256-Digest: 3hoUYu0vTkPpqE4IagOs+cdvaTdfgQg4U0TiAXk2DwI=
+
+Name: com/sap/conn/rfc/data/ARfcSDataHeader.class
+SHA-256-Digest: vp+CKYiVA6g1tMly0TtokY4nGmvCHn19C9YvWZOPoeI=
+
+Name: com/sap/conn/jco/rt/StructureParameter.class
+SHA-256-Digest: Kt9it6oz470afDS6mxCROrAYPMolYAhFE02UuVAP62M=
+
+Name: com/sap/conn/jco/rt/json/RecordCacheIterator.class
+SHA-256-Digest: 42RzUDFakkjNg9B1BDGsqpMiwy2/xg8N/icnttcy0MI=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$Element.class
+SHA-256-Digest: lrhN5ySs3Gu3SR8utkVYbLlW/GdXMKJdT5qV0QdN6nM=
+
+Name: com/sap/conn/rfc/driver/security/TrustAllTrustManager.class
+SHA-256-Digest: 8mTpeSNU4uB+bNFSN85hZJfzBGtbGDfCmYr1FSLjnoQ=
+
+Name: com/sap/tc/logging/FileLogSet.class
+SHA-256-Digest: TtNVPFiEL2eGaFzV1Z0N+B4aTNwOuv0rhfDa/xov/uc=
+
+Name: com/sap/tc/logging/LogController.class
+SHA-256-Digest: kDBRKG27gBQlEcCTwh5Xf4WBpDSU2pGm/QV3hvB7i0Q=
+
+Name: com/sap/conn/jco/rt/DestinationState$1.class
+SHA-256-Digest: qGK2cQIPh5RoeCOgt4+B/nKZLD7ebqiaqbWygyaUbmE=
+
+Name: com/sap/conn/jco/ext/SessionReferenceProvider.class
+SHA-256-Digest: /pZUzKjJfknDp/sB4R5GoH/EqxJNS/EiI0dOYosCjZU=
+
+Name: com/sap/conn/jco/ext/PasswordChangeHandler.class
+SHA-256-Digest: xq3KBja9GQ1cX5p+bVT7YnMjgG3LcgbH2NdbPMqpKRE=
+
+Name: com/sap/conn/jco/rt/RfcCustomizedDestination.class
+SHA-256-Digest: L6qAvkQVjfnnmzLIrYZNbiwJD3+ADUt46WLvRcp5Dnw=
+
+Name: com/sap/conn/jco/rt/json/JSonContainerReader.class
+SHA-256-Digest: Uo52VpUHfGLHoQj7oNjFCBl7yOuTTs3Iuc1uTtQwnfY=
+
+Name: com/sap/conn/rfc/engine/cbrfc/receiveStream/CbRfcMetaData.class
+SHA-256-Digest: tVSN+7zromOosimGpo2mspmk6bF7cBj2AUZSpiIqD58=
+
+Name: com/sap/tc/logging/interfaces/IClassLoadRuntimeInfoProvider.clas
+ s
+SHA-256-Digest: EUdCkivvueTGhb379oMafDWboH3Avv3Pgg5NhwRXifw=
+
+Name: com/sap/conn/jco/rt/CPICServerManager$CPICServerFactory.class
+SHA-256-Digest: NyEdW1GnsyNOLxOGUMfgXBHVOqkRjmQu1OlqdVEumbs=
+
+Name: com/sap/conn/rfc/sysfunc/RfcPing.class
+SHA-256-Digest: QqwSkLnOceQgTKjpo0xXfTWc4X3Gtvji47VhPX9o1tY=
+
+Name: com/sap/conn/jco/rt/DefaultAbapObject.class
+SHA-256-Digest: 4U26AX2b7ViPBg3Fx8qJAToEoZ7nWtqgCVjQ2xz0m4c=
+
+Name: com/sap/conn/rfc/data/RFCSI.class
+SHA-256-Digest: a8YHLSP6r/Y6BoVuyv5MItcUaowrzqfUIdRyqCsveVk=
+
+Name: com/sap/conn/rfc/driver/security/SSLContextProvider.class
+SHA-256-Digest: pw+KzeKCbA7x2hMz9L+XEH9PlspmtWYkqTd2xE1D49E=
+
+Name: com/sap/conn/jco/rt/TableParameter.class
+SHA-256-Digest: FMS9JBKwDZHlFHf1PF7usxTrOYQ0VAPQlwjsCeJUeX4=
+
+Name: com/sap/conn/rfc/exceptions/RfcRc.class
+SHA-256-Digest: D9Lh4TfVuBK9Mr23IdFbW6VbD2NTbita2mnRKvIQn2M=
+
+Name: com/sap/conn/jco/rt/AutoJobRunner$AutoJob.class
+SHA-256-Digest: 4s24JCdJpee5llGL6TzgptRW1iG2yt+o09u40tx00o8=
+
+Name: com/sap/i18n/cp/ConvertCToSystemCp.class
+SHA-256-Digest: 6qApK/IHXlMgoHdr4krNiGtb4Tw7mEAf0nMDhW8DN4s=
+
+Name: com/sap/conn/jco/util/UtcTypes$UtcSecond.class
+SHA-256-Digest: KLfeV35gbdwMGRL3V739d5GnarGR0mfVpUgfl0mFJRg=
+
+Name: com/sap/conn/rfc/engine/cbrfc/serialize/CbRfcSerializerColumn.cl
+ ass
+SHA-256-Digest: X2I9pedZ03+HQrHkdhEcsgHwgKhCoyHXLyy7z3Lu3OA=
+
+Name: com/sap/tc/logging/LogRecord.class
+SHA-256-Digest: vAwJEwivXB79wMBBWuc0eo9FHfNwIUIZ/iODbncQQkA=
+
+Name: com/sap/conn/jco/rt/AbstractServer$1.class
+SHA-256-Digest: Dk1v1XaErs0eNuJDKgClHXAh+WAAJDPVkOch086cDq0=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker$BgRfcCallContext.class
+SHA-256-Digest: IT9Z81Nx8Wixv9JfYQKjyIyYNEyuFg2BvsQy85x5Ke4=
+
+Name: com/sap/conn/rfc/api/RfcAccessInfo.class
+SHA-256-Digest: L3rJfw+2QCYmgNOrwb3/Cwq7hrV3o/S3cZmTeO+Ocm0=
+
+Name: com/sap/tc/logging/tools/monitor/ConfigurationMonitorServlet.cla
+ ss
+SHA-256-Digest: 0htOOYMr8B9Hcto1RVmrJHesUHJFKeBACXc0AkbdK3Q=
+
+Name: com/sap/conn/jco/rt/Converter.class
+SHA-256-Digest: qSscMZMe4tLyECz3Xb0bpESJM1Kb8sMcEmpGRMm1jic=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcDataDecompressionB
+ ase.class
+SHA-256-Digest: y+xsJdTQfqUpGnJb5vaiqOS2MuLrcK2co5Pa1rRxvLI=
+
+Name: com/sap/conn/jco/XMLParserException.class
+SHA-256-Digest: a+zqsclmjrVsk/nTcrKAwFHnDxX8OcNjXt0Ao29laoA=
+
+Name: com/sap/tc/logging/exceptions/FileCloseException.class
+SHA-256-Digest: ss5CamzGAzpO8PpjKJsFxLO7VBWnOuUZ8UeTfp8vkrI=
+
+Name: com/sap/conn/jco/rt/json/RepWriter.class
+SHA-256-Digest: u6wE9eA4mNJ7NL2iI4eyEkubFLJhZp2m77NH+q+60J0=
+
+Name: com/sap/conn/jco/rt/StaticFunctionTemplates.class
+SHA-256-Digest: jG6DTeJS+oWE0Yhfuuh95zz1rqGzSCrchiSNCqGZZC0=
+
+Name: com/sap/conn/jco/JCoMetaData.class
+SHA-256-Digest: rl3D5+pgi52YwB4awZ6UOmYTPG76idyvMPn/sHlTEu8=
+
+Name: com/sap/conn/jco/JCoFieldIterator.class
+SHA-256-Digest: LZa5Wjf06cBE3zswYYlHm/ohnCbsibzxVH0T1QDDGHw=
+
+Name: com/sap/conn/jco/server/JCoServerRequestHandler.class
+SHA-256-Digest: TIMdOhOY2yMflqca0au2HgN8gcVPliZ31dw2knA6z+E=
+
+Name: com/sap/tc/logging/RemoveLogListener.class
+SHA-256-Digest: PyicYSMbdGJcl2lyW7V7yEeMQOeTs0x8urYJ6Pf/nyM=
+
+Name: com/sap/conn/rfc/exceptions/RfcInvalidConfigurationException.cla
+ ss
+SHA-256-Digest: DTI8z8FJQ9BMkW3vj78FFAVjgujuInCvR3TT/3vUaBg=
+
+Name: com/sap/conn/jco/rt/json/JSonStructureReader.class
+SHA-256-Digest: lqw0NKTjarMJekCKvD31sR1dsteV80rPYD1JOQ5gbJQ=
+
+Name: com/sap/conn/jco/ms/JCoApplicationServer.class
+SHA-256-Digest: 5fwO7IFkpSwdFMGddfriehIBxz0SCID9+dZtEIAAJOE=
+
+Name: com/sap/i18n/decfloat/DPDTable.class
+SHA-256-Digest: ENJUoN8s/KNKzmsByIpcd4PRyevzYvc2kMhTy9WhxvQ=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$RefKey.class
+SHA-256-Digest: 1LYcvmBgD2F6xbzv0iUOJ8bHZwPV1ehFoL83+/t237g=
+
+Name: com/sap/conn/jco/rt/CPICServerManager$ServerController.class
+SHA-256-Digest: 6mYzCpbmIzczQkzLzNKRxWBo/JUdDgX0JliHxXPTNF8=
+
+Name: com/sap/conn/jco/server/DefaultServerHandlerFactory$FunctionHand
+ lerFactory.class
+SHA-256-Digest: gfsP5ul3cm469o90j7qJ6rFI4WnHJVNWYCmYUf6ms3s=
+
+Name: com/sap/conn/jco/AbapClassException$Mode.class
+SHA-256-Digest: +BS9PTq6j6NOZ15KMCMNhFmbE75s/f7UK2g1l31OJdE=
+
+Name: com/sap/conn/rfc/driver/RfcDriverState.class
+SHA-256-Digest: LLtLBiRBD0ypKFHEH9ZLgcGPDuCROqg+/pz185JCJQQ=
+
+Name: com/sap/tc/logging/interfaces/ISATChecker.class
+SHA-256-Digest: i2RXl89aqqJ87kBtQ84AZBYEMw4UEfeT1JgWyJEtZ64=
+
+Name: com/sap/conn/jco/rt/AbapFunctionTemplate.class
+SHA-256-Digest: qumqEYI7n4R3EA+0KxRWiJGscxwasbzzF99W9oeb0a8=
+
+Name: com/sap/conn/rfc/engine/RfcTraceWriter.class
+SHA-256-Digest: pD76JJZ4GPS56TaXjjOcvVyHEVVIagwyUUei1bWUWos=
+
+Name: com/sap/conn/jco/util/UtcTypes$DtMonth.class
+SHA-256-Digest: iXxdcNyzg4KZoWo5hnyJqPbu/RtcWTUAoRAW51k/LpI=
+
+Name: com/sap/conn/jco/JCoRemoteContext.class
+SHA-256-Digest: TiiN3fG+rJOIizT/49PD85k0QBGySr6idEY9PmQLxd4=
+
+Name: com/sap/conn/jco/util/Dsr.class
+SHA-256-Digest: bNbCWcr3GXixyiIVjAgX08+oBGkt3ADl3U017KCmtJ8=
+
+Name: com/sap/conn/jco/util/AboutDialog.class
+SHA-256-Digest: H9PYCOVc6ie0yPZywpaNYOymfCMKx+OPawfST8Kligw=
+
+Name: com/sap/i18n/cp/ConvertCToSystemCpTImpl.class
+SHA-256-Digest: UTk0j4T0b3JXRugRtmYMxboa7aSwGarXpftJekov69g=
+
+Name: com/sap/conn/jco/util/AboutDialog$1WindowHandler.class
+SHA-256-Digest: 9FKSGwgiiQOjrNDv642utChYMon9QHjvlIlRzeml9/M=
+
+Name: com/sap/conn/rfc/engine/DefaultRfcTraceWriter$TraceWriterFactory
+ .class
+SHA-256-Digest: JptP9cxNELYz+TsQoMb0tlmqmXBTloip+sRbHex/nq8=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$CustomClassVal.class
+SHA-256-Digest: xInJE0/zcMxLL90K/N4i0edZ2VL5B7i+gSv45T4PBhM=
+
+Name: com/sap/conn/jco/server/JCoServerAuthenticationData.class
+SHA-256-Digest: bEbyW9vWGcr7vTLACKBt4+DHda63BGVY/6mSj0eGOEU=
+
+Name: com/sap/conn/jco/ms/JCoMessageServer.class
+SHA-256-Digest: myKnMX6rdK4gBOrCt+DMIO871hpD3LmJHGQbhCMjcYM=
+
+Name: com/sap/i18n/cp/ConvertSimpleBase.class
+SHA-256-Digest: llMab6Hv25m6l+vSAbqecPBQ5+p04JhsnGniw5YWJa4=
+
+Name: com/sap/tc/logging/MessageBuilder.class
+SHA-256-Digest: FRAPPJ3Ysu5AOjfNbPB6+K7DwfA8dqnCTE5mYZc7oRc=
+
+Name: com/sap/tc/logging/FileLog$1mkdirsAction.class
+SHA-256-Digest: opECnct2Z/q7XY4JZB+I6qgzDviSPGwYPfJBV/1y8zU=
+
+Name: com/sap/tc/logging/reader/ReadableLog$LogEventsListener.class
+SHA-256-Digest: oT9aieGt/1k1m1Nw6/ZAThV8tWqGmi6mnCtFZHg4p94=
+
+Name: com/sap/conn/jco/rt/AbstractRecord$3.class
+SHA-256-Digest: 1B2DouezmwSGoqrqunsKALuTXW6CqHPcdxYfJewcZV0=
+
+Name: com/sap/tc/logging/tools/lv/LV.class
+SHA-256-Digest: GD1f+6xZk8j0qm/QRVW47dmNtQ0WmGeLuPccECdE6HQ=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcNoDecompressionCre
+ ator.class
+SHA-256-Digest: L2zO8mHsF/Kh08QJ9+lLrE8h7bC/4yhjxsywEy5WPVE=
+
+Name: com/sap/conn/jco/rt/WebSocketServer.class
+SHA-256-Digest: CVDPRvMAjiTxZ0YM2dqFGgSdXOlEPWs6Cr5ujldMaP4=
+
+Name: com/sap/tc/logging/messagedepot/MessageAccessorFactory.class
+SHA-256-Digest: xwsd5tTPnoqo9+kcAT/8K0arVFUVK9EhCLp3KZFvUes=
+
+Name: com/sap/conn/rfc/engine/cbrfc/serialize/CbRfcSerializerCompressi
+ onColumn.class
+SHA-256-Digest: UNgpntj7waRA4cqd1gOiQMolSD7k/IUvyMgEuflsu+o=
+
+Name: com/sap/conn/rfc/engine/cbrfc/util/CbRfcUtilCompression$CbRfcCom
+ pressionMode.class
+SHA-256-Digest: MGCzLEwolMUv6vMNqGrwvZYUgY0RHq2gqKaAyZwaTp0=
+
+Name: com/sap/conn/jco/rt/DefaultSessionManager.class
+SHA-256-Digest: ukJsmGHxiuA+g4Eoj3s03uDqPAnocicRihw/NOJ1vgI=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcAbstractOutputStream
+ .class
+SHA-256-Digest: ZnGT7X3O/kq5VXN9IMRQNYqTx1qPj/lMENjk0eUzC34=
+
+Name: com/sap/conn/jco/rt/SessionFinalizer.class
+SHA-256-Digest: ECZVZ7Gk/qeatO00kC5lw3ANbUQ98s+auE8RxcC1Qkw=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializerType.
+ class
+SHA-256-Digest: RMZ2PoZeWrt59GYTqptItZLSa+nOKhNpDBOm4z8pr+0=
+
+Name: com/sap/conn/rfc/driver/CpicDriver.class
+SHA-256-Digest: snPvStWlye7mIi4PklznnP7bJn5/4nb4quC/Lmbatw0=
+
+Name: com/sap/tc/logging/exceptions/ReadException.class
+SHA-256-Digest: WU/BvWr2gg8NyJQti9IbJVWxNGW7KFjfny2FYODaR08=
+
+Name: com/sap/conn/jco/util/UtcTypes$UtcLong$3.class
+SHA-256-Digest: obbp6hfQW7Tgae7K2M+Xz5Ft2vPfZzadt1gDe/2onp4=
+
+Name: com/sap/i18n/cp/ConvertSb2Uc.class
+SHA-256-Digest: MVX30QLaDRfaKgMeBgR6EQgtIFIRPMrYtMQh7ZEC5cs=
+
+Name: com/sap/tc/logging/reader/ReadFileSetLog.class
+SHA-256-Digest: nWXsoTieb/kAAOd5ODlAGZwClVNfaJHCRoOueqDGRNs=
+
+Name: com/sap/conn/rfc/engine/RfcGetName$1.class
+SHA-256-Digest: O2mbBz13y8ci4PszlrUwIBIcX0xF7dYGkczyrf7/16Y=
+
+Name: com/sap/i18n/cp/ConvertCToXFactory$ShortcutBase.class
+SHA-256-Digest: v7WZPDmCOX26VSf9tKh6yfO3bT6qGXJxXZVE80qeJI4=
+
+Name: com/sap/conn/jco/util/ConnectionInfo.class
+SHA-256-Digest: jpai4TuRlwL0kq45fm9KTorLpNrRVcnWipIqd8EPGtk=
+
+Name: com/sap/i18n/cp/ConvertC7bOnlyToSystemCpTImpl.class
+SHA-256-Digest: n0Wg/0e6YggnW2a3iC5RjDhTkl8W02jqA2YSBoDzigM=
+
+Name: com/sap/conn/jco/support/JRfcServ$JRfcServGenericHandler.class
+SHA-256-Digest: WBaceeDfZA+ESVulMsNUn2G7G5cgsUST/EVCk3YEHco=
+
+Name: com/sap/conn/jco/util/UtcTypes$UtcMinute.class
+SHA-256-Digest: Hp9vyx2JoV907uZfQ8wsHrz9POgdilGS5TdPV5JrcTo=
+
+Name: com/sap/i18n/cp/CheckCharsetOfString$CheckInfo.class
+SHA-256-Digest: Vv8BZhJSdyD0DSS5sM3gmg8a+OT37TlCemyCRqmzs6E=
+
+Name: com/sap/conn/jco/rt/Obfuscator.class
+SHA-256-Digest: fNE2oZOiQ9qRXLC6vGEE6L2dLD+sDr3UZ9WV8AXrdQ4=
+
+Name: com/sap/conn/jco/rt/XMLWriter.class
+SHA-256-Digest: y5ISaaBFHbt36ygeP/OypqDIMPLbzT+PjEhgna0O5/4=
+
+Name: com/sap/conn/jco/support/JRfcServ$JRfcServServerStateChangedList
+ ener.class
+SHA-256-Digest: /6NG7DJEJg6BnDGY0ljFbn5VnV9nORKl5bhcjvrQskc=
+
+Name: com/sap/conn/rfc/engine/BgRfcUnit$FunctionPayload.class
+SHA-256-Digest: dGXQ0smpQhX7si7DaJ1ZtX/84wXNv1jhTpEnfhgrwV0=
+
+Name: com/sap/i18n/cp/ConvertUc2Sb.class
+SHA-256-Digest: goSWw8eomAK+CVuXLx6m6FTZc6KHCg2+CpOv4tAgf3Q=
+
+Name: com/sap/conn/jco/rt/DefaultDestinationManager.class
+SHA-256-Digest: +gvY7iqRU5wIHN6ejvr+/RzKIr5Auy6Ps0n7oOdUbJI=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcTableDeltaStates.
+ class
+SHA-256-Digest: 7cUqAT+uxgrrdqx8syn9G8IHq+yOxL6WH1+F3rn9VQw=
+
+Name: com/sap/conn/jco/JCoAttributes.class
+SHA-256-Digest: 3ST9dkYqCBoUg0EZOzSP3Ul3Mb+P5kj/S9qgy6hPoas=
+
+Name: com/sap/conn/jco/rt/PropertyFileDataProviderTLS$KeyValuePair.cla
+ ss
+SHA-256-Digest: /rsnwo7ZVog/BCOtWro1yegqPnLhp6QufZxHn9MQ2dk=
+
+Name: com/sap/conn/jco/JCoAbapObject.class
+SHA-256-Digest: ZJDj3Glj66+alAI8wqyRMW7eSG53jcJf3949PQgBV3w=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$LogRefVal.class
+SHA-256-Digest: oLN9lSJtmqHISybJWG54wmbJLy2ijpT3MTkXiNCsykk=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$LogRefKey.class
+SHA-256-Digest: nSFfRfPfIPHyNmyQX3AB+wAeFzdDhhJL+T5a2sOPc3Y=
+
+Name: com/sap/conn/rfc/driver/security/verify/InetAddressUtils.class
+SHA-256-Digest: mx7bVrwAACNXEWX0rBluncsbDeD9ULxSYdBcZZBgJIE=
+
+Name: com/sap/i18n/cp/ConvertCCCErrInfo.class
+SHA-256-Digest: eWegvHjIb0PpC2bqN4B23remx3/2EsWZKAXn/2EYsJo=
+
+Name: com/sap/tc/logging/interfaces/ILoggingResultSet.class
+SHA-256-Digest: 9mc8iak94ONXB3hUyebPHjzr1ufPB2+Z8742MBoiChE=
+
+Name: com/sap/tc/logging/interfaces/IReadableLog.class
+SHA-256-Digest: CZH0lPxfzNYpXfQTQpHnX0WH1t94D+6qTP0oPSP/Tmw=
+
+Name: com/sap/tc/logging/interfaces/IRuntimePropertiesProvider.class
+SHA-256-Digest: /Xblar978hjHXvbfJdQagpa+DIL/AJuLM3/U+mO+EhE=
+
+Name: com/sap/conn/rfc/engine/RfcIoOpenCntl.class
+SHA-256-Digest: 6xuGZ7tAW8K/bbTRE16qKaZn0LG5O34cS7nG/+zP3UU=
+
+Name: com/sap/conn/jco/util/UtcTypes$1.class
+SHA-256-Digest: LqlsZIYjymr5+WeeTRagU+bOBWUex67exf6ukuQCVxk=
+
+Name: com/sap/conn/jco/ms/JCoMessageServerFactory.class
+SHA-256-Digest: TEq/IlcNbC2GD4MjenVuU/jffRmxjQMBOp93wu44pnc=
+
+Name: com/sap/conn/jco/rt/WebSocketServerConnection$Event.class
+SHA-256-Digest: 2PzhhXVFza4mQxjTVuzK0nkTCj9NNK97sGB2GOv5thM=
+
+Name: com/sap/conn/jco/server/JCoServerThreadStarter.class
+SHA-256-Digest: qKjZRZXhw7xJrEgKYw2RmPdK+XeJMpKhNbmkfiEejuw=
+
+Name: com/sap/tc/logging/Tokenizer.class
+SHA-256-Digest: qXrJq3LrpefP63c4vdZ8P3vGHCAeJCtixpSbn4MkLhg=
+
+Name: com/sap/conn/rfc/data/ItStream$LZTableInputStream.class
+SHA-256-Digest: H9F3yXSWMROUdCoElfHCt75MhW8nOTX8xwwH+4LPyjM=
+
+Name: com/sap/conn/jco/rt/ServerAuthenticationDataInternal.class
+SHA-256-Digest: Tv7jbvnwHVoHPrLsdzKtqHqGiAnXmOdtQiSxONFQTk0=
+
+Name: com/sap/conn/jco/rt/IServerManager.class
+SHA-256-Digest: aqGk+7t4YLOPet+tZKBsDXfQFUw6xNcrRK2ZZtmvEjs=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializerCompr
+ essionColumn.class
+SHA-256-Digest: e810tXxSv/6yq9/r5acRU8D3QZJzd0aSlIYqGd/l4IE=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$BooleanVal.class
+SHA-256-Digest: i2A1PT0QFeVi9gz4rwfLh4a0Hw86ZUFmmJYCSXpoS6Y=
+
+Name: com/sap/conn/rfc/driver/input/TLSSocketChannelWrapperNIO$TLS_SER
+ VER_PARTNER_AUTH.class
+SHA-256-Digest: 5SN0J1vNLnQFL07gpL1d4TaKwo4JOTLxV7t8fsWwn6w=
+
+Name: com/sap/i18n/cp/ConvertCToAscii.class
+SHA-256-Digest: /K7+AxaXOouZ1B4hQNuOkjaUZgVedSvMT/xbrE3N2pM=
+
+Name: com/sap/conn/jco/server/JCoServerFactory.class
+SHA-256-Digest: pBMgerifEglFcJxhzOmKY23aMDyuOPXkBKHxFLjK9fY=
+
+Name: com/sap/conn/rfc/api/IRfcFunction.class
+SHA-256-Digest: awn+bEWoR6I4l8EdaGmSqBmQODpBLi0mt88nkeSHmuk=
+
+Name: com/sap/conn/jco/support/JRfcServ$JRfcServStfcConnectionHandler.
+ class
+SHA-256-Digest: kZ69BmXbtWGBV2EwBgiS2D9Hwa+XSFbsfXSlbXoXaTA=
+
+Name: com/sap/tc/logging/interfaces/IFileLog.class
+SHA-256-Digest: HmvrGlL1YspoTJCMLwiYHVyv4SXCkpz/jqQ2/9WBAIU=
+
+Name: com/sap/conn/jco/util/AboutDialog$NamedValuePair.class
+SHA-256-Digest: NDF4krbgUtZ7lfg3qHmS8UN6/hz/b9fsYWMKVuVcJUs=
+
+Name: com/sap/tc/logging/interfaces/IRPPublisher.class
+SHA-256-Digest: +FfAHxj33SvFbll1Zute/4f14m8RVdDkGhj5xqziRuU=
+
+Name: com/sap/conn/jco/util/FastBufferedWriter.class
+SHA-256-Digest: lQMiKfYillbGk4Cfa8vGW1HxAKhug7gTh6BeuMVE3W4=
+
+Name: com/sap/conn/rfc/engine/Compress$CsInputStream.class
+SHA-256-Digest: Ee/qGUU9HKvebl78QnzTVFxnoK4PhxX7IjnhbDCeaWo=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$Tokenizer.class
+SHA-256-Digest: vWJN9UuZIKUu6tH0B1CYe2CmYgUxbyW2v9p9yPSRZ20=
+
+Name: com/sap/conn/jco/rt/RecordMetaDataInternal.class
+SHA-256-Digest: e6tKF5BQpSj9L0D4SJCPjyuE4up06ZHJi88oiENbctY=
+
+Name: com/sap/conn/jco/rt/RepositoryProvider.class
+SHA-256-Digest: DCb+JQ8zcYc6Wg1bJlKVH+iebQlJdkFSxRJdj+2OEeM=
+
+Name: com/sap/conn/rfc/engine/GUID.class
+SHA-256-Digest: K7+LwwLOFZ3hSK5hA6AeunmX88d+i/d4wk0zBk122Vw=
+
+Name: com/sap/conn/jco/server/JCoServerFunctionHandler.class
+SHA-256-Digest: uOCLl9BXFcJYzDOkM5gDzdGUuH6n8kHI6sk/aFn0pOg=
+
+Name: com/sap/i18n/cp/ConvertUc2Db.class
+SHA-256-Digest: rNC0otfrQ0m/vdJdEUdtJuvyREvYi4KJeCdqDOfHnb8=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$Val.class
+SHA-256-Digest: gMayPwmup0mMjKpJxqNb1EcvBNx9GTUpUJwD/5gJYT8=
+
+Name: com/sap/conn/rfc/driver/WebSocketClientDriver$PingResponder.clas
+ s
+SHA-256-Digest: jq5pwCWe/a52p6ABHMKtvPVcrU8AMsRcMrA2fkswVnk=
+
+Name: com/sap/conn/jco/support/JRfcServ$JRfcServThrowableListener.clas
+ s
+SHA-256-Digest: 2mnSTHQTHRDxR+dI/xtDLsB5KuUZyBH30iAj6102Rpw=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcDataCompressionBase.
+ class
+SHA-256-Digest: grnRxQ2UTL1o/aIevSSvJ/iWvj3xbkdcWjWvQt2YAzY=
+
+Name: com/sap/tc/logging/LogEvents.class
+SHA-256-Digest: ZP/HWvNOFpwO/eF4abpvGa86OTx1EKqIASdeoVLO3B8=
+
+Name: com/sap/conn/jco/rt/PropertyFileDataProviderTLS$BufferRegion.cla
+ ss
+SHA-256-Digest: TGOw1H9vb4nTUSjlH0OWzzzPm9AC3BlFXxDgTTAha1M=
+
+Name: com/sap/tc/logging/ExceptionHandling.class
+SHA-256-Digest: JnSEB5CBkUtDmUlbBNVwCgThXHIKmWQ2i87YG9ir5S0=
+
+Name: com/sap/conn/jco/rt/CPICServer.class
+SHA-256-Digest: V8JfikIOpaC3QwPQzMUF8+qZF6iBeGxe+Jv9OYJr1Vc=
+
+Name: com/sap/tc/logging/CreateLogfileListener.class
+SHA-256-Digest: Bolgjs91yAZLCIcmVx1X2Mzft8yGUaoGOtYR60QQQBw=
+
+Name: com/sap/conn/jco/rt/ServerCallDispatcher.class
+SHA-256-Digest: fWDJfgodNYfJDZwxn5+CNyKyruURtEeiOda3lIg28uw=
+
+Name: com/sap/conn/jco/JCoDestinationManager.class
+SHA-256-Digest: rgGbFi/9n5wIC5eBnOg4WOLyRxPcIMsbMCVDdj9BCMs=
+
+Name: com/sap/conn/jco/util/IntHashTable$Entry.class
+SHA-256-Digest: AY5u7aSw+4peBBUa0gy7pa0umbNPUJ2lvSP5X1gvkaM=
+
+Name: com/sap/i18n/cp/ConvertCToX.class
+SHA-256-Digest: ykOwmOyAEzGDW8hZg9rN013tAD7K1zy3Uh+sNL0F8lA=
+
+Name: com/sap/conn/jco/rt/ServerConnectionConstants.class
+SHA-256-Digest: cyPOHrKZMkG1gw0uRil6n28WJifJtFXCEs7gmHBe0ns=
+
+Name: com/sap/conn/jco/util/DefaultTrace.class
+SHA-256-Digest: UQASX2zBBWCn6zSwtB875A7ixbc6apRbu47i4r1yV5w=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$RefVal.class
+SHA-256-Digest: qy+ty2RMZat7WSJBoZepFKCqp5doiOgbKBPeI/q5FlE=
+
+Name: com/sap/tc/logging/tools/lv/LVReader.class
+SHA-256-Digest: 6p8TnXdR79RHzLSqvfmw08pC1t8TNVxG2EeInybvK9Y=
+
+Name: com/sap/conn/jco/ext/ServerDataEventListener.class
+SHA-256-Digest: mCDtCUf3bo7jOLAYeplNrHLEh3eqMRJPpH6hhfAq9fc=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker.class
+SHA-256-Digest: YyR21U1wr1IZoHAoMY/f+HNEYhdQ7V4AWJjFRC2q+Os=
+
+Name: com/sap/conn/jco/rt/ClientConnection.class
+SHA-256-Digest: h9ItBvquZkmj6waoQK8AcKNOlyf18etPbEMQmtLBsN4=
+
+Name: com/sap/conn/rfc/driver/NeoSocketDriver.class
+SHA-256-Digest: Sc8qL/DiIcFhBPCP061sP9J8vMnukXxgEcAYc8JwSJQ=
+
+Name: com/sap/conn/jco/JCoRequestUnit.class
+SHA-256-Digest: UVowqFldQZYTwxxa9uQmPVVQj0nOYlSnbrwnTHNnPjY=
+
+Name: com/sap/conn/jco/server/JCoServerRequestHandlerFactory.class
+SHA-256-Digest: hHPXnQUB8BTeKUIxIEjdb0ThH53eqEShzeMZ0ecYH9I=
+
+Name: com/sap/conn/jco/rt/AbstractServer.class
+SHA-256-Digest: sSqfvhPuLkjw9362Ff2dgAO1bNQaQ8jsg0EpgOfA+bE=
+
+Name: com/sap/conn/jco/rt/AbstractServerManager.class
+SHA-256-Digest: Lrek3JlV145QwOYYof4TBG9LiCew5VZOASe4Js8rMmQ=
+
+Name: com/sap/conn/rfc/engine/DefaultRfcRuntime.class
+SHA-256-Digest: d8xVSwtp9RgYgmnoVWP/sPqVtc6pI3relGeIEM7LxFk=
+
+Name: com/sap/conn/jco/rt/WebSocketServerWorker$1.class
+SHA-256-Digest: uSXuTK8KpLLVZeIMdNhwFtAB0gK5LyTo87q8LicAT7g=
+
+Name: com/sap/tc/logging/tools/lv/CmdOption.class
+SHA-256-Digest: 7/RES636PO5IyeB8Vqxq+MfnSt+HV1NUjCMmcQ7bm3k=
+
+Name: com/sap/tc/logging/exceptions/OpenException.class
+SHA-256-Digest: fpuNU78UX7H681ofxA/hAp947NIXOARmYcTtTSPkQWs=
+
+Name: com/sap/tc/logging/FileLog.class
+SHA-256-Digest: H5hCJsE4ldrt9BXLcW+yAFlYo0KQ1ilV+9Cv6dmhyC0=
+
+Name: com/sap/conn/jco/rt/CPICServerManager$1.class
+SHA-256-Digest: Ne1NYaf8DbOECZgVcj765dhVKDz20pnmfD9efmC/Yns=
+
+Name: com/sap/conn/rfc/api/IRfcComplexParameter.class
+SHA-256-Digest: XVPB9agOZ1Dh9dujzgoqM2gr8ZJmoc3ZmQh1Y5A8DFQ=
+
+Name: com/sap/conn/jco/rt/DefaultRecordMetaData.class
+SHA-256-Digest: An2VuWYQi+/ciC+VCoHjeyIX7v4pS8tEYOwblYIuLJo=
+
+Name: com/sap/conn/jco/rt/WebSocketServerWorker.class
+SHA-256-Digest: I2xn1aMYROkZ0gY7x8Y2oYb1KThYdh6vPnTbPIceOqg=
+
+Name: com/sap/conn/jco/JCoParameterField.class
+SHA-256-Digest: LGzbJyVePTNtHj/ONNvKtobntVmetcDHWS7XFMiTP/c=
+
+Name: com/sap/conn/jco/rt/AbstractServerConnection$1.class
+SHA-256-Digest: 5OVFucn38vxlA9IlbE/nEyWZ5WCOT1a0vGUzSnOxyO8=
+
+Name: com/sap/tc/logging/LogInfoData.class
+SHA-256-Digest: +r0xSaRoN4Bh2ToPsWuaOWx/lBe/vZFfWLwWe1pMn60=
+
+Name: com/sap/conn/jco/rt/Context$DestinationEntry.class
+SHA-256-Digest: 7eu4e4TWCSwNZvr+ajoxOfZ/ao8pJmTW2vEi3KEdF/o=
+
+Name: com/sap/conn/jco/rt/DefaultResponse.class
+SHA-256-Digest: UHJD8HcfcQhz/ZaV/jcuK3qLRm5hXV16lKbE6AtdW10=
+
+Name: com/sap/conn/rfc/data/ItStream$LZTableOutputStream.class
+SHA-256-Digest: p9K1etTI+NIy2/GV9DmEYqhy4NGbuKUoq0yYv4XTOuo=
+
+Name: com/sap/tc/logging/tools/monitor/ConfigurationMonitor.class
+SHA-256-Digest: SrWP7OzssoT2i34nSkkqvHUbTdT+g0/1IbCH6t9mf6s=
+
+Name: com/sap/tc/logging/UID$ThreadLocalInfo.class
+SHA-256-Digest: 6bvIPUxs4NR2u/71e8+d9vEK542wigNsjLULae/02ck=
+
+Name: com/sap/i18n/cp/StrUtilTImpl.class
+SHA-256-Digest: /kRpYoxGum9p9AczsWKzvf37N0UASWCZbaIB43Ptqz4=
+
+Name: com/sap/tc/logging/reader/LocalBuffer.class
+SHA-256-Digest: L6BSxAGLbFMNB9MLdwpgRAEolnlElSP4JrMwtpXJWzU=
+
+Name: com/sap/conn/jco/support/TidEntry.class
+SHA-256-Digest: ySndz3NB7Os5drwytqpnFeLVpuTZMpSqjJ6TzoB+Fhg=
+
+Name: com/sap/i18n/cp/ConvertSystemCpToCTImpl.class
+SHA-256-Digest: 9vku9U6WemekmePMvNK8fnO4Ljsb1ZfZdeV2HCoASgw=
+
+Name: com/sap/conn/jco/rt/ServerFactory.class
+SHA-256-Digest: MF3bCoOQr6JIQSUjF69krdszAuEVGt0/YzRpGEgn2co=
+
+Name: com/sap/conn/rfc/driver/security/verify/WSHostnameVerifier$HostN
+ ameType.class
+SHA-256-Digest: Kdi0sMj1NW5Xx57BSHp3mKrqq5XcWnTAzcI8fhFverg=
+
+Name: com/sap/i18n/cp/ConvertUtf82Uc.class
+SHA-256-Digest: UhaaECkR61wXBgzqSmciQYM5g8kk6FNdpO+XHG/fko0=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$ClassVal.class
+SHA-256-Digest: N3V/kA2E9xWmqZmiqRnM9sIowUyz0QcwbqPCi2JhUwc=
+
+Name: com/sap/conn/rfc/engine/RfcIoControl.class
+SHA-256-Digest: 9dvdwJBQdLsfTxBZCtXBgDJUXHptXiaLWaBw0PQc+fk=
+
+Name: com/sap/conn/rfc/exceptions/RfcException.class
+SHA-256-Digest: p37SJhJfyTPSJ/9T7kW2kF5NYMwp6ik6kh0V6KzX/6U=
+
+Name: com/sap/i18n/cp/ConvertXToCTImpl.class
+SHA-256-Digest: 2XykJpO1eCVPqACu2HqVVEsC1mUT+OpPwWAxsBwpyWQ=
+
+Name: com/sap/conn/jco/rt/AbstractServer$DefaultRequestQueue.class
+SHA-256-Digest: gtyMw5z+nAEUwEAM7aRB9zrqxUx+iI+88RpxZUd0a9g=
+
+Name: com/sap/conn/jco/rt/ClientConnection$CallContextImpl.class
+SHA-256-Digest: ibWCTMLbp3cFDxoh1aKCLsccCbmXCgYCC3ba8cxw4hQ=
+
+Name: com/sap/conn/jco/support/JRfcTest$ClientTestConfig.class
+SHA-256-Digest: gHbISMahU4zNQf/QS1Bd77F8hrjtd7GdFGJexQNyTJ0=
+
+Name: com/sap/conn/jco/JCoParameterFieldIterator.class
+SHA-256-Digest: Vf31iSwqMqTBJBVSVX11B3VaraQMCLqAqlNkEcWzAMY=
+
+Name: com/sap/conn/jco/ext/DataProviderException$Reason.class
+SHA-256-Digest: 7bwyCJvqMd4oYH7sbezByetiGNY7JD2JiqJqHS2SFvU=
+
+Name: com/sap/i18n/cp/ConvertUc2LE.class
+SHA-256-Digest: aGvHGhmJmau1U66ta/hBFw8qqXfk2LZs2PtjU3q1ZJo=
+
+Name: com/sap/i18n/cp/CheckCharsetOfStringTImpl.class
+SHA-256-Digest: XBKhVNi9kQpEBB00CH+7SIrkZn0VCdqtMfl6Ucq/6Zk=
+
+Name: com/sap/conn/jco/rt/WebSocketServerConnection.class
+SHA-256-Digest: 6H/fb7Rlwd9IEJWtJOo4OxRkZt5SjlaLS5fmdwSMWR8=
+
+Name: com/sap/conn/jco/rt/ComplexParameter.class
+SHA-256-Digest: Rx9JOsv1Z0DU6GJ0JXHzchZPUdQ9fyDjdFwuywd5eRA=
+
+Name: com/sap/conn/jco/rt/DefaultRecordFieldIterator.class
+SHA-256-Digest: TaKXUaY+ZLbAlqQPj9GAxMaCEDzk/jZs3itqZrRADb4=
+
+Name: com/sap/conn/jco/rt/DestinationState$2.class
+SHA-256-Digest: KXtaEBl2PekLclGfqAExF0jSV0PZHo9tQKkgyHdCgHY=
+
+Name: com/sap/conn/rfc/driver/RfcTypePlayback.class
+SHA-256-Digest: mjiLOKVRUmejv4fkBQ0DynoYlR6O/3+78ahh8tL1v2w=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$LogEntry.class
+SHA-256-Digest: h4+WybcZyqC8fsPcFsTSDrYTSC8YoqmWN8mGxur7E5w=
+
+Name: com/sap/conn/jco/rt/NestedStructure.class
+SHA-256-Digest: yo7+N31vpkZNtIA6LK4h22PM8kY2N/BIQXfiXaI5ulw=
+
+Name: com/sap/conn/jco/rt/PropertyFileDataProvider.class
+SHA-256-Digest: uQeYDfFzF/oMrd9asprqPU9JHQXkabrdbLghuJZ9Zzs=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker$RequestDispatcher.class
+SHA-256-Digest: 6Z1uP4fnnCOpfFU4X6Q5WLPEn23O5p2vULRJFzM6qpM=
+
+Name: com/sap/conn/jco/rt/AbapFunction.class
+SHA-256-Digest: Bt7azLPgH5pwIdsf2OKvvG+Is9Qbrtg/Nj0BCP9twPk=
+
+Name: com/sap/conn/rfc/engine/PasswordState.class
+SHA-256-Digest: gcR5xYKGAiBiw8catLAmcAO1cBeRFG7rp/Jtg0k8/ng=
+
+Name: com/sap/conn/jco/ext/ClientPassportManager.class
+SHA-256-Digest: pdDa3MOvRu2RN5i2EtdK6q7hH8ScFsZVAPw9y0Npvoo=
+
+Name: com/sap/conn/jco/support/AbortException.class
+SHA-256-Digest: AfBT0ZIW8RV29f/P8h45z8WTAM4zAUQGj8FeOscoQdA=
+
+Name: com/sap/conn/rfc/engine/Trc$2.class
+SHA-256-Digest: 6rd+ec9RQLVeZEpQobxHtgYwYTc0tTADP91voGOptc4=
+
+Name: com/sap/conn/jco/rt/CustomRepository$1.class
+SHA-256-Digest: YB3NtFpqD0TKUaIrra2MrMfkahi77OkKhs3Ky09kH4k=
+
+Name: com/sap/tc/logging/FileLogInfoData.class
+SHA-256-Digest: rWPVAeco9dEajfoXIE56nexBqLFDE1yh3Z/3x5pmlP4=
+
+Name: com/sap/conn/rfc/data/LZTable.class
+SHA-256-Digest: /PuP875fhyU4264crnzX6OPLQ4P+TJDJ7tGajv49378=
+
+Name: com/sap/conn/jco/JCoFunctionTemplate.class
+SHA-256-Digest: 9eZipYHbTeWQORQT82X4+TiXWqeWqpcMAJ0jPFo3cQQ=
+
+Name: com/sap/conn/rfc/driver/input/TotalLengthInputStreamNIO.class
+SHA-256-Digest: dogiPFHDu80jkOMv7xbpSbnDsNpQnSa3bi1pR9/+j7U=
+
+Name: com/sap/conn/rfc/engine/cbrfc/util/CbRfcUtilCompression$CbRfcCom
+ pMask.class
+SHA-256-Digest: Mw21+hMqlb/H1IcQ0oiLj0q9BZfE6asvwoZ39hjc+bQ=
+
+Name: com/sap/conn/rfc/engine/RfcTraceWriter$1.class
+SHA-256-Digest: pirxoRRxeiFxbIM/V8Xly0Nn6iidJ3J/UFqyoG976zg=
+
+Name: com/sap/tc/logging/MessageEventListener.class
+SHA-256-Digest: zTXnFs7R03F+B2qvPlJZ0gfRT5VP7aYO7ap+UOAPuxg=
+
+Name: com/sap/conn/jco/rt/WebSocketTLSHandler.class
+SHA-256-Digest: Sjy8Ds0Tl5B0JLUijepeNfUTu8TEfpBB+kJDkJSIWeM=
+
+Name: com/sap/conn/jco/server/JCoServerCallHandlerFactory.class
+SHA-256-Digest: cQFybi7zGfm6eM0RFnLz2KwwlJp4lLlvgdybZUkYYKw=
+
+Name: com/sap/conn/jco/rt/json/FunctionCacheIterator.class
+SHA-256-Digest: rRG6mvM91ZwidjDTGwf2Hm67P39cPn9RNYP93Zhy7A8=
+
+Name: com/sap/conn/rfc/driver/security/TrustAllSSLContextProvider.clas
+ s
+SHA-256-Digest: m+pNjXGfgKmPhhMlbntYcfZyPzjiLzwyIRXB+jPT8Hc=
+
+Name: com/sap/tc/logging/LoggingManager.class
+SHA-256-Digest: btKdHgM8gK8+fM61DeEpPksh8Bm92BLitbkHMHdZ6nQ=
+
+Name: com/sap/conn/jco/rt/json/JSonContainerWriter.class
+SHA-256-Digest: LBjJFuHXon9Gmac2AxUO0O5xxwC7UpWibG7njUYRDbE=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker$ServerContext.class
+SHA-256-Digest: t9NSwMYb8cAe2lCO8BETPMqyzqU3wzfBmw0TRrKWHp4=
+
+Name: com/sap/conn/jco/rt/DestinationState$4.class
+SHA-256-Digest: kjKa1bX/rGscS/xJgQyLaY51VdwsEzdjkl8kfs9708U=
+
+Name: com/sap/conn/jco/rt/AbapRepository$QueryClassHierarchy.class
+SHA-256-Digest: vA1OMpEFYphiSQ/JPNEWMM0j7SB/Gz6oFP6YUhVLzvc=
+
+Name: com/sap/tc/logging/messagedepot/impl/MessageAccessorImpl.class
+SHA-256-Digest: 0pmYxaRAhTFl8wLXN9sLqCpRH8Z0UpZd+6qg7e52Xsg=
+
+Name: com/sap/conn/jco/ext/DestinationDataEventListener.class
+SHA-256-Digest: Jt8fXAnMPHqzRmd8l4wyNCDRapEw5x/ccA81ADIu2Rg=
+
+Name: com/sap/conn/jco/rt/json/JCoSerializationException.class
+SHA-256-Digest: 8Cw3eB6d9tbYA51PQ4OoHdEJAJ1Rat+8KxYkGpirEYI=
+
+Name: com/sap/tc/logging/perf/SatRecord.class
+SHA-256-Digest: aADt+uLRmxMC4zrLPiae01ECayLZYcalCeiF106MZLE=
+
+Name: com/sap/conn/jco/support/TidManager.class
+SHA-256-Digest: nFdORy2Wzeo+8+UyLY9c5OnlKYqvRTWK0pUMhzrPHwY=
+
+Name: com/sap/tc/logging/interfaces/IThreadRuntimeInfoProvider.class
+SHA-256-Digest: eEYIeUfzuCy0OLX2EKG26zNXKpfwcW5BI8JIPtqMPRo=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcZLibCompression.clas
+ s
+SHA-256-Digest: J2I7UuIJJtmoqg8tUG0hYN44lDo4AvHIYER3lCA6h7U=
+
+Name: com/sap/conn/jco/rt/AbstractServer$ServerMonitor.class
+SHA-256-Digest: ap//OXsWGoNZqSvVvbpfhRuDrH56/af3VQ4pCBxiZgA=
+
+Name: com/sap/conn/jco/rt/DefaultFieldIterator.class
+SHA-256-Digest: +p+31x1D/djXemh/hs3bjHnYY6zPQmW4+mzAYDrgzHQ=
+
+Name: com/sap/conn/rfc/driver/WebSocketServerDriver.class
+SHA-256-Digest: WPGstfpjA14s+8M7pVPg3ti+k7ZG6NBnCEoWex4uJwo=
+
+Name: com/sap/conn/jco/rt/AbstractRecord$2.class
+SHA-256-Digest: o35pEDXaaOoroWb1v0XKft6Ve5ayrCgB9N9n9XnYdxE=
+
+Name: com/sap/conn/jco/rt/WebSocketServer$AsynchronousWebSocketAccepto
+ r$WaitForFreeConnectionTask.class
+SHA-256-Digest: PpUsmZn8+FUsHhxEtGPDKpa/at4GQdEelGOyiRVhKII=
+
+Name: com/sap/tc/logging/reader/ReadableLog.class
+SHA-256-Digest: jq4usCwhEHIAHXo/vg8M0osQ+Cyc45XFFdTLHzVuxzY=
+
+Name: com/sap/tc/logging/interfaces/IRPRecord.class
+SHA-256-Digest: fmM/ACbsQR3+OXuptd1H6nNPq5cHz58I6v+JSkOVWOk=
+
+Name: com/sap/conn/jco/JCoUnitIdentifier.class
+SHA-256-Digest: sTC7bBuE4U+PI+/8Dd88j1TvPTSR3q9qNiUc4lQWzbM=
+
+Name: com/sap/tc/logging/ReleaseLogListener.class
+SHA-256-Digest: B2VjBS7Jgs+c5TAIVoDdePt2z/ZB82br0VqgDH4yQZE=
+
+Name: com/sap/conn/rfc/engine/BgRfcUnit$UnitSerializer.class
+SHA-256-Digest: eNza4oN0kcZPe7YM8da1rA7EofQuwcfbSJc2ysbWca4=
+
+Name: com/sap/conn/jco/rt/DefaultLogonGroup.class
+SHA-256-Digest: c1G/sXCs8DQmqB9vJ4k6Ug0vVcrWx4aI1qwnSg8aiEY=
+
+Name: com/sap/conn/jco/JCoBackgroundUnitAttributes.class
+SHA-256-Digest: xH61TX/Nwkfzful+H2GDMbeP5dOVeXNLfHHGX7+9OsA=
+
+Name: com/sap/conn/jco/server/JCoServer.class
+SHA-256-Digest: gB6ZPi/sMOSXS2p+pY/kn8qHJFFhDaMIo4Ehz4n5lPY=
+
+Name: com/sap/conn/rfc/engine/TableDeltaLogEntry.class
+SHA-256-Digest: xM5x70XclPUi9Syz3cr/DYsPzYIjXQ8suBoniO7JBE0=
+
+Name: com/sap/conn/jco/rt/DefaultParameterList.class
+SHA-256-Digest: UqvKEHF4GHf7REYuAEu08Ojzy0ilDg+st2Yf48tyvfs=
+
+Name: com/sap/conn/jco/rt/PropertyFileServerDataProvider.class
+SHA-256-Digest: yfPJ0L7Y1/tMlC5fSPavvgBQOURKqhLzWLMxK1QENsA=
+
+Name: com/sap/conn/rfc/engine/RfcRcv.class
+SHA-256-Digest: 0XSxG4DX7LdPCDTWQgR3ArRlGZu4UXIzOkn6LWEuaBM=
+
+Name: com/sap/conn/jco/JCoRecord.class
+SHA-256-Digest: 5teJ+pXoo0nLaf4oGTUGvlusKjG1iVDX3n6XCGOP6N0=
+
+Name: com/sap/conn/rfc/driver/input/TLSSocketChannelWrapperNIO$1.class
+SHA-256-Digest: dB5aaQhuWkNuM6avu5re9ZhPxaJhb4QcDH2DO6bRdAs=
+
+Name: com/sap/tc/logging/MSGCollection.class
+SHA-256-Digest: toaj6s5bs2Jln78fo59jYOLq9NBWrCEfb/4OwF6CJJ8=
+
+Name: com/sap/conn/jco/JCoException.class
+SHA-256-Digest: ObW9j8nh648ridmWdKli6jARhdBMEj3tIQeSZuKg3eI=
+
+Name: com/sap/conn/jco/rt/AbstractRecord$4.class
+SHA-256-Digest: rTT6XiljDGD1wFVOSWTox2xRizKXivSQu9TN55cPPnQ=
+
+Name: com/sap/conn/rfc/data/ARFCTIDStructure.class
+SHA-256-Digest: 2LHmRWNKwsPwpHdQePqkoFuWX0/UG57ctXIBdpknApo=
+
+Name: com/sap/conn/rfc/driver/input/SocketChannelWrapperNIO.class
+SHA-256-Digest: fn94ZtADo+ikkH8W6jHPHsXy3ENkdJO+w8buO/Z9OaU=
+
+Name: com/sap/conn/jco/rt/DefaultRemoteContext$Stack.class
+SHA-256-Digest: wgNtcQ8cYYdTXL4gWyvX2Uwmq9HjnTxkmw65HN5G1dU=
+
+Name: com/sap/i18n/cp/ConvertCToXFactory$ShortcutUc2Sb.class
+SHA-256-Digest: 4P40Eu4FX6F2EqGfi24z/6qixQTcW8RDOkax7ItPglw=
+
+Name: com/sap/conn/jco/JCoField.class
+SHA-256-Digest: HVUpQSCE0ml7Vcd+5Nl9L4zRnk/z972XoMS5CTNeBFE=
+
+Name: com/sap/conn/jco/About.class
+SHA-256-Digest: mD/sDNB3AFTffZ9wl/Nszk0xrCOfzG9Bik5Zp8RXE/k=
+
+Name: com/sap/i18n/cp/ConvertSystemCpToC7bOnly.class
+SHA-256-Digest: gSadvWfRFLDqKsJrpTwQsqnCLW50eym0J0VC4xCJxaM=
+
+Name: com/sap/tc/logging/perf/PerfFormatter.class
+SHA-256-Digest: CcWmn39LPA+vsyx+qQz1UlszMQ7kUl5wPKOMFrc/R28=
+
+Name: com/sap/conn/jco/util/Codecs$MD5$1.class
+SHA-256-Digest: +SqFCyIZgJX4UZReutFMvb5fpZFkXDJaiLh2oRkxy3c=
+
+Name: com/sap/conn/jco/server/JCoServerAuthenticationData$Authenticati
+ onMode.class
+SHA-256-Digest: IR7jLObvFVr534ukPb5M02rbL8qKhw75jvmZuunANNY=
+
+Name: com/sap/conn/rfc/driver/input/BufferAndCheckByteInputStream.clas
+ s
+SHA-256-Digest: YpKZOGEx43SbfBi38DZKpNiozBEIbA/MIUO54nbNY7g=
+
+Name: com/sap/conn/rfc/driver/input/CanceledException.class
+SHA-256-Digest: 8hnP8MxDU1ew+tzTNRxlLn+ygukCFQ4umNiP69P8SS4=
+
+Name: com/sap/conn/rfc/driver/input/TotalLengthOutputStreamNIO.class
+SHA-256-Digest: fsIJSdnpZL7zZ7lWTV2xiCT0CcGbjbRIQSleWS08o/g=
+
+Name: com/sap/conn/rfc/exceptions/RfcIoException.class
+SHA-256-Digest: nCxSONWcz+JFawfBI8ACTbNwGQmLP3JLq7o1B2UCKdw=
+
+Name: com/sap/tc/logging/LoggingUtilities.class
+SHA-256-Digest: pM6a+Cu7oFKYkXM3ofxEUG41PcoixQfJW0ywXXtIk8M=
+
+Name: com/sap/i18n/cp/ConvertXToXTImpl.class
+SHA-256-Digest: dyYct3lMbna7vmwKZuCCpwpxwpjO+lTreQcHw2t9KQ8=
+
+Name: com/sap/conn/rfc/data/RfcIntParameter.class
+SHA-256-Digest: at2JVpDCorPiNYvCYk4jjXgheADfX35OLCggobtT4D0=
+
+Name: com/sap/conn/rfc/data/ItStream$TableInputStream.class
+SHA-256-Digest: hQAdg7CEs+1ftHOk9VAVuxUTkFqGs7TowriBIrrl18c=
+
+Name: com/sap/tc/logging/TokenType.class
+SHA-256-Digest: lBQxU5CjTarwJp6WS0NV3nMaAF18kLmreMP52DQowgI=
+
+Name: com/sap/conn/jco/server/JCoServerExceptionListener.class
+SHA-256-Digest: ld0ZwNci1Bf9Um9L8pQuhAfeYdTWVRQGTzCunf/5WYI=
+
+Name: com/sap/i18n/cp/StrUtil.class
+SHA-256-Digest: UXZQq1dN9QL75hIIJxFrp0qjBUx7L2rhrDIsTmP7ds4=
+
+Name: com/sap/conn/rfc/engine/cbrfc/util/CbRfcUtil.class
+SHA-256-Digest: s5Bfdp6U3lepLt+AC3QSnqVmpNhHlK0RCEnRnH1mvt4=
+
+Name: com/sap/tc/logging/interfaces/IMessageBuilder.class
+SHA-256-Digest: MZECJJq7ezTLEYm7hN9RS44oubKLtdzlGcP1tlwDMi8=
+
+Name: com/sap/conn/rfc/data/ItStream$StreamException.class
+SHA-256-Digest: kql8S2CAj49rCBZQhh/eiLynG95nsGJ4ccJsJ2ij4FI=
+
+Name: com/sap/conn/jco/monitor/JCoRepositoryMonitor.class
+SHA-256-Digest: XezMHmN6oGdrlWzDNZTNEMY8qXBoFiFaaH92gYBpus0=
+
+Name: com/sap/conn/rfc/driver/ServerSocketDriver.class
+SHA-256-Digest: nXKfTD7HoEfC7vVyPkHzdsSokygkorGso1jfPq2r9S4=
+
+Name: com/sap/conn/jco/rt/ConnectionManager.class
+SHA-256-Digest: 8qtrcAK1kuNjDWXK+N4a+jJJpGIO/U2TzxCbRtd3PF0=
+
+Name: com/sap/conn/jco/util/XRfcOutputStream.class
+SHA-256-Digest: 7kpsZntdh8jmOK3B6rrCUd6ifXfGM628qE0UyoCFOEA=
+
+Name: com/sap/conn/jco/rt/WebSocketServerManager$1.class
+SHA-256-Digest: 4Qh3KOne3i/r7WfKycFC8hW2ZXdlPiNf7vEX8+ORMks=
+
+Name: com/sap/conn/jco/rt/AbapRepository$1.class
+SHA-256-Digest: lj/IxMWL+DqnwfNQ+JeD2tL78X6tRhuLP5EFx3bRqjI=
+
+Name: com/sap/conn/jco/rt/StandaloneMessageServerFactory.class
+SHA-256-Digest: NJo8FHVMxPKSO0waNe7aYOZ/w/iiINhKg3zyoN47BdE=
+
+Name: com/sap/conn/jco/server/JCoServerRunnable.class
+SHA-256-Digest: pA3lTbTxKSU5COIKhsmQaBGe98GNDGXjlcHRKMk3WlU=
+
+Name: com/sap/i18n/cp/ConvertDb2Uc.class
+SHA-256-Digest: DBowbwFAn1+KhOu+chqGQHJsGoe//EGBHE1AvP+1YPE=
+
+Name: com/sap/i18n/cp/CheckCharsetOfString$LangFilter.class
+SHA-256-Digest: ZzDSsUKo+Lk3aPyoPlvCEpt6uYeextU6KNiURdxv/4o=
+
+Name: com/sap/conn/jco/rt/AbstractSessionManager.class
+SHA-256-Digest: vveKR3GdLJ5J7J+qgGJooYGJ5VS35gxVBkAPRCZy4BM=
+
+Name: com/sap/conn/jco/rt/AbapRepository$RepositoryLoadResult$ElementT
+ ype.class
+SHA-256-Digest: 3wLgd8FMLImGV9vHbfhmstTV2ow+Fxb8eMgWnpAd12o=
+
+Name: com/sap/tc/logging/messagedepot/LocalizedMessage.class
+SHA-256-Digest: 96Ajp4uujVbv3eUhYyryIrvEPyl8V+vBQnpYmB5TArI=
+
+Name: com/sap/conn/jco/util/UtcTypes$UtcLong$Clock.class
+SHA-256-Digest: z89ptdj3shzMawHcSKiSdm7qrhbm/FrMjFQwVEY1Mm4=
+
+Name: com/sap/conn/rfc/api/RfcOptions.class
+SHA-256-Digest: GdrR7HnYnqaVAkd38SXMOfP0XDzLQXT2fEYETgcf4kg=
+
+Name: com/sap/i18n/cp/ConvertArrException.class
+SHA-256-Digest: um6z4CNzGa25hyWYktFitk9VegTVFthGBDy9gBcRr1s=
+
+Name: com/sap/conn/rfc/engine/cbrfc/util/CbRfcUtilCompression.class
+SHA-256-Digest: ce6rCazdMaTQEsLNx6iIYRFEOGt5GBAVeP8o4Kux9MI=
+
+Name: com/sap/tc/logging/EventDispatcherFactory.class
+SHA-256-Digest: d1b0bNiTjdnZ9Lxj1rDci2/1Wn+e/3MghvftJY6ceiw=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcDecompressionFacto
+ ry.class
+SHA-256-Digest: 83/Z/5ThbJ/ducvrusG9SeF15kCb+RyTxFIqbG9tX3E=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcDecompressionReade
+ r.class
+SHA-256-Digest: aVdpXFuaBNcr6NkOrcq1GIp0mPUK0+I+mgU3bEa1sj0=
+
+Name: com/sap/conn/jco/JCoTraceListener.class
+SHA-256-Digest: tgncdPSw4GXxZogBlxRtSXlLCn1x5+Aj9VDwuE84Mnc=
+
+Name: com/sap/tc/logging/Event.class
+SHA-256-Digest: 4SGwIbOizWfS+yL3lK7yYQJKrDUJp2gK5/Rp3RUDzNA=
+
+Name: com/sap/conn/jco/util/Codecs$AES.class
+SHA-256-Digest: iUjVRRx5i1G3/Fkwfpsz1s32IUYrBLbRjndzjWrbiJk=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$LogControllerEntry.cla
+ ss
+SHA-256-Digest: gie0gp140dScuiM6hLyCpFcYCv49AzJMbIl94tu/Ac4=
+
+Name: com/sap/conn/jco/util/UtcTypes$TMinute.class
+SHA-256-Digest: pxrTuH+8KoFxYo5ZY3qdbhDufWVTQgt2D/CagfOc0ks=
+
+Name: com/sap/conn/rfc/engine/Compress.class
+SHA-256-Digest: tuehHh2StRmVP4T6pJmTPuel2bdhD+X09RGXV+BzQvc=
+
+Name: com/sap/conn/jco/JCoTable.class
+SHA-256-Digest: AGTphMXZ8Jl+hEsjLvy3lfBAmxypTpYZDQQHpvwDaPo=
+
+Name: com/sap/conn/jco/ext/TenantProvider.class
+SHA-256-Digest: 9tHSZSanyNmJiiHYlKNEKse1grBkUoVWB4Nofz6Ules=
+
+Name: com/sap/conn/jco/rt/ClientFactory.class
+SHA-256-Digest: qsLqbbvKvZQc8hsC6g0TMCoqHqF0DLuZjxOGmKNPuyU=
+
+Name: com/sap/conn/jco/ext/SessionException.class
+SHA-256-Digest: NoLat39v2kX7RkGRPcXQ5FaecY5KTkk2bbeNEHkePeU=
+
+Name: com/sap/conn/jco/JCoCustomDestination.class
+SHA-256-Digest: 7cp2/vNRECxFNSsgl2WrQIWC3L6s+e+2Vp5JUiYedSM=
+
+Name: com/sap/conn/jco/server/JCoServerTIDHandler.class
+SHA-256-Digest: XqmDiUpAqvvHycMcXpqXWu+9fZs1c710vtlP31uXthI=
+
+Name: com/sap/conn/rfc/engine/RfcUtilities.class
+SHA-256-Digest: ufsycj/LvjXAIsJ8U5mbpadnvo0OEetCtarXiLr3H6o=
+
+Name: com/sap/i18n/cp/ConverterRuntimeException.class
+SHA-256-Digest: XvZPe/imYAzpJ+TB2wU9JCbmn5y7NRSohZteRvofBsU=
+
+Name: com/sap/i18n/cp/ConvertXToX.class
+SHA-256-Digest: EOQAClLu5Z3t/gzP8MA49AbM2snM/GhJIN5mVTLWcns=
+
+Name: com/sap/tc/logging/Severity.class
+SHA-256-Digest: U6C+dxOV+QN3OMqhshEbKsCDxZzrF6ttFBTK8foFNQE=
+
+Name: com/sap/tc/logging/tools/lv/CmdOptionList.class
+SHA-256-Digest: Kt/4E//Bdq/a9hann3X4DXtwo9/FN24/p8gr/5ei9sY=
+
+Name: com/sap/conn/jco/util/IntHashTable.class
+SHA-256-Digest: P6blcOeIXaFOjR6NFLZ3/+CkyQDFMy6lw912ei8VZIw=
+
+Name: com/sap/conn/jco/rt/JCoRuntimeFactory.class
+SHA-256-Digest: LaWJu0/7UZIv19/VEr5E85BcmBB7BH+wkMW1pGIyRlw=
+
+Name: com/sap/conn/rfc/engine/Trc$1.class
+SHA-256-Digest: d0hJFCIo6tXffkAAUFEhosOV35TCEVKks0OXZCRp3T0=
+
+Name: com/sap/tc/logging/tools/lv/LVFormatPattern.class
+SHA-256-Digest: 0p1/v4RUUFArrIYdhcLywdL+anf1/k6hnlfXfioJt08=
+
+Name: com/sap/conn/jco/rt/BasXMLParser$Mode.class
+SHA-256-Digest: D1NyffdY/85CPGfw6KJ/4f26ROtO+k0LtGMdmw4A9EI=
+
+Name: com/sap/tc/logging/Configurator.class
+SHA-256-Digest: WhHNhfeb+DeiLIovHPkv+xTYFF9I7SOwkaL9gqxkTAw=
+
+Name: com/sap/conn/jco/ext/SessionEventListener.class
+SHA-256-Digest: Xyw2jPFkJn8eaeLFcb+ia7toh6ekTjpT9AONz3dIfZ4=
+
+Name: com/sap/conn/jco/ext/Environment.class
+SHA-256-Digest: hgrkUftcNTg8VQJte3LZ+PWGMMBV6iiswQL3beg6WEw=
+
+Name: com/sap/conn/jco/rt/About.class
+SHA-256-Digest: tbzsCJSlKn7gxXLvZ7RGmpPm5TDSdDlOlcnunZzvdkI=
+
+Name: com/sap/conn/jco/rt/json/StructureCacheIterator.class
+SHA-256-Digest: fGj/njshBc3ubuESp0R0ZLY1bdKTjXDa+PKPuxR9vqk=
+
+Name: com/sap/tc/logging/Log.class
+SHA-256-Digest: sCKI3n3zVSaEJRDdFK6VDG9qF0EajkhT/M7EpxEqvTI=
+
+Name: com/sap/conn/jco/rt/ClientConnection$CallContext.class
+SHA-256-Digest: HVTz15YVBt2pjGr4n/pFZZz0GuTIgYjNH3zo65A0RMc=
+
+Name: com/sap/tc/logging/tools/lv/LVFormatter.class
+SHA-256-Digest: cKGwiUzqSYIjyBhdFj3jd0sDrP2v8GFH8Vza/Ii9kVk=
+
+Name: com/sap/conn/jco/rt/PropertyFileDataProviderTLS$PropertiesInputS
+ tream.class
+SHA-256-Digest: df7qBYqxwc+1U3ABsK9S9MkkLeZ92HUJahwPTweXVRM=
+
+Name: com/sap/conn/rfc/engine/cbrfc/util/CbRfcType$1.class
+SHA-256-Digest: 2VvIXyVflMdogc9off8/hGtaatcGsm9y8DLkjActjBE=
+
+Name: com/sap/conn/jco/rt/MessageServerInternal.class
+SHA-256-Digest: Y+xy02Ae6TzDpI0n4sDUuo1kNSVcLSgAGIv7v8AQuSI=
+
+Name: com/sap/i18n/cp/ConvertCToXFactory.class
+SHA-256-Digest: ORiPh3dxZcG4WIBi82hfHHkZahJ5/1HKUFJnuFSXcOg=
+
+Name: com/sap/tc/logging/ReverseTokenizer$State.class
+SHA-256-Digest: JomYUjM07r7i2rHa7s7K2M1YajXpkVHR28Of1etDPLI=
+
+Name: com/sap/conn/jco/rt/json/JSonClassMetaDataWriter.class
+SHA-256-Digest: SISIFwH08VUNUpKokBeBIT8RKUPlx2v6F9ZytWW3/oQ=
+
+Name: com/sap/tc/logging/exceptions/ReadRotatingFilesException.class
+SHA-256-Digest: 0YXkLXpCCxX4Dg1lgVj4dx4O6noMiV0lQrZbLis+pL4=
+
+Name: com/sap/tc/logging/tools/lv/LVActionConstants.class
+SHA-256-Digest: qH9pPcFvEZY+JZFoobjOUqH0x9d6NPPvbUS0qmB7rSg=
+
+Name: com/sap/conn/jco/ext/DefaultSessionReferenceProvider.class
+SHA-256-Digest: LdrqR4E2Bdb2dxm9YoEANjF/HIWMnxhZ/qzPZ3frF0g=
+
+Name: com/sap/conn/jco/server/DefaultServerHandlerFactory$RequestHandl
+ erFactory.class
+SHA-256-Digest: V0JsgVNK+LRXiNuPUSR6ZXJXYoHtWFD4Y7ypwoe5b08=
+
+Name: com/sap/conn/rfc/engine/RfcImp.class
+SHA-256-Digest: gt2IRpmj9WncVCfWwT6sJZkt+KrkcK3MIZn82OD5EaE=
+
+Name: com/sap/conn/jco/rt/SerializationAwareVisitor.class
+SHA-256-Digest: 7rlxjydxMqH5mtktjoFilyqVXZYwfAs9KSfGIDShpas=
+
+Name: com/sap/conn/rfc/engine/cbrfc/sendStream/CbRfcSendStream.class
+SHA-256-Digest: LwXlY8p9Y2q+rSBGywMckqY9/IecmG5aDraqmTFdP2U=
+
+Name: com/sap/conn/rfc/engine/RfcGetInfo.class
+SHA-256-Digest: X8ITFDulGA8O8MTfTR3ExIGQ/4G/qLXV9FPeWh1qIDg=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$LogControllerKey.class
+SHA-256-Digest: WN+Dr05K5vzE4Ycr6nXhtejOegu5svRClEbFKP3otRg=
+
+Name: com/sap/tc/logging/ReverseTokenizer.class
+SHA-256-Digest: 7x5D1Wi7Qiks3XGDLR2OdxB1aIgkSpMWJvLWEQWwKdQ=
+
+Name: com/sap/conn/jco/JCoExtendedFieldMetaData.class
+SHA-256-Digest: eV0BU+H+Ec6rU5hM9oHz497E2qzEKhlm0U/NHYwYKck=
+
+Name: com/sap/conn/rfc/driver/CpicDriverState.class
+SHA-256-Digest: rCvD9nrYyXsgCOgeSiLq70BcPLvfYo6pM6IsDKNVEuM=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$PCTokenizer.class
+SHA-256-Digest: tl/4q3VXZcB7lQlC2u05gZKwzfuaxxKFrH0stXD/GEI=
+
+Name: com/sap/conn/rfc/driver/input/TotalLengthInputStream.class
+SHA-256-Digest: adxV444+bsHRSTpRXx0Cxl8OkidJcjzJBI8mYsRIG2g=
+
+Name: com/sap/conn/jco/rt/WebSocketServerManager.class
+SHA-256-Digest: vGTKUbY3pFxQ6ToS2VaQGl8mCMvkpcqxPv9o8gVpxhY=
+
+Name: com/sap/conn/rfc/engine/AbSysInfo$1.class
+SHA-256-Digest: vjOOPgn+kWiPF7u8eCqjziT3q1uCzonFXdKq4Uyx4dc=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcDecompressionCreat
+ or.class
+SHA-256-Digest: 4i3VkLfkD1b9t6rlE4jYiRhQ5sA4BH8d688eEn0YhyA=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcLZ4DecompressionCr
+ eator.class
+SHA-256-Digest: MowqT64GPfy6/KdW62Jijj4CKtgXc3iD8HuW1eN11zc=
+
+Name: com/sap/conn/jco/rt/WebSocketServer$AsynchronousWebSocketAccepto
+ r.class
+SHA-256-Digest: 4hQsfBXdQXXHmnTuK5jk9HLR/uW8ScbvFczqsZkg4Ms=
+
+Name: com/sap/conn/rfc/engine/AbSysInfo.class
+SHA-256-Digest: aCxv0p/G4DFwOqjOkOx3ZIp9jvHcsCpXLMX3+Xq66Ok=
+
+Name: com/sap/conn/jco/rt/AbapRepository$TurboDDICHelper.class
+SHA-256-Digest: tuIsR8p/r+Yl3+Jj7MOnm9C3820vn3wZDwVgdZ/uqV4=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker$1.class
+SHA-256-Digest: SKUa1mXheG2CfT4ck3FUorOePO4Wwz4q9B+3uNfxHpk=
+
+Name: com/sap/conn/jco/rt/AbapExceptionModel.class
+SHA-256-Digest: fMUkBLH5F7ARS7dKHDeldGHJ0GrR8NLF75a7alYx9gY=
+
+Name: com/sap/conn/jco/rt/json/ClassCacheIterator.class
+SHA-256-Digest: gMJfBFElzaL2tdexBZk0Nupfxswrt/pAIhjAHWWMAJo=
+
+Name: com/sap/i18n/cp/ConvertXToCFactory$ShortcutBase.class
+SHA-256-Digest: tMbloux8UgUEAQFdp7ehpOWCEIMyy94+LQZlDYocxUg=
+
+Name: com/sap/tc/logging/Formatter.class
+SHA-256-Digest: DRqd53TBTeIc/hHk+1EBTwWIZksZvxkaLYWaC+TwpLU=
+
+Name: com/sap/tc/logging/exceptions/UnsupportedFormatException.class
+SHA-256-Digest: rY3A1pw6RxIQpVJOkkrQHJE4MLxLFlz2AkOpyIqAxEM=
+
+Name: com/sap/conn/jco/rt/json/Field.class
+SHA-256-Digest: Z0+RpPMegL179jTT/FsuxU25GOfne+VuS1tuPeSYP8g=
+
+Name: com/sap/i18n/cp/ConvertBase.class
+SHA-256-Digest: yhI0KrdQmkrAhxgKYb17CfphgMBVfDYoDLeVvgVZmP8=
+
+Name: com/sap/conn/rfc/engine/RfcGetName.class
+SHA-256-Digest: hEcIL5WjdvHEZT1YRruNNzHgWAaLd5Ip+cumKZUwYk8=
+
+Name: com/sap/conn/jco/rt/BasXMLWriter$Reference.class
+SHA-256-Digest: +TCY2yK9kSmKNSBP0SSaACN5bo/HsJZVCI1uG72VOWM=
+
+Name: com/sap/conn/rfc/engine/DefaultRfcTraceWriter$1.class
+SHA-256-Digest: 2nzaT/1jGfAki/n+69sm7ay3ux8gyV9EpMzlTYgbc0k=
+
+Name: com/sap/conn/jco/rt/Parameter.class
+SHA-256-Digest: 9nCXFMNKy6TyGrE7PDcrSwE+gMwKi8jdV3qwJmjI0Wc=
+
+Name: com/sap/tc/logging/perf/PerfTracing.class
+SHA-256-Digest: 97CqhzXHfSKBDGwC2vnQviB1IuEgAekfTGursi/kdbM=
+
+Name: com/sap/conn/jco/util/Utf8ByteToCharConverter.class
+SHA-256-Digest: 8qkGpDQJKVzSCrkw6VzTYzqitpGZKx9J5sAqWSbk7Jo=
+
+Name: com/sap/i18n/cp/ConvertLE2Uc.class
+SHA-256-Digest: IFtb9+t6x6SsXtaQkj5kia2EM4NdeYNE0icuNzjHd2s=
+
+Name: com/sap/tc/logging/HelperLib.class
+SHA-256-Digest: tiEFQZsvWbKfDgsGWPmOtd5KsOwqoeElYQgJKAUsZQE=
+
+Name: com/sap/tc/logging/Version.class
+SHA-256-Digest: GunSJkXli9aWX2ZZc72PopCj2t2FMP8XPOH9AJQgbn8=
+
+Name: com/sap/conn/jco/util/Jarm.class
+SHA-256-Digest: l3J0DUbMNxsCyAm0diIHp/T1KbUbPALC1xok7tQ6Ghs=
+
+Name: com/sap/tc/logging/FormatterType.class
+SHA-256-Digest: 19rEolGUrOlyDx1VcSVs5NY+DnsWI6z/b3lIu72NMa4=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcLZ4Decompression.c
+ lass
+SHA-256-Digest: uaOe8svF9SYqO9ZuHobWMZ5BHdui9Qq62bRKVNRYw1E=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$FormatterRefVal.class
+SHA-256-Digest: Tk4ZbNF7MNSQUHVGAm2W3efUb1z4ejHSsVSz8p2o16Y=
+
+Name: com/sap/tc/logging/Location.class
+SHA-256-Digest: 5yk9LF2GvL7A1EynRQudXWaAe7AUFc3sRkUkp1bxZNs=
+
+Name: com/sap/tc/logging/perf/Version.class
+SHA-256-Digest: cRHfJQ0ZsYUymA7iZa9+3+I+f3XyUvJdACtlyMGZq8s=
+
+Name: com/sap/conn/jco/JCoParameterList.class
+SHA-256-Digest: 9G0lc8E2JXArMZeaOSkm6r6yh2w1MEgMGPxKVEl7DiI=
+
+Name: com/sap/conn/jco/rt/RepositoryCacheProxy.class
+SHA-256-Digest: BAV6wGfw7NRQVCVULVRj3hCymnqap+PibcKqqE0mHfs=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$1.class
+SHA-256-Digest: tJ5wskefmepFmkAMYz1KP3A6MJssuOGf1NeU53XJCwU=
+
+Name: com/sap/i18n/cp/ConvertUc2BE.class
+SHA-256-Digest: SsnpsuEF8CBrQvpbXPrXaOBUY67YSfldfixBVXRaMEs=
+
+Name: com/sap/tc/logging/perf/ISatRecord.class
+SHA-256-Digest: 96KrvfqLiVL1J7fNLeuO1QDTy2tIyvFHQ/UOHwtpbUk=
+
+Name: com/sap/conn/jco/rt/AbstractConnection.class
+SHA-256-Digest: TVBkw3RgdIu6yxrLFI4wsV6r4DBOuIWZMI0NKc5zcQM=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcNoDecompression.cl
+ ass
+SHA-256-Digest: 72NuB7g2sFq+wca18XDuiq4dRegrc5dm3bmweN5JrGI=
+
+Name: com/sap/conn/jco/rt/DefaultRemoteContext$StackEntry.class
+SHA-256-Digest: 6eEe/XOtL4pS/z97TokgPAdtD2PPxcUOfUskCDMFAo0=
+
+Name: com/sap/conn/jco/rt/AbapClassExceptionInfo.class
+SHA-256-Digest: iUHMfYdlFAu6LF1qjytqHikxpxv4wNBnPGGvD1gWjCQ=
+
+Name: com/sap/i18n/cp/ConvertSystemCpToC.class
+SHA-256-Digest: q0THEBEtQ2zvJCc/0tTZLYYOSid7HV/gLyXyRgpq71U=
+
+Name: com/sap/conn/jco/rt/DefaultStructure.class
+SHA-256-Digest: 9e/XkRdu6ueyDV1qvuhmEmiOY2OojPWl+Ew9WtA1Er0=
+
+Name: com/sap/conn/rfc/driver/AbstractSocketDriver.class
+SHA-256-Digest: cOkVLJFUBJ0EOb2/Z9wS+uKcfdysIxWbE0fkALjRb/M=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker$FunctionDispatcher.clas
+ s
+SHA-256-Digest: ga2kurhe+b0HOXeUrHoNZnLyp6n9RhUqNf8azC1uTtg=
+
+Name: com/sap/conn/jco/JCoCustomDestination$SncConfigurationData.class
+SHA-256-Digest: qadOirNZ9lEgayHPb8Izf+mmxJmzs+WP9A+j94Jpg1A=
+
+Name: com/sap/conn/jco/util/I18NConverters.class
+SHA-256-Digest: ruElwsDBclHEV/hkW7FGYUp0RBuJl4SMnd1nmLudv5o=
+
+Name: com/sap/tc/logging/MessageEvent.class
+SHA-256-Digest: t7/wzyFZIhG70TzjyD5EcmAhw57F56FUrfetWs4ZCdk=
+
+Name: com/sap/conn/jco/rt/Trace.class
+SHA-256-Digest: RvrOsd5HA5d0PwDn3SO7Ri9G57ckFSdciGt7PLHcRrM=
+
+Name: com/sap/conn/jco/JCoRecordMetaData.class
+SHA-256-Digest: 07duKFDy7Onw6ezRqCYtruqeDM20ZoSISdq6TkfbhJA=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcZLibDecompressionC
+ reator.class
+SHA-256-Digest: UZEvcOjWdKXgX/kuRrf3QHApli83YQeAILqlS6XoKTs=
+
+Name: com/sap/conn/jco/rt/SessionTimeoutChecker.class
+SHA-256-Digest: MdX7dTqAOkQRcAsIQIlWnlUByDIyrfkmJENbuKMd5K0=
+
+Name: com/sap/conn/jco/monitor/JCoServerMonitor.class
+SHA-256-Digest: 4hEHsYNz9YNxG4BsVO4TgUkUT6alYQvJG6c9ajQaJfc=
+
+Name: com/sap/conn/jco/server/JCoApplicationAuthorizationException.cla
+ ss
+SHA-256-Digest: b3/ch/CttciPBc62hx6MGGBCvrfafTJGrcZsdVTdAIw=
+
+Name: com/sap/conn/jco/rt/ServerAuthorizationData.class
+SHA-256-Digest: +9scXQkCpU5pt/KFA6BRe+dII+78f74hVXwCV6Apl+M=
+
+Name: com/sap/conn/jco/rt/DefaultParameterFieldIterator.class
+SHA-256-Digest: gSkOkW6nbRCfQp47BSZHe1os9Wm18OQSduG1vleQMuc=
+
+Name: com/sap/conn/jco/util/StringUtil.class
+SHA-256-Digest: JWVFcNHERppUHCJp4tMhrDAep0bSuSU63fIUPTNr0eQ=
+
+Name: com/sap/conn/jco/JCoRepository.class
+SHA-256-Digest: XLIfWMsmRd8SnSOljNm58qYHQcbOz6Afhiafw24D4NU=
+
+Name: com/sap/tc/logging/ILogRecordFull.class
+SHA-256-Digest: R1xxE6CJuOMq3+SaDHE1tptTM4kZadFUj4PQgwxECjQ=
+
+Name: com/sap/conn/jco/rt/TenantContext.class
+SHA-256-Digest: 980HGADHhR2B9RZPcMYhRw9EH6Hp2NJB71l5QlLfimg=
+
+Name: com/sap/conn/jco/JCoRecordField.class
+SHA-256-Digest: HwAZvE99u0Z0WUV2oQ/Zns1uHiAioH0QclBIIBZOwqM=
+
+Name: com/sap/conn/rfc/engine/RfcGet$RfcGetState.class
+SHA-256-Digest: IHOZh/coxCqqh0puDcxHoRBo3jRxO5iUQeJFRfix+dc=
+
+Name: com/sap/conn/jco/rt/AbstractServerManager$1.class
+SHA-256-Digest: hvGEE/mTxKIw8O4ka4gd8627BBfMuB+/3czFjICbDgg=
+
+Name: com/sap/conn/rfc/driver/WebSocketClientDriver$ProxySocketUtil.cl
+ ass
+SHA-256-Digest: Isncly3fuQzXGp1uONkriAp+5ypTGUEFUJRp9Kl5cTs=
+
+Name: com/sap/conn/jco/rt/DefaultApplicationServer.class
+SHA-256-Digest: Ku1KKmNPdz9hJOSsy3mhXFma4IPElmL/dV3jnFBtw7o=
+
+Name: com/sap/conn/jco/server/JCoServerUnitIDHandler.class
+SHA-256-Digest: 36jDY2K4cZFIFksI2VG4jx5GN8BOE4x13opKwteDc5g=
+
+Name: com/sap/tc/logging/interfaces/IReadLog.class
+SHA-256-Digest: pY0JJnr22v4By9BsnT6Gou9F63pX+U9BqYcIxHYzWz0=
+
+Name: com/sap/conn/jco/rt/ConnectionManager$1.class
+SHA-256-Digest: CPzwhMN1hYEvO9gdz0Z4Nd6zmvJZNa8ehIu6INOFIns=
+
+Name: com/sap/conn/jco/rt/AbapRepository$DDICHelper.class
+SHA-256-Digest: BPW464a+6J847R4u6RZHni9I03JvW6Xf0A+bF/8Pu1I=
+
+Name: com/sap/i18n/cp/ConvertErrInfo.class
+SHA-256-Digest: QmgWlPWvp+SjZO8vAgs9OqVT7Wz/gBrtUPI//P043hw=
+
+Name: com/sap/conn/jco/util/XMLWriterBase.class
+SHA-256-Digest: PXfK4s0KADyn+XVu9VTnKau1qFDFT856rIoYxfCYq94=
+
+Name: com/sap/conn/jco/rt/DefaultTimeoutChecker.class
+SHA-256-Digest: i8DIQvbFeVz80w6xLc5HItFuDhqErZl/Gj9yaXg4hJM=
+
+Name: com/sap/conn/jco/rt/MessageServerState$2.class
+SHA-256-Digest: vjI6+iuiMnP3ac3x9WjJWO4s37naEajfiUlANX35/Hc=
+
+Name: com/sap/conn/jco/rt/ServerInternal.class
+SHA-256-Digest: zrUOmgRWIs0jTe/ki340iodmAo9ddlU6wbBn4xQcszk=
+
+Name: com/sap/conn/rfc/engine/RfcValInfo.class
+SHA-256-Digest: dZ6H5kkWozgu77Bu9pn3zf/fJIcbgZm/bVc0PfJNnhM=
+
+Name: com/sap/conn/rfc/api/RfcApi.class
+SHA-256-Digest: Ey4JmzVadbvNjCcVABVanL1cyvwlEq28gzVom33QKrU=
+
+Name: com/sap/conn/jco/rt/BasicRepository$BasicRepositoryMonitor.class
+SHA-256-Digest: GZPGmriIFV057ShYxUHYiM8YTtajUg/x16RSnMDi48g=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$FormatterRefKey.class
+SHA-256-Digest: g10++Q9ecdPuLswwZCgO93e0v+Q4mCPONOawHyUdqg8=
+
+Name: com/sap/conn/jco/rt/AbstractField.class
+SHA-256-Digest: Jis1TaA6++w/wic1/YlaJjB3u+kA2aRkU2SQgs0LY/0=
+
+Name: com/sap/conn/jco/util/CharacterEncoding.class
+SHA-256-Digest: Lp5BknhQjGyjKZY8yIcr/sTp5nTBY6+2QHQ4aQD8bS4=
+
+Name: com/sap/conn/jco/monitor/JCoConnectionData.class
+SHA-256-Digest: Bw4VlwPPqTmIZpQ/udHNn8r1gcSUtl2hmvfG2uwDOgg=
+
+Name: com/sap/conn/jco/rt/RepositoryConnection.class
+SHA-256-Digest: YSlgdgJomOnoItyYrwwSQRYzXHcyerPKex6v6J3/xgk=
+
+Name: com/sap/conn/jco/util/AboutDialog$1.class
+SHA-256-Digest: D/o0JRPbey++sk+jyAebDkjiHabmdZ4bqIR4IAONnmQ=
+
+Name: com/sap/conn/jco/rt/LGChecker.class
+SHA-256-Digest: ToPz0IS/exJoce037MpURQctAuzgGUuig7bl4DEQg4Q=
+
+Name: com/sap/conn/jco/JCoUnitIdentifier$Type.class
+SHA-256-Digest: rAjvu2ndga10P/EVXrzZVAFYqa4mtsIzkQ2RdwWp0Jw=
+
+Name: com/sap/tc/logging/interfaces/ILogRecord.class
+SHA-256-Digest: vnWrSdTr63CTfe12e0FDTQpfxd+UepZeGgkBMRuP/20=
+
+Name: com/sap/conn/rfc/sysfunc/RfcSetRegServerProperty.class
+SHA-256-Digest: NcD3Rr9/xs88BtYteAIi01NC8pAvsHPapox2tq4Kmwo=
+
+Name: com/sap/tc/logging/reader/LogRecordResultSet.class
+SHA-256-Digest: c4OVLClPqjbEDMzY96f1k6wGJPweACQA44vhkmixvWg=
+
+Name: com/sap/tc/logging/tools/lv/LVFormatOption.class
+SHA-256-Digest: vOwQOPlS6NiikpK0p9EjZusGHSsvTCPWI2vGI2dexiw=
+
+Name: com/sap/conn/jco/rt/PropertyFileDestinationDataProvider.class
+SHA-256-Digest: GIe0sC9d1nciXYx7xI1rzgZayonagSzfFdcshzq+sPo=
+
+Name: com/sap/conn/jco/rt/DefaultMessageServer.class
+SHA-256-Digest: G0dUhjjtee/GGYui7seGPDnCniHlTMxwL5Piy4jfjiw=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcZLibCompressionCreat
+ or.class
+SHA-256-Digest: qNKW+gt7P9+gYrl4ARyVyXg2YTTOz7jfAV7JkdSkyTA=
+
+Name: com/sap/tc/logging/messagedepot/MessageID.class
+SHA-256-Digest: ZYa1BV/ifPu6OpwoLQy6xBLR4tFFdObij4Sg3VaTRSI=
+
+Name: com/sap/conn/rfc/engine/cbrfc/serialize/CbRfcSerializerSimpleCol
+ umn.class
+SHA-256-Digest: uFOmkihE8qdGeZdCj3OCCEkxD6aUkTbskxa/auEfNTE=
+
+Name: com/sap/i18n/decfloat/DecFloatOverflowException.class
+SHA-256-Digest: GahfIGH8IKqwWuhsSxW7qo8b5c8+yDWqXoRhfqrYPGg=
+
+Name: com/sap/tc/logging/interfaces/IFileSetLog.class
+SHA-256-Digest: F3+moYY9nyo/mWKiU64+usc3VH4SkebJI28DMEeN7Gk=
+
+Name: com/sap/conn/jco/rt/ConnectionAttributes.class
+SHA-256-Digest: e8kqAfSrJ9NSAsjk2LafElBDlSr3hH5OQGPS25Dixa8=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcNoCompression.class
+SHA-256-Digest: V0MY2O1K5kkRuWDw5BGioFr7FhCXmpJi8qlYE7PDWQ0=
+
+Name: com/sap/conn/jco/server/JCoServerErrorListener.class
+SHA-256-Digest: 5NF900TGBPl7rLampMUON3kvzZdzZuXrz6wMn+8DLqo=
+
+Name: com/sap/conn/jco/JCoContext.class
+SHA-256-Digest: HRO1aKvWKj2jYOfCEIAMy0XQ9eL2OqYxUu0X/qa3b/o=
+
+Name: com/sap/tc/logging/Configurator$1.class
+SHA-256-Digest: CR4lL8yYQHQCL8oTIjLQqc3AB6FWmmVePstxzykkUFw=
+
+Name: com/sap/tc/logging/tools/lv/LVAction.class
+SHA-256-Digest: F8YeypiDOSiNXJ/f1gPc3CzUzFcbKYRmFFDY/efFfqw=
+
+Name: com/sap/conn/rfc/driver/RfcDriver.class
+SHA-256-Digest: ALrD57EFtLdI/JuazPR2j0F95Ep5TgVjIYgq50U+t9Y=
+
+Name: com/sap/conn/rfc/driver/input/SocketWrapperNIO.class
+SHA-256-Digest: jFRuuoos/f+gmgZdgXH0oVUf9ZS4fIMo6ZVF87ENMWg=
+
+Name: com/sap/conn/jco/JCoThroughput.class
+SHA-256-Digest: VjIFk6npdhBCBGidHAtWzscp+mmh7bRRmhmbAQVXwM0=
+
+Name: com/sap/conn/jco/support/Test.class
+SHA-256-Digest: 23d95ngGYIvS1yATsfsWCLua8rG/PT9kE7flO4JvBWQ=
+
+Name: com/sap/conn/jco/server/JCoServerContext.class
+SHA-256-Digest: +cNrCihyEvh0ewQI4SCLIme7s0C9icwfvMy79UMXo6k=
+
+Name: com/sap/conn/jco/rt/AbstractServerManager$DefaultRunnableStarter
+ .class
+SHA-256-Digest: oOBPDTej+9aXK5zfDAix/9O+2V9bsXIFtxhGyXa/GEw=
+
+Name: com/sap/tc/logging/Category.class
+SHA-256-Digest: t7OKl1T/17pcPuvd/uehfZVa4IU0XPkVj/Q0eU/8Znc=
+
+Name: com/sap/conn/jco/rt/RfcDestinationMonitor.class
+SHA-256-Digest: U0LggfJFLYKRQOS4T83zt9xwxOas5CFNkpp6fYfl4zY=
+
+Name: com/sap/conn/jco/rt/CPICServerManager$DispatcherWorker.class
+SHA-256-Digest: yeCVsGqh6Fy/GnFAz0VhXNOoyWaJKadn7aGywAsxiZU=
+
+Name: com/sap/conn/jco/rt/XRfcParser.class
+SHA-256-Digest: 7pU5buRCGGRUiTYTQLzk295EJmYic0t9AExQF9nrFA8=
+
+Name: com/sap/i18n/cp/ConvertCToXTImpl.class
+SHA-256-Digest: zySyVxSL8clhzZB77nkgr5W00bKWlX4n4JD4lDrjkUw=
+
+Name: com/sap/conn/jco/rt/RepositoryManager.class
+SHA-256-Digest: gVAOIkRsiGzoG/jyh5TfSOnKmr4Jh/HbPgSsx7EZlZ0=
+
+Name: com/sap/i18n/cp/ConvertCToAsciiTImpl.class
+SHA-256-Digest: JEZ63EDJSwCGjgVdvydM8dPtMqsYjDhQ2IsqJFwTfUk=
+
+Name: com/sap/conn/jco/rt/CPICServerConnection.class
+SHA-256-Digest: 2WDyIoN7RXN5U++t2hmwgJr72zmWgnH372vHIuehTaU=
+
+Name: com/sap/tc/logging/RemoveLogEvent.class
+SHA-256-Digest: 6Q+u8tK+P/+qZQrCLdoBVlekDpala3WHiS0D8aa+a3k=
+
+Name: com/sap/conn/jco/rt/AbstractMetaData.class
+SHA-256-Digest: 98vYl4upP2Ht7uyooGZp0/rjIUvJ1ciECR+MQ9kiyhM=
+
+Name: com/sap/i18n/cp/ConvertXToCFactory.class
+SHA-256-Digest: jZFVbsNg7L1SFgZvm1DFTEablBtYIgfulBLZd72AAFw=
+
+Name: com/sap/conn/jco/rt/DefaultStructure$Type1Record.class
+SHA-256-Digest: 5FvPkb8UxOSeoz+FpKzGd/Tajf2oi9wiF+kftowqBvg=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcNoCompressionCreator
+ .class
+SHA-256-Digest: ehD+3fHGSqMAyAYCHYZ4iqRmynw/+a6lGyWpdXTagVU=
+
+Name: com/sap/conn/jco/rt/DestinationState$3.class
+SHA-256-Digest: IJO0aw7QS/LbOUjmju/EZG4TJHr2SLd8jPsMKjdcLsc=
+
+Name: com/sap/conn/jco/ext/MessageServerDataProvider.class
+SHA-256-Digest: H67WQdtdOfNkvORwrvja4a4i7kl756PuOSfam2fd9qo=
+
+Name: com/sap/conn/jco/util/Codecs$AES$1.class
+SHA-256-Digest: 9hj5PAxTWTGB6+LvI+kAwfSywAP+3Ak42KW0UNent0k=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializerSetWr
+ apper.class
+SHA-256-Digest: HdswCX6FvaHkakRoTr88opbKNT4fe0okn4xNJ+ja9V8=
+
+Name: com/sap/conn/jco/rt/ConnectionManager$PoolFinalizer.class
+SHA-256-Digest: 6P3WyOBYZnMWLN3/y85fd/PoeiIzLzVWA6RKGyFfgto=
+
+Name: com/sap/conn/rfc/driver/input/TotalLengthInputStreamIO.class
+SHA-256-Digest: wlqbiFXf6vPCMZp/4C/yAGHr9sAT73jFbfQLbqgRPJg=
+
+Name: com/sap/conn/rfc/api/IRfcParameter.class
+SHA-256-Digest: aSNWElImVZdbLbaIKPT50cYuOJYgQ+7Th5jgYTXqNBI=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcLZ4Compression.class
+SHA-256-Digest: YRQkWVjgjYO7aqdvdUNyzpeeLZHLJFVgbvHwgU0d3TY=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$TokenType.class
+SHA-256-Digest: B2lpIzFEmzckGCDqx0J8XSBnWntu5rThuwfJF3QXN94=
+
+Name: com/sap/conn/rfc/engine/cbrfc/sendStream/CbRfcBitsWriter.class
+SHA-256-Digest: 28eX9g5kbSjMJJnc9FIzYPDQaIEUqU++b/S2hNvgpzg=
+
+Name: com/sap/conn/jco/rt/JCoRepositoryMapBox.class
+SHA-256-Digest: xfcCw49h51mEh90Rrhk1ZauuV+YHKynrjF8v4/qgFN0=
+
+Name: com/sap/conn/jco/rt/MutableParameterList.class
+SHA-256-Digest: XKIPtMX/+lwSBv/VYaXWbJBaGJs9AW/Hlq4vE9jPFC8=
+
+Name: com/sap/conn/rfc/engine/DefaultRfcTraceWriter$ErrorTraceBackupFi
+ lter.class
+SHA-256-Digest: R9chft4hga73zS2Wx06yYNfWgnVY6ha2LZO+nTnuR3k=
+
+Name: com/sap/tc/logging/exceptions/FileOpenException.class
+SHA-256-Digest: Ah9r1+3lUIQl+mgGu/oxeNHUs58nMmNXxacqbep3fWY=
+
+Name: com/sap/conn/jco/rt/Context$ContextState.class
+SHA-256-Digest: TeSWM43pdOhVTo9zEbeQQ0T9YT2oZopHXVBDxRKn+Mc=
+
+Name: com/sap/conn/jco/rt/DefaultRemoteContext$1.class
+SHA-256-Digest: s0wlMFUxvQbFH2zJoaNExkptcU6LZ46O2P3oKtxMQFs=
+
+Name: com/sap/tc/logging/BaseLog.class
+SHA-256-Digest: WStIw7+kNDDfQ43qpa1r4UUOiaDAHlzN45wK3lPH9fw=
+
+Name: com/sap/conn/jco/JCoFunctionUnit.class
+SHA-256-Digest: HoxYLH2nPoHLMRXWSQIPxejyhrty6cWfOcGxVXJm6pc=
+
+Name: com/sap/conn/jco/rt/DestinationState.class
+SHA-256-Digest: MAtNV6w4vV6jDZoijZCRRckxL3d1ElRwXMUay13qcaE=
+
+Name: com/sap/conn/rfc/data/ARFCSDATA.class
+SHA-256-Digest: cTIu3n/R3tjwzvNPjE9WR/lh6TFG5mah4qC/bO4IhpY=
+
+Name: com/sap/conn/jco/JCoRecordFieldIterator.class
+SHA-256-Digest: OJzbd2xMG+z4+2hS2iRPm5iY8scUJOBr6S9Th0siuE4=
+
+Name: com/sap/conn/jco/JCoListMetaData.class
+SHA-256-Digest: NsQ6lR0OggR+OxLOv25T8p4TkL5zbpYC6gYrwmZFI+8=
+
+Name: com/sap/conn/jco/rt/CustomRepository.class
+SHA-256-Digest: p3rU4jRg4B7wxa/Mzx1EifyCCOE32Eer+2dGqv86+DQ=
+
+Name: com/sap/tc/logging/interfaces/IBaseLog.class
+SHA-256-Digest: 2gJM+NcKzA5DV5V5mqCAUNGVkzGq4jbU9NTbkwLYVkQ=
+
+Name: com/sap/conn/jco/rt/AbstractRequestResponse$ResponseRequestMetad
+ ata.class
+SHA-256-Digest: 0rDCtyCMBXOeFoQUJxCFvsVOs1+58PbaSFkyLoS3HMs=
+
+Name: com/sap/tc/logging/NewLogListener.class
+SHA-256-Digest: Czboe4oOcvWb+ofMWp420LO4sgZ1gnFlq1SP2aqIpJw=
+
+Name: com/sap/conn/rfc/driver/WebSocketHelper.class
+SHA-256-Digest: emJ3UBgbzsas9C5PGqHlwHQEiZCzxhb8mIN7khM0YPY=
+
+Name: com/sap/i18n/cp/ConvertUc2Utf8.class
+SHA-256-Digest: fcfWvYhMmntSnawAaEX3v/lOVTWmM+rm4PdrBMMyyuM=
+
+Name: com/sap/i18n/cp/ConverterException.class
+SHA-256-Digest: EA3Ssl/qccWvfXo6skIaKh6+a+6JpicSEduwDWQeisI=
+
+Name: com/sap/conn/rfc/data/RfcChar.class
+SHA-256-Digest: 2GQsempLR7g0zRWx9ImP7JJSOtAcm7zbv53joZ/fKRA=
+
+Name: com/sap/conn/jco/rt/MessageServerState.class
+SHA-256-Digest: PyHOk33xQ+SbmgtI7JygZ/hpFHff/0SLt15kKaiClD4=
+
+Name: com/sap/tc/logging/messagedepot/MessageAccessor.class
+SHA-256-Digest: e0NmKJCyl/1ZgUVsWZ2bvePM/xFruJ//lBznAdVKHaQ=
+
+Name: com/sap/conn/jco/rt/AbstractStructuredRecord.class
+SHA-256-Digest: nbkr1Cy8RI0GeiC8uUIZoP+1Dx8NUXZQsAH89zm7e6Y=
+
+Name: com/sap/i18n/cp/ConvertTImplBase.class
+SHA-256-Digest: AyMY5WgJxTedgnnm5HZ92Bojnyk+YuULjRcnb5LUXPM=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$Attr.class
+SHA-256-Digest: +eLpa7gxdN7jABBRzuTUiZHh9LaundWUtdSb9auiCsU=
+
+Name: com/sap/tc/logging/ConsoleLog.class
+SHA-256-Digest: LyU+r/5TbcaGoH/cy64jndvTp/J0V2i+Y7iZq7rjRbg=
+
+Name: com/sap/tc/logging/exceptions/FileDataException.class
+SHA-256-Digest: hrgPSaUYjq0+vyQzi25d7IMoFqiX644Q/dbs/bcIi4w=
+
+Name: com/sap/conn/jco/rt/InternalDestination.class
+SHA-256-Digest: gnmDFXeJMngiBhR/UAK/kMXPf9u7AVHkqBHRFYdIjfM=
+
+Name: com/sap/conn/jco/rt/StandaloneServerFactory.class
+SHA-256-Digest: 0RSGI/dpkBSYejtRPD9/qcbZEyy03O/pxAgW84lxvyU=
+
+Name: com/sap/conn/rfc/engine/RfcPut.class
+SHA-256-Digest: RoEGFoZ+I5cPA2//e6n3ksMGcO0d9r/dDVAZR18PJOs=
+
+Name: com/sap/conn/jco/rt/AbapBackgroundUnitAttributes.class
+SHA-256-Digest: rifW8f44tsgfI0EmER2TakxpRnyYkvNoqmjZWkUUof8=
+
+Name: com/sap/i18n/decfloat/StringUtil.class
+SHA-256-Digest: o4R4WeEddcmhxWgHRjvBW2phx+7gIRzaFc2pfJqF5W4=
+
+Name: com/sap/tc/logging/MsgType.class
+SHA-256-Digest: FNSuZjNPHag0kXixOtb5e5OWVaPCJ+ICQMiKT/qhCs4=
+
+Name: com/sap/conn/rfc/api/RfcAcceptInfo.class
+SHA-256-Digest: FR6m3y3FxG0hGIxsHzfISh8LzucvdF5rBbW0irMN/zw=
+
+Name: com/sap/conn/rfc/driver/ClientSocketDriver.class
+SHA-256-Digest: 1oiphBgB1b/Uh2ubBFfJJZd0HUqZyzO+EM/ESWRccPI=
+
+Name: com/sap/conn/rfc/engine/RfcGetName$SystemFunctions.class
+SHA-256-Digest: RlhQG9ELfAStv1E3zFF7rMcojEkRimr60OrjmucAi/I=
+
+Name: com/sap/conn/jco/rt/AbstractRecord$1.class
+SHA-256-Digest: HhrGqsUu4kjutMI3fkp/7WdyviBGumJFZZ24yoAOqFc=
+
+Name: com/sap/conn/jco/rt/DefaultThroughput.class
+SHA-256-Digest: /mhW9BDRx2tnfpa1wUiRr61wMGaDt10qgubKcALbaCg=
+
+Name: com/sap/conn/rfc/engine/TRfc.class
+SHA-256-Digest: t+gwKyPmLTbH+kgLQYrD2IrVcQNCLqjRkx8ZmJyda78=
+
+Name: com/sap/i18n/cp/ConvertXToCFactory$ShortcutSb2Uc.class
+SHA-256-Digest: os4MCwivL+RFHG448k2fg7qNHRikb0I/eOH7a/7DRo0=
+
+Name: com/sap/conn/jco/monitor/JCoConnectionMonitor.class
+SHA-256-Digest: R19CFt/pKdxep/CZs8Qkz2Tn7pHyzWS+uvXQXyl0Vrk=
+
+Name: com/sap/conn/rfc/driver/security/verify/SubjectName.class
+SHA-256-Digest: aMVpch8Ms/q+rM8V0m20RSu381y/nVtI3k539XkYTcQ=
+
+Name: com/sap/conn/jco/rt/AbstractServer$DefaultJCoRepositoryMapBox.cl
+ ass
+SHA-256-Digest: sfji9MY4w0HfsVIMgZ4nFc5JrqCGjEcNqvmcjLDNMRo=
+
+Name: com/sap/tc/logging/PropertiesConfigurator.class
+SHA-256-Digest: 7JmgARzhnFyyv1Unt9lb/vOQ1JLPFLMTB9KnpDiiy1I=
+
+Name: com/sap/tc/logging/XMLFormatter.class
+SHA-256-Digest: IVikbL2Dx8G+IRtgRk7iQYFORyhE2aj9tM0YMFiSyZA=
+
+Name: com/sap/conn/jco/JCoRuntimeException.class
+SHA-256-Digest: s/2eNoXamc2MzBsWCIeHaWBqbjG6i+w5uf2QsBn3oe8=
+
+Name: com/sap/conn/rfc/sysfunc/RfcJPing.class
+SHA-256-Digest: SPnn2anrquBcKoPctDzRxDJC3mHD0lNdKLU2urZ9sPw=
+
+Name: com/sap/conn/rfc/engine/BgRfcUnit$ByteBuffer.class
+SHA-256-Digest: pGrMyT/VT4ZZBcNxaKoZCpA7ztty1QCakX/vqhCTge0=
+
+Name: com/sap/conn/jco/JCoStructure.class
+SHA-256-Digest: UPADStfUVkgnH/Qd9/zMtAq6xcdstB0tuRQJxPX3X88=
+
+Name: com/sap/conn/jco/rt/json/TableCacheIterator.class
+SHA-256-Digest: Ef5KRhYlkWVlhix0cxVHrblcMCKjdvznsGjoT/KNVtA=
+
+Name: com/sap/tc/logging/exceptions/ExMSGs.class
+SHA-256-Digest: Qu5e9YcQTFBNRbUXBbHsrlclhObOQ4TPb9mPishxJkc=
+
+Name: com/sap/conn/jco/rt/json/JSonTableWriter.class
+SHA-256-Digest: WtA1YkNULIF07CG2YhlNvN0UgOx3nL5pQbs5V3TEwT8=
+
+Name: com/sap/tc/logging/tools/lv/LVLogger.class
+SHA-256-Digest: Gf5bEBU8zyGB8GFFPQ41OR6Vc8H1STP0rN+ZHsrMHRI=
+
+Name: com/sap/conn/rfc/driver/security/verify/WSHostnameVerifier.class
+SHA-256-Digest: 3tadCAcO7zo2O06weqw/COxVwrRicXXf2Su6djbLR8M=
+
+Name: com/sap/conn/jco/server/JCoServerStateChangedListener.class
+SHA-256-Digest: PZw68hSdct5OFP3Kywovz+oxHvIQws6e138MSBGlhp8=
+
+Name: com/sap/conn/jco/JCoFunction.class
+SHA-256-Digest: Ck3WcdqssD+xXUkhUX9gRcirvrzrCOHbSazl/DKxqPE=
+
+Name: com/sap/conn/jco/rt/PropertyFileDataProviderTLS$1.class
+SHA-256-Digest: DEI194C4SzlyA0qkk1LLDlTXI1uhLWYUWRjxj33Dads=
+
+Name: com/sap/conn/jco/rt/ServerAuthenticationData.class
+SHA-256-Digest: e3GCJUTRphsSkM1ZcMJTVVk+1H7MqThaEQYImUb09QI=
+
+Name: com/sap/conn/jco/rt/DefaultConnectionManager.class
+SHA-256-Digest: zZZV2PuGD5maBGJpg//1eatlavAzd0Ru4nBgkBXImu8=
+
+Name: com/sap/conn/jco/rt/AbapFunctionUnit$UnitIdentifier.class
+SHA-256-Digest: ne5uIBVdT54Dmg0Y7dVjbSBlYrRNz4FWhaNEKpiyCDM=
+
+Name: com/sap/conn/jco/util/Codepage.class
+SHA-256-Digest: CwjB4/EJ+GRzJxo7MElRWvNdf2jbUQ+0w3au749hA64=
+
+Name: com/sap/conn/jco/rt/RuntimeEnvironment.class
+SHA-256-Digest: SqArzDS8BQ7/H0U1+yhHVXUBq6lLkOmBmOMPAqDXyyI=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializerColum
+ n.class
+SHA-256-Digest: eeBn3HcO3U6eza+8kwyd3Pmtib6+A8LnkKWDJ8+KJx8=
+
+Name: com/sap/tc/logging/ReleaseLogEvent.class
+SHA-256-Digest: z7hJ5zFMTflDXUhcxYjgG5TqeQfQuYk9ub6nWwBfpMQ=
+
+Name: com/sap/tc/logging/perf/PerfLogRecord.class
+SHA-256-Digest: XrIyFiF9LE5pV92S9ltV7xmunvmY/BL5z7fWH1LjfqI=
+
+Name: com/sap/tc/logging/LogController$Regarders.class
+SHA-256-Digest: 9CacetHWp+EqmZd4lPutWwTM7McT6I2llBP0Z+EBtO4=
+
+Name: com/sap/conn/jco/rt/json/RepReader.class
+SHA-256-Digest: jSYg4LybekYai2xidKIMAJsuCOLyxKI0zD654BNlj/o=
+
+Name: com/sap/i18n/cp/ConvertCCCDataErrInfo.class
+SHA-256-Digest: 9UHxNerhXlPqSE0lV/OsFYBJ5oOiyk77zKC9akKO9+g=
+
+Name: com/sap/tc/logging/LogController$Relation.class
+SHA-256-Digest: +jTwwfKTilp3Y6z4dXo9/AxQgUJuIfRUmW7nco75bK8=
+
+Name: com/sap/conn/jco/util/UtcTypes.class
+SHA-256-Digest: XC7efjB7Uo7NxA+0edvLPcZXzozzugh70KQYBsm91Gg=
+
+Name: com/sap/conn/jco/rt/CallbackHandler.class
+SHA-256-Digest: 9bBmY29/M8MP5rytAea2qYPf5MmXl3vT9STDFWXkPsA=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializerCompr
+ essionColumn$1.class
+SHA-256-Digest: SsbYqB1I7eJzd+S/MMFMyLaqtYNrrYfT7JH5Psj2eDY=
+
+Name: com/sap/i18n/cp/ConvertCToXFactory$ShortcutUc2Db.class
+SHA-256-Digest: mhrm1OTTW4FDAcrU7smLJNs2fhw8deu2Nn8KtUPsHOg=
+
+Name: com/sap/conn/jco/support/SimpleDataProviderImpl$1.class
+SHA-256-Digest: bdYPJkype4+vR+rdLVt3d0U7INiD/VL+WLuYYtTDGgk=
+
+Name: com/sap/conn/jco/rt/PropertyFileDataProviderTLS$Counter.class
+SHA-256-Digest: O2pK30IKGnUcN1XUS3b99XOprjqhUyr/dmbtHbIHtTQ=
+
+Name: com/sap/conn/rfc/driver/RfcTypeRegisterCpic.class
+SHA-256-Digest: vvtJqwcpIRWBQCNxaPKEbcE9DI7VDReEvPH3bHURX70=
+
+Name: com/sap/conn/rfc/driver/LG.class
+SHA-256-Digest: BYMOmjQGObIgdsdhmVqMjovLpmY+uQa8iTVpAQIRMaI=
+
+Name: com/sap/conn/jco/util/SapLoggingTrace.class
+SHA-256-Digest: c6/oydsfFWFp+AoACGHizuaziJKCYiej/EU3v/QrBA4=
+
+Name: com/sap/conn/jco/rt/ComplexTableParameter.class
+SHA-256-Digest: fSehA2x14fhBrEHLAId6Sep2zgMR/54fFk/+W8efm0k=
+
+Name: com/sap/conn/jco/rt/json/JSonFunctionTemplateReader.class
+SHA-256-Digest: UnyVE9+y4v3UjXRUNorB2DUZHzQfKkCqJjyJdPCVKM8=
+
+Name: com/sap/tc/logging/DCMapping.class
+SHA-256-Digest: +wIDz8zmAcNLnXKfsfjdIO8EAPO/rxXq6vCyZCDigG8=
+
+Name: com/sap/conn/jco/util/UtcTypes$UtcLong$1.class
+SHA-256-Digest: OW4yFK9mszV86oV+zB2GFR5xfqOdFj1vf5mSPcYtEmI=
+
+Name: com/sap/tc/logging/ListFormatter$LFStringTokenizer.class
+SHA-256-Digest: iLbsAbPkcvZx3rZf22cLSNir0qe4BFCFcDua+Wfbydc=
+
+Name: com/sap/i18n/cp/ConvertC7bOnlyToSystemCp.class
+SHA-256-Digest: w+4Ma8oCrCJFdgs9sHrLuxNPt7GjKD4sAM//VN6OR5M=
+
+Name: com/sap/conn/jco/util/UtcTypes$UtcLong.class
+SHA-256-Digest: w99EalkDqMRiOQFAh0zxH66ncb/TRIbri9dUzutmEBY=
+
+Name: com/sap/conn/jco/util/TimeZoneUtil$MapEntry.class
+SHA-256-Digest: mA2TArGQ4EPJaeZq7LlicnJSjwwc9DNFzeLXsvfeMIE=
+
+Name: com/sap/conn/rfc/data/ItStream.class
+SHA-256-Digest: ltGzAKkutI6uxXfB4LlmDYUtk/w3yNi8Sof0RmGxClw=
+
+Name: com/sap/conn/rfc/api/SocketAcceptInfo.class
+SHA-256-Digest: nIwHzPBZi6oDGsGeBsoJOJZzm/bvRO9cC+39/znJGWM=
+
+Name: com/sap/conn/jco/ConversionException.class
+SHA-256-Digest: XBmLq2MzF9wf2xLaMa3NT+9W3nvTe6a2KgbCNm2Hl+U=
+
+Name: com/sap/conn/jco/support/JRfcTest.class
+SHA-256-Digest: 7FiTQpYGA6ibeqXmnJ2CIyBpD8CpJjqxyvYKlUiE3ac=
+
+Name: com/sap/conn/jco/rt/DefaultRecordField.class
+SHA-256-Digest: VmEfAFWIyoozFUBm8RGUxTyTtvIDNVDJOHjg+rZW0ds=
+
+Name: com/sap/tc/logging/OverwriteLogfileListener.class
+SHA-256-Digest: CaL9HPeYkNaC/cwpMNCA4YHtzg//ljh/gsfPmDp0Vwg=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker$DenyTxHandler.class
+SHA-256-Digest: MVzn6pExCbD78Rt6Y/u++jMHcSD66Pm1nGwG+TsiIh4=
+
+Name: com/sap/conn/jco/util/Codecs$Base64.class
+SHA-256-Digest: 5uABvvHDYJdENHVBcLLyfwM96lnoJijvWGPvMF3GctI=
+
+Name: com/sap/conn/jco/JCoDestination.class
+SHA-256-Digest: AJc3RGhaoDyAN2/MU1TOMJP1qlnto7rBK1yopytnJrI=
+
+Name: com/sap/conn/jco/rt/GenericServerManager.class
+SHA-256-Digest: hwODMtxUVMsFMABVuuM2IND7MMgNleSdjyC3wU0Q4e0=
+
+Name: com/sap/tc/logging/reader/FileReadLog.class
+SHA-256-Digest: gD21OPU1580JiY1fz58n8PBsn3mihxp8YS9sh7D+zJc=
+
+Name: com/sap/conn/jco/server/JCoServerSecurityHandler.class
+SHA-256-Digest: 3AySKVT4SJT2n7v3eT5vdjz+vmHRXIBTAj5jfbqsoog=
+
+Name: com/sap/tc/logging/interfaces/IFilter.class
+SHA-256-Digest: k8bOMfiOS6ACcsm8feeLmZT1FnByz84KkcYNyNuyS74=
+
+Name: com/sap/conn/jco/rt/json/JSonFunctionTemplateWriter.class
+SHA-256-Digest: m/f6L9BQSOxltk4wgQS0/gWrbtc3VzfdMeB8yiB66gI=
+
+Name: com/sap/tc/logging/MessageDelimiterBuilder.class
+SHA-256-Digest: bYWlesp7ZQrCGLgoKbcEBO43e5SPn3mPEbDlaawmliY=
+
+Name: com/sap/conn/jco/ms/MessageServerQueryException.class
+SHA-256-Digest: wCMg8zpZ0ZAGh65h1nYPuxJJ0X/GwqG23ljB6UVN67s=
+
+Name: com/sap/conn/jco/rt/PropertyFileMessageServerDataProvider.class
+SHA-256-Digest: FIefeqnfInZptlvB9D6wjcC80Q7TBa/FLDqdoqf1Uuc=
+
+Name: com/sap/conn/jco/util/BasXMLOutputStream.class
+SHA-256-Digest: OJPIw/erzgwlWvXtn69qRy7il9nZspWnvWyKz9n+tuQ=
+
+Name: com/sap/tc/logging/TraceFormatter.class
+SHA-256-Digest: VSubtmw7kMl9K+3ImxHEOUAVi5Cit2AVD5ZyCOCttAU=
+
+Name: com/sap/conn/rfc/engine/BgRfcUnit.class
+SHA-256-Digest: Gi1YBYMqz9hhb6G8uOHZ92B+IKT7BOeSRfHIbUd6/aw=
+
+Name: com/sap/conn/jco/util/UtcTypes$UtcLong$2.class
+SHA-256-Digest: RWA/t1iX6snpyEOz50kBC0A5BZjVZOKEMhAtw3BH58I=
+
+Name: com/sap/conn/jco/util/Jarm$Monitor.class
+SHA-256-Digest: qAHI5ZuG4abXuUuJQ3Lk4lEAyR0w+LeHZX042GbwHTA=
+
+Name: com/sap/tc/logging/FileLog$1FileOpenAction.class
+SHA-256-Digest: zpLwmsBx09tlwsXHvBpeNKyaLuYQ3xuO6IoS2nldJa0=
+
+Name: com/sap/conn/jco/rt/JCoRuntime.class
+SHA-256-Digest: P/Lg8SgDuWx4ioRm+hosLKJtdluPTL38SiMx7Dcn1j4=
+
+Name: com/sap/tc/logging/CreateLogfileEvent.class
+SHA-256-Digest: bVqkna6fB0bFWIjUy2QzZmTrk73PiyzZQX3DdC3j/J4=
+
+Name: com/sap/conn/jco/rt/ClientDestinationState.class
+SHA-256-Digest: 4CexrBAO+T9lfFdsCaGU194rPfTd13PQWXjnReOsb0A=
+
+Name: com/sap/conn/jco/ext/SessionException$Type.class
+SHA-256-Digest: sewqFDXjTAkRuOwCBLvtLiW0BytfaDUGuGe7dLB9l08=
+
+Name: com/sap/tc/logging/Filter.class
+SHA-256-Digest: /yek7lvcgaSaV4DzDmv75EZY0YtafFeTpEITVMIPY1o=
+
+Name: com/sap/conn/rfc/engine/RfcClientConnectionState.class
+SHA-256-Digest: KxRF9MpdFMVYU4TxWrSCXf+IkpXSKQ1tq/J0xLHcWq8=
+
+Name: com/sap/conn/jco/rt/ConnectionAttributes$AttributesProvider.clas
+ s
+SHA-256-Digest: S1Xb+Eto2aHaSjUm1tEeOPja10uHglAXfviXKlulz5o=
+
+Name: com/sap/conn/jco/util/Language$MapEntry.class
+SHA-256-Digest: Kt/f7NWs6QgxT+N5U1ZJzhFWi9R41VXBGCFab90vSqE=
+
+Name: com/sap/conn/rfc/api/RfcWebSocketAcceptInfo.class
+SHA-256-Digest: SCbNzKIKEpHi3OGAkMQ1sacYqNhz2fvRzniRQBDgbY4=
+
+Name: com/sap/tc/logging/UnsupportedFormatException.class
+SHA-256-Digest: wNOtW2A04AX3jPtaO9dQgQKjxVod1PYZsHAqYTk5TxA=
+
+Name: com/sap/conn/jco/rt/AbstractRequestResponse.class
+SHA-256-Digest: ONgQKv/G2e+zm+JauQXvHU8AahYV7v7ah0yn8HO3Nm4=
+
+Name: com/sap/conn/rfc/driver/input/CancelableInputStream.class
+SHA-256-Digest: wKCQWG1DD6YYlHWmUDNfRjdqQXBmWFKxRYv/Qt982W8=
+
+Name: com/sap/conn/rfc/driver/input/TotalLengthInputStreamNIO$Completi
+ onHandlerWrapper.class
+SHA-256-Digest: 6DOop+rMSJ3Nc5XPvsNHyeQxFIbLH/AQI8p9OqkUA7g=
+
+Name: com/sap/conn/jco/rt/CPICServerWorker.class
+SHA-256-Digest: c9gBYn+RwlZCTvQdGHKhXprGCsERIeUcoHhcvPVDo5w=
+
+Name: com/sap/tc/logging/EventListener.class
+SHA-256-Digest: 98smXkqV8JsNICnOHZVCYzupL37TNBwTCRkoPedX+jk=
+
+Name: com/sap/conn/rfc/api/SerializationAware.class
+SHA-256-Digest: 8ETPdLITm4KVqTyn5cFiRN01i0jTW3NmnCxo+VBDaGI=
+
+Name: com/sap/tc/logging/exceptions/ExceptionLogger.class
+SHA-256-Digest: fQz+Uwy1OeSf+CUBXznnDNV2POqoRuAoMKRj8r5soeI=
+
+Name: com/sap/conn/jco/rt/AbstractServerConnection.class
+SHA-256-Digest: bw9zR2jKdfuhYzVbWgSnCihjlgNWD1L+PMdYXnS3Nxc=
+
+Name: com/sap/tc/logging/Group.class
+SHA-256-Digest: 43UoandVKFwTmfQTkP4xw+DlkjON1Q7ElCbvMbfK4Wg=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcCompressionCreator.c
+ lass
+SHA-256-Digest: vAaBtOk/2kdqF/kAwJG0UV6fWfJ5RpFnhArGXnET3HU=
+
+Name: com/sap/conn/jco/rt/BasXMLParser$1.class
+SHA-256-Digest: YZ5YEepW0NZfBb8ifAK+FxB3RzIMPHcWoPD3/3ZAvHA=
+
+Name: com/sap/tc/logging/LoggingManager$1.class
+SHA-256-Digest: o7rZaMdiLrXH/ReXIoXDux2E5KW1xgv79MGHS8ZKDuQ=
+
+Name: com/sap/tc/logging/interfaces/ILog.class
+SHA-256-Digest: 3BBEZnZhspQJ6njhpL4+s6psYNKY53Got+h32MHaoUM=
+
+Name: com/sap/conn/jco/rt/AbapRepository$AbapRepositoryMonitor.class
+SHA-256-Digest: IeNo2QGb/QN1Ko0lgVkubcLrNJtiY9JHXiByD/ZQObA=
+
+Name: com/sap/conn/jco/rt/StandaloneServerFactory$CompareResult.class
+SHA-256-Digest: vPU2B3XAysHHM63PZ/VcYOyKj78hLQ2srmak+qRj3Og=
+
+Name: com/sap/conn/jco/util/UtcTypes$TSecond.class
+SHA-256-Digest: ULayRW7oxiE/85xMxfuvyMzvm4KEZVMMuSILfdBQwQs=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$Key.class
+SHA-256-Digest: srQl6hD8JEkY4TwO77jOJHhERlOzvAuRml7//DR7UA4=
+
+Name: com/sap/conn/jco/rt/DynamicRecordMetaData.class
+SHA-256-Digest: ct0jw/3xxjhTBdMOJ9nIbXTaFia5eiUY44UmfEbC0tk=
+
+Name: com/sap/conn/jco/rt/WebSocketServerConnection$1.class
+SHA-256-Digest: Ze6llZZsItD6gV2E+4jyF2Ruqy+MH+rdGJrF0sWjAVo=
+
+Name: com/sap/conn/jco/ext/DefaultSessionReferenceProvider$ScopeSessio
+ nReference.class
+SHA-256-Digest: g9VgbfDzbCRWxyaCSlPu9OhBoVyxmdZGnnSzWxrU+Lg=
+
+Name: com/sap/conn/jco/util/UtcTypes$YMD.class
+SHA-256-Digest: FoRqcyIA38JyfOrEHMGP0FYXza2dYl2m1fgXXlDDoAI=
+
+Name: com/sap/tc/logging/tools/lv/Version.class
+SHA-256-Digest: 0s/EwKo7eRpoYnQCeqwZpSqR3P8xBg2Ymo0X9fXHYGw=
+
+Name: com/sap/tc/logging/NewLogEvent.class
+SHA-256-Digest: OBwCNiYXTqES5saQ0s52jUnfD4/KrwbLrh4TbAXo174=
+
+Name: com/sap/conn/jco/util/Codecs.class
+SHA-256-Digest: w/BJ736DMxmL2bOc2Hl/G4naXehLvAHQ0Bbigeu7PvI=
+
+Name: com/sap/conn/jco/rt/AbapRequestUnit.class
+SHA-256-Digest: X3jpyOKbBz3IAC1mfkMSk/XnH6IX1y36aBiYT9b5rzQ=
+
+Name: com/sap/conn/jco/rt/BasXMLWriter.class
+SHA-256-Digest: vGWZsmkIjsoU+DvcqD9OLlMhNoTaDDDBbUR9wgMFrnU=
+
+Name: com/sap/conn/jco/rt/json/JSonStructureWriter.class
+SHA-256-Digest: Ui0AL3uYQTLDF3xE8p5sZQO+vqtlBknyu/vL045TCXg=
+
+Name: com/sap/conn/jco/util/ObjectList.class
+SHA-256-Digest: JUZTbFeGXhKAe7n9jW31+3qM0qb3hH7gufBBXeqKk6I=
+
+Name: com/sap/conn/jco/rt/RfcCustomDestination.class
+SHA-256-Digest: eRdy5jj7Ofl6MGda7pPaLpYX+u3fJMkeKqHcuqddz1I=
+
+Name: com/sap/conn/jco/rt/AbstractServer$MappingRuleParser.class
+SHA-256-Digest: sI10eck7Mpa+qsWm1xrPlHc0+OGr3XCOxSM/ht0UzoE=
+
+Name: com/sap/conn/jco/rt/MessageServerState$3.class
+SHA-256-Digest: c0RQuzAfJt63amRxO+6BzMx1CIVgjbsuwzPa9w4iAiw=
+
+Name: com/sap/conn/jco/ext/DefaultSessionReferenceProvider$SessionRefe
+ rence.class
+SHA-256-Digest: vyeaXaYvovhlITbtpE0AiHsfDpCNNj0s0NfSIvy6Ek0=
+
+Name: com/sap/conn/jco/server/JCoApplicationAuthenticationException.cl
+ ass
+SHA-256-Digest: pGbVTss60AMwqWorZpJ8B7rrkWzXtd2SXPwK7GNK7d8=
+
+Name: com/sap/conn/jco/rt/MetaDataStorage.class
+SHA-256-Digest: VgD+epjMlktKWOsVDUUY+2kfFLMhlskjhqwHGbAPXWg=
+
+Name: com/sap/conn/rfc/driver/RfcTypeDirectCpic.class
+SHA-256-Digest: Z7WusxDeMoO2bcxiVczuLT4uf8HqByvAe8ByE7xlWns=
+
+Name: com/sap/conn/jco/rt/PoolingFactoryStandalone.class
+SHA-256-Digest: kTljdb/6UeSXompeqKivYlXhjoe3cEAXhAaKrR5RN1Q=
+
+Name: com/sap/conn/rfc/driver/security/verify/WSHostnameVerifier$1.cla
+ ss
+SHA-256-Digest: paAfVGAePrqIW0sIGdmyXjdx7uar+hjo6ZlTfVJWApE=
+
+Name: com/sap/tc/logging/reader/ReadLog.class
+SHA-256-Digest: B60zPyECNBhmG/1c3TUWujkhSgDuSZCC+vw+Bw8bY64=
+
+Name: com/sap/conn/rfc/driver/WebSocketClientDriver$1.class
+SHA-256-Digest: 0YyxTvbENbmCipK7wVMvMOTDn/QzcoyDJa/ScBOZcfU=
+
+Name: com/sap/conn/jco/util/Codepage$CPMap.class
+SHA-256-Digest: Q5aMLCCqw161tGJ9OrxolbqXbVVeAD/AzWX0RfbCASM=
+
+Name: com/sap/tc/logging/StreamLog.class
+SHA-256-Digest: uUqY+9ZifOhjgJq+jEDGvy3nA8d3Bgxf+VpTazKZkkg=
+
+Name: com/sap/conn/jco/AbapClassException.class
+SHA-256-Digest: KUQWkX1KPskQmh19CP0rwMp6wxSlGS9as4NsqHkiLOo=
+
+Name: com/sap/conn/jco/rt/RfcDestination.class
+SHA-256-Digest: RYBdAae2LrpocAS/wGN/cyrSRu925nnGtwabOnSHuAk=
+
+Name: com/sap/tc/logging/UID.class
+SHA-256-Digest: L/3pR9lRlRijXxKVPDn/K1w2XaBB9SGwRAbG5MEniEo=
+
+Name: com/sap/conn/jco/ext/DataProviderException.class
+SHA-256-Digest: V+YYWGjxQuqowkIsEktC03FAlLd4y4O57NXFscnf6Co=
+
+Name: com/sap/conn/jco/rt/DefaultRemoteContext.class
+SHA-256-Digest: b3Lc6iFJrMRnlKzRYaPfOSVmOctf2+KRqGZ7qKfa/S4=
+
+Name: com/sap/conn/rfc/engine/cbrfc/serialize/CbRfcSerializerSupplyOut
+ Wrapper.class
+SHA-256-Digest: aZSOWMO/QMuczwEg/u8ud2uQAXa3cpq3S647sCn7cTY=
+
+Name: com/sap/conn/rfc/driver/WebSocketClientDriver.class
+SHA-256-Digest: Fc9F7kjQ+qSyrUTYyfqy5bdjyJtCDKs88MrjVID6LzE=
+
+Name: com/sap/conn/rfc/driver/input/TLSSocketChannelWrapperNIO.class
+SHA-256-Digest: i80EaKtCtGSFEbkdy43+IXcjP988oeQMmAiPj01rca4=
+
+Name: com/sap/conn/jco/ms/JCoLogonGroup.class
+SHA-256-Digest: cgANAVoozqUKwIiZMHC5AzvqPb6V4w2bSw81fhPxroo=
+
+Name: com/sap/conn/jco/rt/DefaultParameterField.class
+SHA-256-Digest: P9qOdKnxkSXQ81saTxj6C2Gk9TOTxSyTDseI1KZUlXs=
+
+Name: com/sap/conn/jco/util/Codecs$MD5.class
+SHA-256-Digest: v8mlpE4GrhoCoFG+1Dv59bq8tUOW+xeSFylKRfTIISU=
+
+Name: com/sap/conn/jco/util/Log4jTraceWriter.class
+SHA-256-Digest: LCG5ZPwFLH7Vp/i3McPUqpBmXbRRptEj+trQCGBlBoY=
+
+Name: com/sap/conn/jco/rt/DefaultJCoRuntime$1.class
+SHA-256-Digest: 6MxYLdbeMpBh+Xucu6CFiZ5YpP7jJ6qig1OZY3t1Z2M=
+
+Name: com/sap/conn/jco/util/JCoTraceWriter.class
+SHA-256-Digest: WHetARvw7iOXprmlD0d4+XicsFQDfydfjJyDXqLRjio=
+
+Name: com/sap/conn/jco/rt/MessageServerState$1.class
+SHA-256-Digest: QRz65x9Bh3wNuI9ZiGlwRyxVlzUkj6uLKLixi34pjKM=
+
+Name: com/sap/tc/logging/LogController$1.class
+SHA-256-Digest: bkvmW51oKMxueVy4EZUzy5MM7TxIkEBB2L4TsZnG/mU=
+
+Name: com/sap/tc/logging/interfaces/IDeployRuntimeInfoProvider.class
+SHA-256-Digest: DUGD+ZUC5uOjNIasMITbnH4t9ogluMJgB0F4kd4CBe4=
+
+Name: com/sap/conn/rfc/engine/BgRfcUnit$2.class
+SHA-256-Digest: fZeZM4ngrgXD+/ecsGEeiBEv2Y51tfrYafd1WV/1TSg=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializerSetAc
+ tiveOnlyWrapper.class
+SHA-256-Digest: j+T1DjQ1r4QCcOehkfmqhvQ+NERhrOkJmW+ixnNUWFo=
+
+Name: com/sap/tc/logging/interfaces/IMessageDelimiterBuilder.class
+SHA-256-Digest: n/FH9kSjZS/A26UiJbYhPKr8ckhiTXylMe1RpwdKhdk=
+
+Name: com/sap/conn/rfc/api/RfcWebSocketAcceptInfo$1.class
+SHA-256-Digest: GUJjPw5YI+T+spYEG0zkeK1Obyu+nHgVKRZ3sf80eM8=
+
+Name: com/sap/conn/jco/rt/BasXMLParser$Reference.class
+SHA-256-Digest: 7CLPi7YdbOgjQo2Z/lhI2gSPd+bVqp9OnXVDPNqjORA=
+
+Name: com/sap/conn/jco/JCoInterface.class
+SHA-256-Digest: b05RYUA6psqUaCKOfKQLGekRclC0NyDi10gCJYVWBO8=
+
+Name: com/sap/tc/logging/ExceptionManager.class
+SHA-256-Digest: w+D++d5qICu2PTOFHoYEflihEGyPQkKRZm/AjzuKeKw=
+
+Name: com/sap/conn/jco/OutOfNativeMemoryError.class
+SHA-256-Digest: 2ZNXIU6cqg9Go3AlGJjlg7/pUCb8vLRLB4DTXmrrVHo=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializer$1.cl
+ ass
+SHA-256-Digest: OQeeE07ZiO+9PlpVmUkIGD10287f5G/juJ5EsHp4/Y8=
+
+Name: com/sap/conn/jco/rt/TenantContextManager.class
+SHA-256-Digest: ffBuV6YnR85eW4Ghzza5oXBEVuZTnuWD0xCqJsPpybc=
+
+Name: com/sap/conn/jco/rt/DefaultTable.class
+SHA-256-Digest: wxTYj83WgTDDWWQvnFVKcCfI5rfT2ekeSIZ4L8NV5Wg=
+
+Name: com/sap/conn/jco/JCo.class
+SHA-256-Digest: vAtDEdcEswbohsG0b4K8Idmc3FRsNuZc7kIewzACm28=
+
+Name: com/sap/conn/jco/rt/ServerRequestQueue.class
+SHA-256-Digest: REfNOjahHXjWGixh7Zt3Z5UU4NwXk2KtEh7Dd/mOQrg=
+
+Name: com/sap/conn/jco/server/JCoServerFunctionHandlerFactory.class
+SHA-256-Digest: YYLYlThLVVeFnMCoPNMyCPxjpqR5XH+c7Uoui4NCUfg=
+
+Name: com/sap/conn/jco/JCoCustomRepository.class
+SHA-256-Digest: LgZahFrRhZENeSGoyE8kCSJz1E0ksAP2hohtqWr4fhg=
+
+Name: com/sap/conn/jco/JCoResponse.class
+SHA-256-Digest: V/pmg7+C6piaXf1WtMhzrY4rIyQSE/K4n9ERLG5Sfsg=
+
+Name: com/sap/conn/jco/util/Language$1.class
+SHA-256-Digest: fP8VPNgieaNeFjFe0acHCUWrxaj2dhKAnWqixEnM9U0=
+
+Name: com/sap/conn/jco/util/AboutDialog$Section.class
+SHA-256-Digest: ZBYxR0N9Lp1KYoL5C/aysTmfNivg0E40zpXpROHKndc=
+
+Name: com/sap/conn/jco/rt/Context.class
+SHA-256-Digest: j7yl67EBE8qupOun5QsJakheU6gOljXEHrwOTY+cyOM=
+
+Name: com/sap/conn/jco/rt/WebSocketServer$1.class
+SHA-256-Digest: 711ACw8dgaqkGJ3ofWIGjabXLpwXcn3OUBo+nS3v554=
+
+Name: com/sap/tc/logging/exceptions/BufferDataException.class
+SHA-256-Digest: GKeXmSJrxzWM9EyXN2HiNauY1jUjBNQwFz6EvZnAay0=
+
+Name: com/sap/conn/jco/server/JCoServerCallType.class
+SHA-256-Digest: 9jo8Li0D/mhYkleNCmQI1FJY/o3Jv/zwDsM9FTWLYp0=
+
+Name: com/sap/conn/rfc/sysfunc/RfcSystemInfo.class
+SHA-256-Digest: EHDgD1kZDxWX5a0i1B5WYKJDBTdLOZiDA/O5Ln+CWJM=
+
+Name: com/sap/conn/rfc/api/GatewayRegInfo.class
+SHA-256-Digest: 2qWz4ouHj2tVWzaqN4pn0dNIsIFxZRQbqxufaxYTK3k=
+
+Name: com/sap/conn/rfc/engine/cbrfc/serialize/CbRfcSerializer.class
+SHA-256-Digest: v/66q82QOlaKYB/CHA+FRXcPmdCm58MKrPuf/yy5jRM=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializerColum
+ n$1.class
+SHA-256-Digest: c2oTnJcnqf4Fksfuq3zBLF77K8YalQJRReaULSoEun0=
+
+Name: com/sap/conn/rfc/data/DocuTable.class
+SHA-256-Digest: unOxabz/dz1l2etbsQ58UWZDx5kkqKZ9Ngd2Ej0mbv4=
+
+Name: com/sap/conn/jco/rt/AbapRepository$RepositoryLoadResult.class
+SHA-256-Digest: 64jBp6jZ/voZFeq4lgKCWMrQF/S05OiO51qe7m4Heac=
+
+Name: com/sap/conn/rfc/api/RfcAccessInfo$SncAclKey.class
+SHA-256-Digest: AdPSj6WTRfAlGtIQOoMpKSuOnxOQzwv4wywSof3GG6s=
+
+Name: com/sap/conn/jco/rt/DefaultJCoRuntime.class
+SHA-256-Digest: G9Am0+o2/aNVCWV7tjaz6heg3yFqt031yKekxBKP+jE=
+
+Name: com/sap/conn/jco/JCoCustomRepository$QueryMode.class
+SHA-256-Digest: xdYB5e9cFdGPU8mThTU/2iFSTAYMcT611tACymCFNfQ=
+
+Name: com/sap/conn/jco/rt/AbapRepository.class
+SHA-256-Digest: B2wIpiKiS4Aei2sGI+ZdE7iBdy1lnJsq8efycTLucRM=
+
+Name: com/sap/tc/logging/interfaces/IObjectInfo.class
+SHA-256-Digest: aMxqap9Kv/6tIXYGXeGdoWlHH+k6iAdBiSNN7D9pQQc=
+
+Name: com/sap/conn/jco/rt/AbstractServer$ConfigurationState.class
+SHA-256-Digest: RcKyYPVyLJkIxJanNrLWqDto4kiiJzJzm9eywG/I1Ns=
+
+Name: com/sap/conn/jco/rt/json/JSonTableReader.class
+SHA-256-Digest: baAvxWmsk4Tt5Km/YHefJlu6FEnvbstILX5Tyd76hX8=
+
+Name: com/sap/tc/logging/tools/lv/LVException.class
+SHA-256-Digest: LZ/2QrlJ3m36jIwKwAuNvAY1SPSoddTSLrIK3KyBa98=
+
+Name: com/sap/conn/jco/util/UtcTypes$DtWeek.class
+SHA-256-Digest: vTBzVGYzneBtKsngOUqkqEqD9jWeLoeew2W3Zhpf2EI=
+
+Name: com/sap/conn/rfc/driver/RfcTypeRecorder.class
+SHA-256-Digest: pOKizup3oPHj0vOidUo5cvcGl8HyT07aF1+3fr31mDQ=
+
+Name: com/sap/tc/logging/LogController$Relations.class
+SHA-256-Digest: z3HuAmsHDwgnsRGO6Uw6U7yORakCCePYYRKPkGdQcfk=
+
+Name: com/sap/tc/logging/MsgObject.class
+SHA-256-Digest: uEbJD/QEBhiuxZu0PqhE2zHrOT7DaLAq8t0z+xZfqKc=
+
+Name: com/sap/conn/rfc/data/ItStream$TableOutputStream.class
+SHA-256-Digest: CNPYMplQh1Hk3GeH4yJ7qVaGxFQD98TzT/Nz110MDgk=
+
+Name: com/sap/conn/jco/rt/DefaultRecordMetaData$FlatMetaData.class
+SHA-256-Digest: Ct2zUj7L6eTnwRyiuozPVS4xOY+cfoFm7gf1GJRe5xE=
+
+Name: com/sap/conn/jco/util/Codecs$AES$2.class
+SHA-256-Digest: imtzyNPqkbx3j3negUbznksaDdnxqr9ivHz7tbm98Ms=
+
+Name: com/sap/conn/jco/util/FastStringBuffer.class
+SHA-256-Digest: MUK3uR/d5THHbFcwNo/Gdsy5GMdj+UhfGto44b1lwzQ=
+
+Name: com/sap/conn/jco/util/LimitedList.class
+SHA-256-Digest: WV6uzjXvZwLTlcJvg86ZD9WgTb1jsZgNn0CvfFUiNqY=
+
+Name: com/sap/conn/rfc/api/RfcConnectionState.class
+SHA-256-Digest: FVzEb6PHqXwCU90xhq5M1syTuT8O5zbgMlxF6Bq6quo=
+
+Name: com/sap/tc/logging/reader/ReaderLogger.class
+SHA-256-Digest: bdFa3dZXMesbCDvC82yhAxURY+pa01lnnGbDUVHt8c0=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$SeverityVal.class
+SHA-256-Digest: VD9+Yg7WZqxsfH1Nvs0gqeIsi0TCakbmOkf4cpQ2cuA=
+
+Name: com/sap/conn/jco/rt/MonitoredConnectionData.class
+SHA-256-Digest: 4+Fe/p+27BId/uHU79rL1NXr61OfQU/3ouwalMY1w3M=
+
+Name: com/sap/conn/rfc/engine/DefaultRfcTraceWriter.class
+SHA-256-Digest: bmgAhSs9WPcwMp1xndAB6aft0bUNyBLM98A0X0I/3Eg=
+
+Name: com/sap/conn/jco/AbapException.class
+SHA-256-Digest: lUcq39yFgl1U6EqTaS9KksmS/hhjHXQGuVDeeaeaMuo=
+
+Name: com/sap/tc/logging/ResetLogControllerListener.class
+SHA-256-Digest: Wr11w83yCYTJ6mg6UXXS8M2YGjE9uBklL8FjBUr9jsk=
+
+Name: com/sap/conn/jco/JCoClassMetaData$JCoAttributeKind.class
+SHA-256-Digest: ACVN1lV6ZVSpWFhLCPQArOEN1GE5L5PRu5ompYsdY6g=
+
+Name: com/sap/conn/jco/util/UtcTypes$DtDay.class
+SHA-256-Digest: BndjBS7hiC/1zW4uPqREoPJp6RpdrLwH+9k37EZKHWw=
+
+Name: com/sap/conn/jco/rt/ClientConnection$1.class
+SHA-256-Digest: AIcnXgEBqFQac3/Beogu6QYBFsSDmtlIevdNtjUi+UQ=
+
+Name: com/sap/conn/jco/server/JCoServerAuthorizationData.class
+SHA-256-Digest: Txpwk3EskvldLw54ZD5jq+gZKhdcYJ8L5LUknbfaUjg=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$ObjectVal.class
+SHA-256-Digest: eT4Nzcp+8JQhXnQYSv3zRf1o84WFdEr3O0ZIwEOysSI=
+
+Name: com/sap/conn/jco/support/JRfcServ.class
+SHA-256-Digest: ADUtrd4OVhnIsuAXhd6iwexGEbA7fPOcgjbS8kNn/s4=
+
+Name: com/sap/conn/jco/ext/ServerDataProvider.class
+SHA-256-Digest: PAhP+GOpYUTTQRPGEIz7/KTN8Ep1bqtFHEgKeUdbSkA=
+
+Name: com/sap/conn/jco/rt/FlatStructure.class
+SHA-256-Digest: Y2QgDoyNY4lpk58kMihHWW3dQhOZwzAwydoiBw3huB0=
+
+Name: com/sap/conn/rfc/api/RfcRuntime.class
+SHA-256-Digest: 7avPhc/aEm4+mlqEw7XSQVQzOXYdgCgkF0yaojMWGxg=
+
+Name: com/sap/tc/logging/APILogger.class
+SHA-256-Digest: EhU9cj9kfhhrsRLZGf6KNGtdrBxgDvGWNjrqR7edvE8=
+
+Name: com/sap/tc/logging/GUId.class
+SHA-256-Digest: YhF14EQZrTRmj5KQbryGRKg+k8jal75144xs2JHGRcc=
+
+Name: com/sap/conn/jco/ext/MessageServerDataEventListener.class
+SHA-256-Digest: k9TFHH7MPQsGS11htrwD1bhTWzdVPbPwM0IvfX0y9M0=
+
+Name: com/sap/conn/rfc/engine/RfcGetImp.class
+SHA-256-Digest: MytexzCA7o7XnCULF3qAoa2DdjOhdb1ojbJgdeiwS6E=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcAbstractInputStrea
+ m.class
+SHA-256-Digest: kjZvxRE1ai60pVVX2vf/rNzdpma/C+TQrzW3FsHvEAA=
+
+Name: com/sap/conn/rfc/engine/RFCID.class
+SHA-256-Digest: eSMzPE2qmiRVKpCJp2OVESF+xBK3Cpq4ZKvLLDTFJpc=
+
+Name: com/sap/conn/jco/ext/DestinationDataProvider.class
+SHA-256-Digest: /oXvr4+FuxHN3ksVYKQg6Cels2xN6juHWQe+uLSC7Ck=
+
+Name: com/sap/conn/jco/server/JCoServerState.class
+SHA-256-Digest: vhw8Di9LkZFxmrXHVWZUgz+elQxExUHXJTST9HG6FT8=
+
+Name: com/sap/i18n/cp/ConvertBE2Uc.class
+SHA-256-Digest: lHodstFWP5PCERwXiUR7i7CPhNsOt6s8CQJ6wo+RkC8=
+
+Name: com/sap/tc/logging/tools/lv/LVReader$LVFileFilter.class
+SHA-256-Digest: uCWvBKu/MxAqkay1m3MKDtAS24qhUAr+lnloLOnthT4=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcCompressionFactory.c
+ lass
+SHA-256-Digest: yxhQhVa7ENIUpf89Dtc2o0VYzYDCcL/wKXdhSTwL13s=
+
+Name: com/sap/conn/jco/rt/AbstractRecord.class
+SHA-256-Digest: A4c7FoxUmWnyVqZ2sk68BuyrmJZx5livwm+tSz+Z40w=
+
+Name: com/sap/tc/logging/PropertiesConfigurator$ObjectsVal.class
+SHA-256-Digest: yHpqYSm1m3mpEvQehRmmBNnTYpkmb5zDNXqIfFGOf4o=
+
+Name: com/sap/conn/rfc/sysfunc/RfcCreateTID$1.class
+SHA-256-Digest: nS0tN8XB58ynbcP1hFPCVVAo2LN2zSMqh67vhVFIV+Q=
+
+Name: com/sap/conn/rfc/engine/cbrfc/deserialize/CbRfcDeserializer.clas
+ s
+SHA-256-Digest: rOWr11o2+5fNsj+4AtQdlEaYPEY4irNJOjlstIN/FsY=
+
+Name: com/sap/conn/jco/rt/json/JSonFunctionTemplateReader$1.class
+SHA-256-Digest: M1EhizO+8Hn09VsWyB0WPYkN4ckQT9NYrhfEHSoX5Gg=
+
+Name: com/sap/conn/jco/rt/ClientConnectionState.class
+SHA-256-Digest: 3tQWFOJ4UCf1ATTaTmOV6c/b9pwN7S6feDyC4Ycbj4c=
+
+Name: com/sap/conn/jco/util/Language.class
+SHA-256-Digest: V1gvQNTy0pjmihQmHxpa0sM5NxbrRpi8n32NvbHK6M8=
+
+Name: com/sap/conn/rfc/sysfunc/RfcCreateTID.class
+SHA-256-Digest: dG3aQXWOMxYTYTY+ne7tdJw05UjcZS7NJSuyWhK3Wh8=
+
+Name: com/sap/conn/jco/rt/DestinationList.class
+SHA-256-Digest: 9ABOk6UijXT6MgN2IbJH1ky5pqeP8nvwgEyZGTmITa4=
+
+Name: com/sap/conn/jco/rt/DefaultListMetaData.class
+SHA-256-Digest: twOIsesX/qShM4rdbaKHgYaYTPYXbiLRoo/JkQ4tbNs=
+
+Name: com/sap/conn/jco/rt/DefaultClassMetaData.class
+SHA-256-Digest: WtW/BAI93J6F9ls48KktN4qeOMRKsiVu2I7EVnX1abY=
+
+Name: com/sap/conn/rfc/api/RfcAccessInfo$1.class
+SHA-256-Digest: cW5qU/Vw/01NjXr8+bx0swJI02A+DmYRSzHob8n9cv8=
+
+Name: com/sap/tc/logging/tools/lv/LVOptions.class
+SHA-256-Digest: 23+39xZtmX9t+spX/UU3Nfo/ESPaMdv8KBL0IbPfmeo=
+
+Name: com/sap/conn/jco/rt/PoolingFactory.class
+SHA-256-Digest: 6kAFX7B1WI06RpBJD7tBFWP/xNnyzbqGogb8LxHX/ns=
+
+Name: com/sap/conn/jco/util/TimeZoneUtil.class
+SHA-256-Digest: 08bvPbs47A9TNI9SbHxGcFV2OEfMGPu6u9peR4uUOfE=
+
+Name: com/sap/conn/jco/rt/PropertyFileDataProviderTLS.class
+SHA-256-Digest: dYJ1no2ahw102mZ/ngBzT1cKsbkCE5en9PPlHPpgN4M=
+
+Name: com/sap/conn/jco/JCoFunctionUnitState.class
+SHA-256-Digest: n5NZ/NbRyOrmkmYJo4XCnLcKWi/0f3UlvaW2eWxcccs=
+
+Name: com/sap/conn/jco/JCoRepositoryQueryResult.class
+SHA-256-Digest: ttNNqiegusAoYPUC/KOxxP13Ptu8x0HTjMo4mcDKshk=
+
+Name: com/sap/tc/logging/exceptions/CloseException.class
+SHA-256-Digest: knFUQJpchfaqxXqmWw9mF8QzfgbBqXJZs6e9NoGBx8c=
+
+Name: com/sap/conn/jco/rt/Middleware.class
+SHA-256-Digest: 7HJoHqRXatPn6JG2PBtNrhjBnw13tuw64Db2Jjaxwdc=
+
+Name: com/sap/tc/logging/exceptions/LoggingBaseException.class
+SHA-256-Digest: 2/1aKEjyQdcGaBJcgx5/EJW9lneiOqX5c5KPNFw0sfw=
+
+Name: com/sap/conn/rfc/data/ItStream$1.class
+SHA-256-Digest: 61BCvU0j9PGr1lcLaQ+9yf4kZbfYG5r3pZ9lhBVfcOw=
+
+Name: com/sap/conn/jco/JCoCustomDestination$UserData.class
+SHA-256-Digest: JVg11ReQZHz0eHHAEZB5EeBW8N8/O3NJf3d+RbmXz6M=
+
+Name: com/sap/conn/rfc/engine/Trc.class
+SHA-256-Digest: uh1esWYWa54kDXd0HTi0ZJpcgesBbUKFxshAZj9aMZA=
+
+Name: com/sap/conn/jco/rt/ConnectionMonitor.class
+SHA-256-Digest: IiddXxQQAf5P4F3cG9OzP6awno1RIumygXjmDSZvAWo=
+
+Name: com/sap/conn/jco/rt/BasXMLParser$State.class
+SHA-256-Digest: A7ulhDbOQp+BBIN5oz3bkwPLsH4g5Bk3P1mioiA7/T8=
+
+Name: com/sap/conn/rfc/engine/cbrfc/util/CbRfcType.class
+SHA-256-Digest: TzBLrhqraYzr7TgllQ1GbWY8cneOVjjJHiIOdluMIrI=
+
+Name: com/sap/conn/jco/rt/CPICServerManager.class
+SHA-256-Digest: UxjwhlabbRyzE/D2ymshZIx0lq2ZCvHTpYAEnI4kinA=
+
+Name: com/sap/conn/jco/rt/BasicRepository.class
+SHA-256-Digest: y8rOkyW7r7i5Myzn5tTS1Vj5ODNs2m7BLDjnGTLr2TY=
+
+Name: com/sap/conn/jco/server/JCoServerContextInfo.class
+SHA-256-Digest: tzB6rrDF1IBnpv6DG8SgK1L1JrTMDhNBUGxK5vQS8ds=
+
+Name: com/sap/conn/jco/rt/ServerWorkerInternal.class
+SHA-256-Digest: hWzFvrSqtm5o79Awa+Hh3F5tGgM018J/tKnsGjSNxN4=
+
+Name: com/sap/conn/jco/rt/json/JSonClassMetaDataReader.class
+SHA-256-Digest: 8LB5pmk2sjFC+jWAgDqePTzROtgC/SlEBni3NzB61iA=
+
+Name: com/sap/conn/rfc/engine/cbrfc/receiveStream/CbRfcBitsReader.clas
+ s
+SHA-256-Digest: rQK5QRE1OWjnOezvj71kwgpNYOU00KO4YQAE9E/5kkc=
+
+Name: com/sap/i18n/cp/ConvertXToC.class
+SHA-256-Digest: SZRE+azC6o4l0MEuGX4eLpAmYPcRH1VVJhtjS5YHggA=
+
+Name: com/sap/i18n/cp/ConverterJNI.class
+SHA-256-Digest: kHy608URgYEQdMznu9t+Fa/aJt3x35tSNYhCbw0Uh5I=
+
+Name: com/sap/conn/jco/rt/BasXMLParser.class
+SHA-256-Digest: YLsgCYdSFlofDJ2M9Wz5fj6fEhRC00+JhWy0dypptfw=
+
+Name: com/sap/conn/rfc/engine/Compress$CsOutputStream.class
+SHA-256-Digest: dWY4R1tA1BI5Q0tDsqlfsUnAzHFsD1ak33XVnIQ7y0M=
+
+Name: com/sap/conn/jco/rt/AbstractServer$DefaultJCoRepositoryMapBox$JC
+ oRepositoryReference.class
+SHA-256-Digest: 5pldSjWwaPuN74dJ6GD+YcHOJg+XkTMNwJH2O1scdUc=
+
+Name: com/sap/conn/rfc/engine/RfcGet.class
+SHA-256-Digest: zInGjnM2q46tLEuD3SyNtpekQy7GwG9oiuygl7dzs6g=
+
+Name: com/sap/conn/jco/rt/StandaloneServerFactory$1.class
+SHA-256-Digest: zOWd5k7R/hJfk+VxzwRre+ZF9uQVl1sKP6XYC2e8Vw8=
+
+Name: com/sap/conn/rfc/data/ItStream$LZHeader.class
+SHA-256-Digest: IEGWVc+iU2Jtta+ekqWmi4RCbArvK2a6xAqt2ALiqPM=
+
+Name: com/sap/conn/jco/rt/json/JSonRepoConsts.class
+SHA-256-Digest: 3Lx4xKfy7RZJ8kw1orSDdH24ZqVjXOznpNspD4AuC20=
+
+Name: com/sap/conn/jco/monitor/JCoDestinationMonitor.class
+SHA-256-Digest: jBWhLyvkBd36A1fZqVeVVDGVuPl7LBE5i1ERmMDPG2E=
+
+Name: com/sap/conn/rfc/engine/RfcPlaybackInfo.class
+SHA-256-Digest: E2HTiujZ26MVHNYfKJOm1+mnKQt0Fma/21UFLUAJtyo=
+
+Name: com/sap/tc/logging/tools/lv/CmdOptionPrefixes.class
+SHA-256-Digest: qrSsFoS888VTPtPpClIt7r6lGs+pl4ufOHJbIde1lb4=
+
+Name: com/sap/conn/jco/rt/AbstractServerWorker$CallDispatcher.class
+SHA-256-Digest: OrQ8S/c1HHHHEL26hiYs0tw6l6DnqSsAdTGqeWfF+hs=
+
+Name: com/sap/conn/rfc/driver/security/P12FileSSLContextProvider.class
+SHA-256-Digest: WV05f9v6RbKtKjSUtUn/uVi5qlfJMmElBLzLyqgV5bs=
+
+Name: com/sap/i18n/cp/ConvertXToCFactory$ShortcutDb2Uc.class
+SHA-256-Digest: 43ZUlqlGJ7cr24CAcLFQQYfuUZb1+/4ersyZYDxoAxY=
+
+Name: com/sap/conn/rfc/engine/cbrfc/receiveStream/CbRfcMetaData$1.clas
+ s
+SHA-256-Digest: gLBzWiTAWiT6UF3K9iV6uNIE6m8sWS0vTs6abYVUvgU=
+
+Name: com/sap/conn/jco/util/NumberConverter.class
+SHA-256-Digest: ittbP1xScz+TQUDUH7wc/GksKCq7dDz6+4FDChc/EeQ=
+
+Name: com/sap/conn/rfc/api/IRfcTable.class
+SHA-256-Digest: EWhNhzUAhNAOwyWuDA89eYwtXFYC8WRkifXh30gjxeU=
+
+Name: com/sap/conn/jco/util/Codecs$Hex.class
+SHA-256-Digest: yeqB8TtYhdgmD8gGwE6WIbdzDdXQYvKG/RviAXM4Je4=
+
+Name: com/sap/i18n/cp/ConvertSystemCpToC7bOnlyTImpl.class
+SHA-256-Digest: p4NXE/hc89TIulT/qS2BepQH4GZ3O59FIDxCZPMBS0I=
+
+Name: com/sap/conn/jco/ext/JCoSessionReference.class
+SHA-256-Digest: Jddt3bIDEmktEaIvZZsg3rDIRBZOlIPYds6Ps43jk1E=
+
+Name: com/sap/conn/rfc/engine/cbrfc/decompress/CbRfcZLibDecompression.
+ class
+SHA-256-Digest: JBp/gj8OqNwYX9aMeFQ7gPQhezCi/5MeaLtblo4MJ0A=
+
+Name: com/sap/conn/jco/rt/json/JSonParser.class
+SHA-256-Digest: oEIq/iDk5D5+1ck2Lsw6wOfSs1dQy6iow7rwDc+LH6c=
+
+Name: com/sap/i18n/cp/ConverterJNITImpl.class
+SHA-256-Digest: Lf2tm460HrdxUFTd3/QVwLJRFXXdKJlYl1rtqYj4CBQ=
+
+Name: com/sap/i18n/cp/CheckCharsetOfString.class
+SHA-256-Digest: BuUq1cC6TJbNVRpHMrhA8JV4ZN/aj31DBC6a1HDfi3s=
+
+Name: com/sap/conn/jco/rt/ServerAuthorizationDataInternal.class
+SHA-256-Digest: cgmXxA7zmekBV9WM6Fe+F1mt61mn0wz3lf7NDSV7Vt4=
+
+Name: com/sap/tc/logging/GroupFactory.class
+SHA-256-Digest: 7H7/khwZHdeNVktb0QvQlm2gluRV+1kMMu5NrBFry3c=
+
+Name: com/sap/conn/rfc/data/ARFCSSTATE.class
+SHA-256-Digest: 7aa95KH4mCNH76P2rcgH9fsF88E5VehjNViiaBN6QPE=
+
+Name: com/sap/conn/rfc/engine/cbrfc/compress/CbRfcLZ4CompressionCreato
+ r.class
+SHA-256-Digest: 4h6hEMN1p9JeKfWK6uNyqY4poa5eR6GbXoaUxH+Y5Oc=
+
+Name: com/sap/conn/jco/rt/json/JSonWriter.class
+SHA-256-Digest: 80NcuPNalvWkVA+mxZNGV5xxTinjSmGQ3egOc9QPMYE=
+
+Name: com/sap/conn/jco/rt/AutoJobRunner.class
+SHA-256-Digest: Hf0vZwFPSbKo1tXee374/uPixey3sonOuiuxisY35kc=
+
+Name: com/sap/conn/jco/util/CharacterEncoding$1.class
+SHA-256-Digest: KicTv05bQGkE+qAB2BuNMRxN2ClPjPpTBOY3EThUxjU=
+
