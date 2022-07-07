@@ -51,7 +51,7 @@ public class FlightCustomerInfo {
 		this.formOfAddress= formOfAddress;
 	}
 
-	public void setName(String customerName) {
+	public void setName(String name) {
 		// TODO Auto-generated method stub
 		this.name= name;
 		

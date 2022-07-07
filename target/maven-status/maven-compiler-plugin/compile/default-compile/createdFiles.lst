@@ -6,6 +6,6 @@ org/mycompany/jaxb/ConnectionInfoTable.class
 org/mycompany/jaxb/FlightInfo.class
 org/mycompany/processor/CreateFlightCustomerGetListRequest.class
 org/mycompany/bean/FlightCustomerInfo.class
-org/mycompany/route/SapRoute.class
+org/mycompany/CreateRequest.class
 org/mycompany/Application.class
 org/mycompany/jaxb/DateAdapter.class

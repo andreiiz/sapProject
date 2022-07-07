@@ -7,5 +7,6 @@
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/ConnectionInfoTable.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/BookFlightRequest.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/route/SapRoute.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/CreateRequest.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/processor/ReturnFlightCustomerInfo.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/Application.java

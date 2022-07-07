@@ -28,7 +28,7 @@ public class CreateFlightCustomerGetListRequest {
 		BookFlightRequest bookFlightRequest = exchange.getIn().getBody(BookFlightRequest.class);
 
 		// Create SAP Request object from target endpoint.
-		SapSynchronousRfcDestinationEndpoint endpoint = exchange.getContext().getEndpoint("sap-srfc-destination:flbkdemoDest:BAPI_FLCUST_GETLIST", SapSynchronousRfcDestinationEndpoint.class);
+		SapSynchronousRfcDestinationEndpoint endpoint = exchange.getContext().getEndpoint("sap-srfc-destination:quickDestination:BAPI_FLCUST_GETLIST", SapSynchronousRfcDestinationEndpoint.class);
 		Structure request = endpoint.createRequest();
 		
 		// Add Customer Name to request if set

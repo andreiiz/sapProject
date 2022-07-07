@@ -1,5 +1,5 @@
 package org.mycompany.route;
-
+/*
 import org.mycompany.*;
 import org.apache.camel.builder.RouteBuilder;
 import org.springframework.stereotype.Component;
@@ -16,3 +16,4 @@ public class SapRoute extends RouteBuilder {
 	    .to("bean:returnFlightCustomerInfo");	
 	}
 }
+*/
