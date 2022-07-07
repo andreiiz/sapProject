@@ -16,16 +16,16 @@ public class CreateRequest {
 	public void createRequest(Exchange exchange) throws Exception {
 
 		// Create a request message from the endpoint to the GetList method of the FlightCustomer BAPI
-		SapSynchronousRfcDestinationEndpoint endpoint = exchange.getContext().getEndpoint("sap-srfc-destination:quickDestination:BAPI_FLCUST_GETLIST", SapSynchronousRfcDestinationEndpoint.class);
+		SapSynchronousRfcDestinationEndpoint endpoint = exchange.getContext().getEndpoint("sap-srfc-destination:quickDestination:BAPI_VENDOR_GETDETAIL", SapSynchronousRfcDestinationEndpoint.class);
 		Structure request = endpoint.createRequest();
 		
 		// Add query parameters to the request to retrieve upto 10 Customer records including Web Users.
-		request.put("CUSTOMER_NAME", "*");
-		request.put("MAX_ROWS", 10);
-		request.put("WEB_USER", "*");
-		
+		//request.put("CUSTOMER_NAME", "*");
+	//	request.put("MAX_ROWS", 10);
+		//request.put("WEB_USER", "*");
+		request.put("VENDORNO", "0190100175");
+
 		// Set the request in in the body of the exchange's message.
 		exchange.getIn().setBody(request);
 	}
-
 }
