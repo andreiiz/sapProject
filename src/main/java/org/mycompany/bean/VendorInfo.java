@@ -1,29 +1,50 @@
 package org.mycompany.bean;
 
-public class VendorInfo {
-	public String vendor;
+import java.io.Serializable;
+
+public class VendorInfo implements Serializable{
+	private static final long serialVersionUID = 1L;
+
+	private String vendor;
 	
-	public String Name;
+	private String name;
 	
-	public String city;
+	private String name2;
 	
-	public String district;
+	private String name3;
 	
-	public String po_box;
+	private String name4;
 	
-	public String post_code;
+	private String city;
 	
-	public String regione;
+	private String district;
 	
-	public String street;
 	
-	public String country;
+	public String countryIso;
 	
-	public String language;
+	private String pobx_pcd;
 	
-	public String telephone1;
+	private String po_box;
 	
-	public String telephone2;
+	private String post_code;
+	
+	private String regione;
+	
+	private String street;
+	
+	private String country;
+	
+	private String language;
+	
+	private String telephone;
+	
+	private String telephone2;
+
+	private String languageIso;
+
+	private String addr;
+	
+	private String purp_cmpl_flag;
 
 	public String getVendor() {
 		return vendor;
@@ -34,12 +55,38 @@ public class VendorInfo {
 	}
 
 	public String getName() {
-		return Name;
+		return name;
+	}
+	
+	public String getName2() {
+		return name2;
+	}
+	
+	public String getName3() {
+		return name3;
+	}
+	
+	public String getName4() {
+		return name4;
 	}
 
 	public void setName(String name) {
-		Name = name;
+		this.name = name;
 	}
+	
+	public void setName2(String name2) {
+		this.name2 = name2;
+	}
+	
+	public void setName3(String name3) {
+		this.name3 = name3;
+	}
+	
+	public void setName4(String name4){
+		this.name4 = name4;
+	}
+	
+	
 
 	public String getCity() {
 		return city;
@@ -96,6 +143,14 @@ public class VendorInfo {
 	public void setCountry(String country) {
 		this.country = country;
 	}
+	
+	public String getCountryIso() {
+		return countryIso;
+	}
+
+	public void setCountryIso(String countryIso) {
+		this.countryIso = countryIso;
+	}
 
 	public String getLanguage() {
 		return language;
@@ -104,13 +159,21 @@ public class VendorInfo {
 	public void setLanguage(String language) {
 		this.language = language;
 	}
+	
+	public String getLanguageIso() {
+		return languageIso;
+	}
+
+	public void setLanguageIso(String languageIso) {
+		this.languageIso = languageIso;
+	}
 
 	public String getTelephone1() {
-		return telephone1;
+		return telephone;
 	}
 
 	public void setTelephone1(String telephone1) {
-		this.telephone1 = telephone1;
+		this.telephone = telephone1;
 	}
 
 	public String getTelephone2() {
@@ -120,13 +183,42 @@ public class VendorInfo {
 	public void setTelephone2(String telephone2) {
 		this.telephone2 = telephone2;
 	}
+	
+
+	public String getAddr() {
+		return addr;
+	}
+
+	public void setAddr(String addr) {
+		this.addr = addr;
+	}
+
+
+
+	public String getPobx_pcd() {
+		return pobx_pcd;
+	}
+
+	public void setPobx_pcd(String pobx_pcd) {
+		this.pobx_pcd = pobx_pcd;
+	}
+
+	public String getPurp_cmpl_flag() {
+		return purp_cmpl_flag;
+	}
+
+	public void setPurp_cmpl_flag(String purp_cmpl_flag) {
+		this.purp_cmpl_flag = purp_cmpl_flag;
+	}
 
 	@Override
 	public String toString() {
-		return "VendorInfo [vendor=" + vendor + ", Name=" + Name + ", city=" + city + ", district=" + district
-				+ ", po_box=" + po_box + ", post_code=" + post_code + ", regione=" + regione + ", street=" + street
-				+ ", country=" + country + ", language=" + language + ", telephone1=" + telephone1 + ", telephone2="
-				+ telephone2 + "]";
+		return "VendorInfo [vendor=" + vendor + ", name=" + name + ", name2=" + name2 + ", name3=" + name3 + ", name4="
+				+ name4 + ", city=" + city + ", district=" + district + ", countryIso=" + countryIso + ", pobx_pcd="
+				+ pobx_pcd + ", po_box=" + po_box + ", post_code=" + post_code + ", regione=" + regione + ", street="
+				+ street + ", country=" + country + ", language=" + language + ", telephone=" + telephone
+				+ ", telephone2=" + telephone2 + ", languageIso=" + languageIso + ", addr=" + addr + ", purp_cmpl_flag="
+				+ purp_cmpl_flag + "]";
 	}
 	
 	

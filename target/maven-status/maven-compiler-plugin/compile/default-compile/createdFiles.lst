@@ -3,9 +3,11 @@ org/mycompany/jaxb/BookFlightResponse.class
 org/mycompany/jaxb/BookFlightRequest.class
 org/mycompany/jaxb/ConnectionInfo.class
 org/mycompany/jaxb/ConnectionInfoTable.class
+org/mycompany/processor/ReturnVendorInfo.class
 org/mycompany/jaxb/FlightInfo.class
 org/mycompany/processor/CreateFlightCustomerGetListRequest.class
 org/mycompany/bean/FlightCustomerInfo.class
+org/mycompany/bean/VendorInfo.class
 org/mycompany/CreateRequest.class
 org/mycompany/Application.class
 org/mycompany/jaxb/DateAdapter.class

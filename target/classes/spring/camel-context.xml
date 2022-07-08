@@ -34,8 +34,12 @@
             <to id="_to1" uri="bean:request"/>
             <log id="_log1" loggingLevel="INFO" message="${body}"/>
             <to id="_to2" uri="sap-srfc-destination:quickDestination:BAPI_VENDOR_GETDETAIL"/>
-            <log id="_log2" loggingLevel="INFO" message="${body}"/> 
+            <log id="_log2" loggingLevel="INFO" message="${body}" />
+            <to id = "to3" uri="bean:return" /> 
+            <log id="log3" loggingLevel="INFO" message="${body}" />
+            
         </route>
     </camelContext>
     <bean class="org.mycompany.CreateRequest" id="request"/>
+    <bean class="org.mycompany.processor.ReturnVendorInfo" id="return"/>
 </beans>
