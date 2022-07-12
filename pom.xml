@@ -190,13 +190,6 @@
       <activation>
         <jdk>[17,)</jdk>
       </activation>
-      <dependencies>
-        <dependency>
-          <groupId>com.sun.xml.bind</groupId>
-          <artifactId>jaxb-impl</artifactId>
-          <version>2.3.5</version>
-        </dependency>
-      </dependencies>
     </profile>
   </profiles>
 </project>
