@@ -1,5 +1,9 @@
 package org.mycompany.processor;
 
+
+
+import java.util.Date;
+
 import org.apache.camel.Exchange;
 import org.fusesource.camel.component.sap.model.rfc.Structure;
 import org.fusesource.camel.component.sap.model.rfc.Table;
@@ -14,15 +18,23 @@ public class ReturnVendorInfo {
 		throw new Exception("No vendor info response");
 	}
 	
+	
 	@SuppressWarnings("unchecked")
+	Table<? extends Structure> vendorIbanDetail = vendorInfoResponse.get("VENDORIBANDETAIL", Table.class);
+	
+	if (vendorIbanDetail == null || vendorIbanDetail.size() == 0) {
+		throw new Exception("No bank detail Info.");
+	}
+	
+	Structure vendorIban = vendorIbanDetail.get(0);
 //	Table<Structure> bapiReturn = vendorInfoResponse.get("RETURN", Table.class);
-	Structure bapiReturnEntry = vendorInfoResponse.get("RETURN", Structure.class);
+//	Structure bapiReturnEntry = vendorInfoResponse.get("RETURN", Structure.class);
 	/*if (!bapiReturnEntry.get("TYPE", String.class).equals("S")) {
 		String message = bapiReturnEntry.get("MESSAGE", String.class);
 		throw new Exception("BAPI call failed: " + message);
 	}*/
 	
-	@SuppressWarnings("unchecked")
+	
 	Structure vendor = vendorInfoResponse.get("GENERALDETAIL", Structure.class);
 	
 	if (vendor == null || vendor.size() == 0) {
@@ -32,6 +44,31 @@ public class ReturnVendorInfo {
 	//Structure vendor = vendorInfo.get(0);
 	
 	VendorInfo vendorI = new VendorInfo();
+	
+	String vendorBankCtry = vendorIban.get("BANK_CTRY", String.class);
+	if (vendorBankCtry != null) {
+		vendorI.setBank_ctry(vendorBankCtry);
+	}
+	
+	String vendorBankKey = vendorIban.get("BANK_KEY", String.class);
+	if (vendorBankKey!= null) {
+		vendorI.setBank_key(vendorBankKey);
+	}
+	
+	String vendorBankAcct = vendorIban.get("BANK_ACCT", String.class);
+	if (vendorBankAcct!= null) {
+		vendorI.setBank_acct(vendorBankAcct);
+	}
+	
+	String vendorBankIban = vendorIban.get("IBAN", String.class);
+	if (vendorBankIban!= null) {
+		vendorI.setIban(vendorBankIban);
+	}
+	
+	Date vendorBankValid = vendorIban.get("VALID_FROM", Date.class);
+	if (vendorBankValid!= null) {
+		vendorI.setValid(vendorBankValid);
+	}
 	
 	String vendorId = vendor.get("VENDOR", String.class);
 	if (vendorId != null) {
@@ -113,6 +150,8 @@ public class ReturnVendorInfo {
 	}
 	
 	exchange.getIn().setBody(vendorI, VendorInfo.class);
+	
+	//Structure vendorBankDeatil = vendorInfoResponse.get("GENERALDETAIL", Structure.class);
 	
 	//exchange.getIn().setHeader("VendorInfo", vendorI);
   }

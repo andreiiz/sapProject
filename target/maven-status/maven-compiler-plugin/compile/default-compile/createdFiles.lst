@@ -8,6 +8,8 @@ org/mycompany/jaxb/FlightInfo.class
 org/mycompany/processor/CreateFlightCustomerGetListRequest.class
 org/mycompany/bean/FlightCustomerInfo.class
 org/mycompany/bean/VendorInfo.class
+org/mycompany/route/SapRoute.class
 org/mycompany/CreateRequest.class
 org/mycompany/Application.class
 org/mycompany/jaxb/DateAdapter.class
+org/mycompany/jaxb/VendorJson.class

@@ -1,6 +1,8 @@
 package org.mycompany.bean;
 
 import java.io.Serializable;
+import java.util.Date;
+
 
 public class VendorInfo implements Serializable{
 	private static final long serialVersionUID = 1L;
@@ -18,7 +20,6 @@ public class VendorInfo implements Serializable{
 	private String city;
 	
 	private String district;
-	
 	
 	public String countryIso;
 	
@@ -45,6 +46,18 @@ public class VendorInfo implements Serializable{
 	private String addr;
 	
 	private String purp_cmpl_flag;
+	
+	private String bank_ctry;
+	
+	private String bank_key;
+	
+	private String bank_acct;
+	
+	private String ctrl_key;
+	
+	private String iban;
+	
+	private Date valid;
 
 	public String getVendor() {
 		return vendor;
@@ -86,8 +99,6 @@ public class VendorInfo implements Serializable{
 		this.name4 = name4;
 	}
 	
-	
-
 	public String getCity() {
 		return city;
 	}
@@ -218,8 +229,59 @@ public class VendorInfo implements Serializable{
 				+ pobx_pcd + ", po_box=" + po_box + ", post_code=" + post_code + ", regione=" + regione + ", street="
 				+ street + ", country=" + country + ", language=" + language + ", telephone=" + telephone
 				+ ", telephone2=" + telephone2 + ", languageIso=" + languageIso + ", addr=" + addr + ", purp_cmpl_flag="
-				+ purp_cmpl_flag + "]";
+				+ purp_cmpl_flag + ", bank_ctry=" + bank_ctry + ", bank_key=" + bank_key + ", bank_acct=" + bank_acct
+				+ ", ctrl_key=" + ctrl_key + ", iban=" + iban + ", valid=" + valid + "]";
 	}
+
+	public String getBank_ctry() {
+		return bank_ctry;
+	}
+
+	public void setBank_ctry(String bank_ctry) {
+		this.bank_ctry = bank_ctry;
+	}
+
+	public String getBank_key() {
+		return bank_key;
+	}
+
+	public void setBank_key(String bank_key) {
+		this.bank_key = bank_key;
+	}
+
+	public String getBank_acct() {
+		return bank_acct;
+	}
+
+	public void setBank_acct(String bank_acct) {
+		this.bank_acct = bank_acct;
+	}
+
+	public String getCtrl_key() {
+		return ctrl_key;
+	}
+
+	public void setCtrl_key(String ctrl_key) {
+		this.ctrl_key = ctrl_key;
+	}
+
+	public String getIban() {
+		return iban;
+	}
+
+	public void setIban(String iban) {
+		this.iban = iban;
+	}
+
+	public Date getValid() {
+		return valid;
+	}
+
+	public void setValid(Date valid) {
+		this.valid = valid;
+	}
+
+
 	
 	
 }

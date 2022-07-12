@@ -4,6 +4,7 @@
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/FlightInfo.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/BookFlightRequest.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/CreateRequest.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/jaxb/VendorJson.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/bean/VendorInfo.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/bean/FlightCustomerInfo.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/processor/CreateFlightCustomerGetListRequest.java

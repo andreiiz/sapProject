@@ -23,7 +23,8 @@ public class CreateRequest {
 		//request.put("CUSTOMER_NAME", "*");
 	//	request.put("MAX_ROWS", 10);
 		//request.put("WEB_USER", "*");
-		request.put("VENDORNO", "0190100175"); //da provare con l'asterisco
+	//	request.put("VENDORNO", "0190100175"); 
+		request.put("VENDORNO", "0001000003");
 
 		// Set the request in in the body of the exchange's message.
 		exchange.getIn().setBody(request);

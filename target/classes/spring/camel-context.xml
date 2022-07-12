@@ -35,8 +35,9 @@
             <log id="_log1" loggingLevel="INFO" message="${body}"/>
             <to id="_to2" uri="sap-srfc-destination:quickDestination:BAPI_VENDOR_GETDETAIL"/>
             <log id="_log2" loggingLevel="INFO" message="${body}" />
-            <to id = "to3" uri="bean:return" /> 
-            <log id="log3" loggingLevel="INFO" message="${body}" />
+        <!--    <to id = "to3" uri="bean:return" /> 
+            <log id="log3" loggingLevel="INFO" message="${body}" /> -->
+            <to id="to4" uri= "direct:jsonTrasformation" />
             
         </route>
     </camelContext>
