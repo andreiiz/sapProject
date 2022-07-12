@@ -1,5 +1,5 @@
-org/mycompany/bean/VendorInfo.class
-org/mycompany/Application.class
-org/mycompany/bean/CreateRequest.class
-org/mycompany/processor/ReturnVendorInfo.class
-org/mycompany/route/JsoneRoute.class
+org/vargroup/Application.class
+org/vargroup/bean/VendorInfo.class
+org/vargroup/bean/CreateRequest.class
+org/vargroup/route/JsoneRoute.class
+org/vargroup/processor/ReturnVendorInfo.class

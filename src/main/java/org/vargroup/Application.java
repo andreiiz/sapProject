@@ -13,7 +13,7 @@
  *  implied.  See the License for the specific language governing
  *  permissions and limitations under the License.
  */
-package org.mycompany;
+package org.vargroup;
 
 
 import org.springframework.boot.SpringApplication;

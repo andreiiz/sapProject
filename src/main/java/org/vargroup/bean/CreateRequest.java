@@ -1,4 +1,4 @@
-package org.mycompany.bean;
+package org.vargroup.bean;
 
 import org.apache.camel.Exchange;
 import org.fusesource.camel.component.sap.SapSynchronousRfcDestinationEndpoint;

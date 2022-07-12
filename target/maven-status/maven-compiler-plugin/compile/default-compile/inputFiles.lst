@@ -1,5 +1,5 @@
-/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/bean/CreateRequest.java
-/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/bean/VendorInfo.java
-/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/route/JsoneRoute.java
-/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/Application.java
-/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/mycompany/processor/ReturnVendorInfo.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/route/JsoneRoute.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/processor/ReturnVendorInfo.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/Application.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/bean/CreateRequest.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/bean/VendorInfo.java

@@ -1,4 +1,4 @@
-package org.mycompany.bean;
+package org.vargroup.bean;
 
 import java.io.Serializable;
 import java.util.Date;

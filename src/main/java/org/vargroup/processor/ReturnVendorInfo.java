@@ -1,4 +1,4 @@
-package org.mycompany.processor;
+package org.vargroup.processor;
 
 
 
@@ -7,7 +7,7 @@ import java.util.Date;
 import org.apache.camel.Exchange;
 import org.fusesource.camel.component.sap.model.rfc.Structure;
 import org.fusesource.camel.component.sap.model.rfc.Table;
-import org.mycompany.bean.VendorInfo;
+import org.vargroup.bean.VendorInfo;
 
 public class ReturnVendorInfo {
 	
