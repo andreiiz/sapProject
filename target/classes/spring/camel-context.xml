@@ -41,6 +41,6 @@
             
         </route>
     </camelContext>
-    <bean class="org.mycompany.CreateRequest" id="request"/>
+    <bean class="org.mycompany.bean.CreateRequest" id="request"/>
     <bean class="org.mycompany.processor.ReturnVendorInfo" id="return"/>
 </beans>
