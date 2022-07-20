@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd        http://camel.apache.org/schema/spring       https://camel.apache.org/schema/spring/camel-spring-2.23.3.xsd">
-  <!--	  <bean
+    <!--	  <bean
         class="org.fusesource.camel.component.sap.SapConnectionConfiguration" id="sap-configuration">
         <property name="destinationDataStore">
             <map>
@@ -27,20 +27,19 @@
             <map/>
         </property>
     </bean> -->
-    
     <camelContext id="camel" xmlns="http://camel.apache.org/schema/spring">
         <route id="_route1">
             <from id="_from1" uri="timer://init?repeatCount=1"/>
             <to id="_to1" uri="bean:request"/>
             <log id="_log1" loggingLevel="INFO" message="${body}"/>
             <to id="_to2" uri="sap-srfc-destination:quickDestination:BAPI_VENDOR_GETDETAIL"/>
-            <log id="_log2" loggingLevel="INFO" message="${body}" />
-        <!--    <to id = "to3" uri="bean:return" /> 
+            <log id="_log2" loggingLevel="INFO" message="${body}"/>
+            <!--    <to id = "to3" uri="bean:return" /> 
             <log id="log3" loggingLevel="INFO" message="${body}" /> -->
-            <to id="to4" uri= "direct:jsonTrasformation" />
-            
+            <to id="to4" uri="direct:jsonTrasformation"/>
         </route>
     </camelContext>
     <bean class="org.vargroup.bean.CreateRequest" id="request"/>
     <bean class="org.vargroup.processor.ReturnVendorInfo" id="return"/>
+    <bean class="org.vargroup.bean.GetIDBean" id="getID"/>
 </beans>

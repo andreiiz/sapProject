@@ -1,5 +1,7 @@
 org/vargroup/Application.class
 org/vargroup/bean/VendorInfo.class
+org/vargroup/route/JsonRoute.class
 org/vargroup/bean/CreateRequest.class
-org/vargroup/route/JsoneRoute.class
+org/vargroup/bean/GetIDBean.class
+org/vargroup/route/RestRoute.class
 org/vargroup/processor/ReturnVendorInfo.class
