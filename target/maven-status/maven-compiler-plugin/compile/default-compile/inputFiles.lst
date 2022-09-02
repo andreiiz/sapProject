@@ -1,6 +1,8 @@
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/route/InfinispanRoute.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/route/JsonRoute.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/processor/ReturnVendorInfo.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/route/RestRoute.java
+/home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/configuration/RemoteCacheConfig.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/Application.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/bean/CreateRequest.java
 /home/user/eclipse-workspace/sapIntegrationProject/src/main/java/org/vargroup/bean/VendorInfo.java

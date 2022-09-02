@@ -13,20 +13,40 @@
     <maven-compiler-plugin.version>3.8.1</maven-compiler-plugin.version>
     <docker.image.version>1.9</docker.image.version>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <fuse.version>7.10.0.fuse-sb2-7_10_2-00001-redhat-00002</fuse.version>
+   <!-- <fuse.version>7.10.0.fuse-sb2-7_10_2-00001-redhat-00002</fuse.version> questa è quella giusta-->
+    <!--<version.infinispan>13.0.6.Final-redhat-00001</version.infinispan> -->
+      <fuse.version>7.11.0.fuse-sb2-7_11_0-00028-redhat-00001</fuse.version>
   </properties>
+   
+  
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.jboss.redhat-fuse</groupId>
         <artifactId>fuse-springboot-bom</artifactId>
-        <version>7.10.0.fuse-sb2-7_10_2-00001-redhat-00002</version>
+       <!-- <version>7.10.0.fuse-sb2-7_10_2-00001-redhat-00002</version> e quello giusto
+       -->
+         <version>7.11.0.fuse-sb2-7_11_0-00028-redhat-00001</version>    
         <type>pom</type>
         <scope>import</scope>
       </dependency>
+      <dependency>
+      <groupId>org.infinispan</groupId>
+      <artifactId>infinispan-bom</artifactId>
+      <version>11.0.9.Final-redhat-00001</version>
+      <type>pom</type>
+      <scope>import</scope>
+    </dependency>
+
+    
     </dependencies>
   </dependencyManagement>
+  
   <dependencies>
+          <dependency>
+      <groupId>org.apache.camel</groupId>
+      <artifactId>camel-jackson-starter</artifactId>
+    </dependency>
     <dependency>
       <groupId>org.apache.camel</groupId>
       <artifactId>camel-spring-boot-starter</artifactId>
@@ -38,7 +58,7 @@
       
     <scope>system</scope>
       <systemPath>/home/user/eclipse-workspace/sapIntegrationProject/repo/sapidoc3.jar</systemPath> 
-   
+ 
     </dependency>
     <dependency>
       <groupId>com.sap.conn.jco</groupId>
@@ -52,6 +72,14 @@
       <groupId>org.fusesource</groupId>
       <artifactId>camel-sap</artifactId>
     </dependency>
+    <dependency>
+    <groupId>org.apache.camel</groupId>
+    <artifactId>camel-infinispan-starter</artifactId>
+</dependency>
+<dependency>
+  <groupId>org.infinispan</groupId>
+  <artifactId>infinispan-client-hotrod</artifactId>
+</dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
@@ -74,19 +102,13 @@
       <groupId>org.fusesource</groupId>
       <artifactId>camel-sap-starter</artifactId>
     </dependency>
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-jackson</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-servlet</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.camel</groupId>
-      <artifactId>camel-servlet-starter</artifactId>
-      <version>2.23.2.fuse-7_10_2-00001-redhat-00005</version>
-    </dependency>
+
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20180130</version>
+</dependency>
+
   </dependencies>
   <repositories>
     <repository>
@@ -283,6 +305,13 @@
       <activation>
         <jdk>[17,)</jdk>
       </activation>
+         <dependencies>
+         <dependency>
+          <groupId>com.sun.xml.bind</groupId>
+          <artifactId>jaxb-impl</artifactId> <!-- ho aggiunto qui -->
+          <version>2.3.5</version>
+         </dependency>
+         </dependencies>
     </profile>
     
 <!-- Manage JCO native deps by OS arch -->

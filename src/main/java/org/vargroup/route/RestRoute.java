@@ -1,22 +1,22 @@
-package org.vargroup.route;
-
-
-
-import org.apache.camel.Exchange;
-import org.apache.camel.Processor;
-import org.apache.camel.builder.RouteBuilder;
-import org.apache.camel.component.jackson.JacksonDataFormat;
-import org.apache.camel.model.rest.RestBindingMode;
-import org.springframework.http.MediaType;
-import org.springframework.stereotype.Component;
-
-@Component
-public class RestRoute extends RouteBuilder {
-
-	@Override
-	public void configure() throws Exception {
+//package org.vargroup.route;
+//
+//
+//
+//import org.apache.camel.Exchange;
+//import org.apache.camel.Processor;
+//import org.apache.camel.builder.RouteBuilder;
+//import org.apache.camel.component.jackson.JacksonDataFormat;
+//import org.apache.camel.model.rest.RestBindingMode;
+//import org.springframework.http.MediaType;
+//import org.springframework.stereotype.Component;
+//
+//@Component
+//public class RestRoute extends RouteBuilder {
+//
+//	@Override
+//	public void configure() throws Exception {
 		
-		
+		/*
 		JacksonDataFormat vendorJson = new JacksonDataFormat();
 		restConfiguration()
 		.component("servlet")
@@ -50,14 +50,14 @@ public class RestRoute extends RouteBuilder {
 		//.setBody(simple("${body}"));
 		.transform().simple("${body}");
 		//.transform().body();
-		
+		*/
 	//	.to("log:loggingLevel=INFO  message=${body}");
 		
 		//.from("direct:rest")
 		//.setBody(); da eccezione ma torna json
 	//	.transform().simple("hello world"); cosi funge l' hello wolrd dopo il route()
 	
-}
-}
+//}
+//}
 	
 
